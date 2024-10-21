@@ -1,0 +1,4357 @@
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.76774445 | AUC_ROC: 0.94371118
+Test  loss: 2.34070575 | AUC_ROC: 0.67087388
+Epoch 002
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.96365396 | AUC_ROC: 0.94613742
+Test  loss: 2.66904530 | AUC_ROC: 0.68166490
+Epoch 003
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.85373331 | AUC_ROC: 0.94691382
+Test  loss: 2.03318310 | AUC_ROC: 0.67800366
+Epoch 004
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.79829890 | AUC_ROC: 0.93449146
+Test  loss: 2.43006972 | AUC_ROC: 0.65873398
+Epoch 005
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.78585043 | AUC_ROC: 0.94293478
+Test  loss: 2.29862389 | AUC_ROC: 0.62645727
+Epoch 006
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.80948924 | AUC_ROC: 0.95778339
+Test  loss: 2.31468977 | AUC_ROC: 0.70045284
+Epoch 007
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.68129233 | AUC_ROC: 0.95739519
+Test  loss: 2.32788304 | AUC_ROC: 0.67954524
+Epoch 008
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.67525669 | AUC_ROC: 0.95972438
+Test  loss: 2.78140531 | AUC_ROC: 0.71683206
+Epoch 009
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.63394285 | AUC_ROC: 0.96331522
+Test  loss: 2.74325282 | AUC_ROC: 0.67684748
+Epoch 010
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.03424657 | AUC_ROC: 0.94536102
+Test  loss: 2.72805292 | AUC_ROC: 0.71423066
+Epoch 011
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.66211412 | AUC_ROC: 0.95690994
+Test  loss: 2.47938677 | AUC_ROC: 0.67838905
+Epoch 012
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.71827747 | AUC_ROC: 0.96118012
+Test  loss: 2.66547050 | AUC_ROC: 0.71692841
+Epoch 013
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.86198199 | AUC_ROC: 0.95137811
+Test  loss: 2.23903431 | AUC_ROC: 0.64379998
+Epoch 014
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.61864794 | AUC_ROC: 0.96331522
+Test  loss: 2.34197422 | AUC_ROC: 0.72444359
+Epoch 015
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.94022338 | AUC_ROC: 0.94846661
+Test  loss: 3.26113055 | AUC_ROC: 0.66123904
+Epoch 016
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.69534547 | AUC_ROC: 0.95322205
+Test  loss: 2.52058947 | AUC_ROC: 0.69525002
+Epoch 017
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.75244220 | AUC_ROC: 0.95040761
+Test  loss: 2.88281335 | AUC_ROC: 0.69640620
+Epoch 018
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.70064812 | AUC_ROC: 0.95904503
+Test  loss: 2.73612148 | AUC_ROC: 0.68436266
+Epoch 019
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.72512349 | AUC_ROC: 0.94992236
+Test  loss: 2.69909722 | AUC_ROC: 0.64081318
+Epoch 020
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.87228347 | AUC_ROC: 0.94186724
+Test  loss: 2.77825599 | AUC_ROC: 0.68474805
+Epoch 021
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.82385345 | AUC_ROC: 0.94730202
+Test  loss: 2.14800213 | AUC_ROC: 0.71692841
+Epoch 022
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.57747295 | AUC_ROC: 0.97010870
+Test  loss: 3.19740544 | AUC_ROC: 0.71008768
+Epoch 023
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.58589501 | AUC_ROC: 0.96263587
+Test  loss: 2.71332540 | AUC_ROC: 0.67781096
+Epoch 024
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.00279817 | AUC_ROC: 0.95885093
+Test  loss: 3.45806993 | AUC_ROC: 0.71143655
+Epoch 025
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.83656611 | AUC_ROC: 0.95380435
+Test  loss: 3.28306922 | AUC_ROC: 0.69871857
+Epoch 026
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.85396449 | AUC_ROC: 0.94468168
+Test  loss: 2.87630757 | AUC_ROC: 0.69399749
+Epoch 027
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.71127245 | AUC_ROC: 0.96147127
+Test  loss: 3.17775692 | AUC_ROC: 0.71586858
+Epoch 028
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.77343139 | AUC_ROC: 0.93720885
+Test  loss: 2.40125625 | AUC_ROC: 0.70363233
+Epoch 029
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.75033008 | AUC_ROC: 0.95584239
+Test  loss: 3.07894402 | AUC_ROC: 0.68253204
+Epoch 030
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.89323878 | AUC_ROC: 0.94807842
+Test  loss: 4.14910122 | AUC_ROC: 0.66615281
+Epoch 031
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.85741188 | AUC_ROC: 0.95157220
+Test  loss: 3.42966918 | AUC_ROC: 0.66913961
+Epoch 032
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.68567484 | AUC_ROC: 0.96205357
+Test  loss: 3.15640443 | AUC_ROC: 0.71577223
+Epoch 033
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.92285905 | AUC_ROC: 0.96001553
+Test  loss: 4.15410197 | AUC_ROC: 0.68783120
+Epoch 034
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.73128563 | AUC_ROC: 0.95098991
+Test  loss: 3.40872988 | AUC_ROC: 0.67260815
+Epoch 035
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.79660521 | AUC_ROC: 0.95749224
+Test  loss: 3.53891139 | AUC_ROC: 0.69958570
+Epoch 036
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.04676399 | AUC_ROC: 0.94739907
+Test  loss: 3.93800054 | AUC_ROC: 0.70382503
+Epoch 037
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.71728491 | AUC_ROC: 0.96176242
+Test  loss: 3.85128399 | AUC_ROC: 0.69390115
+Epoch 038
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.63579820 | AUC_ROC: 0.95593944
+Test  loss: 3.33098386 | AUC_ROC: 0.69659890
+Epoch 039
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.81075616 | AUC_ROC: 0.96147127
+Test  loss: 4.21564897 | AUC_ROC: 0.68590423
+Epoch 040
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.69918602 | AUC_ROC: 0.96263587
+Test  loss: 3.31179193 | AUC_ROC: 0.71991521
+Epoch 041
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.70124676 | AUC_ROC: 0.95894798
+Test  loss: 3.59646906 | AUC_ROC: 0.69900761
+Epoch 042
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.47236658 | AUC_ROC: 0.94604037
+Test  loss: 5.14330709 | AUC_ROC: 0.69313036
+Epoch 043
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.94982597 | AUC_ROC: 0.94904891
+Test  loss: 3.77164486 | AUC_ROC: 0.66306966
+Epoch 044
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.87509467 | AUC_ROC: 0.96535326
+Test  loss: 4.89294113 | AUC_ROC: 0.70565565
+Epoch 045
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.80445805 | AUC_ROC: 0.96341227
+Test  loss: 3.76890312 | AUC_ROC: 0.71240004
+Epoch 046
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.72126053 | AUC_ROC: 0.95642469
+Test  loss: 4.37946549 | AUC_ROC: 0.68879468
+Epoch 047
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.90798150 | AUC_ROC: 0.96302407
+Test  loss: 4.10337741 | AUC_ROC: 0.72906831
+Epoch 048
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.89022240 | AUC_ROC: 0.95671584
+Test  loss: 4.08637779 | AUC_ROC: 0.68908373
+Epoch 049
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.16842589 | AUC_ROC: 0.95273680
+Test  loss: 4.63724981 | AUC_ROC: 0.68291743
+Epoch 050
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.24093001 | AUC_ROC: 0.95564829
+Test  loss: 4.70331233 | AUC_ROC: 0.70478852
+Epoch 051
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.64286060 | AUC_ROC: 0.95991848
+Test  loss: 3.83232038 | AUC_ROC: 0.68455535
+Epoch 052
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.12322451 | AUC_ROC: 0.94963121
+Test  loss: 4.19362187 | AUC_ROC: 0.68898738
+Epoch 053
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.78725512 | AUC_ROC: 0.94429348
+Test  loss: 4.17076203 | AUC_ROC: 0.66836882
+Epoch 054
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.99899497 | AUC_ROC: 0.94031444
+Test  loss: 3.64292962 | AUC_ROC: 0.69091435
+Epoch 055
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.70752110 | AUC_ROC: 0.94934006
+Test  loss: 3.73135822 | AUC_ROC: 0.68696406
+Epoch 056
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.12912136 | AUC_ROC: 0.95069876
+Test  loss: 4.73602319 | AUC_ROC: 0.68445900
+Epoch 057
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.82143986 | AUC_ROC: 0.96176242
+Test  loss: 4.39220449 | AUC_ROC: 0.71586858
+Epoch 058
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.79263415 | AUC_ROC: 0.96739130
+Test  loss: 4.89893750 | AUC_ROC: 0.69149244
+Epoch 059
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.78243254 | AUC_ROC: 0.96574146
+Test  loss: 4.96136513 | AUC_ROC: 0.70006744
+Epoch 060
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.69681237 | AUC_ROC: 0.95467780
+Test  loss: 3.42723577 | AUC_ROC: 0.71519414
+Epoch 061
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.00402773 | AUC_ROC: 0.95807453
+Test  loss: 5.29031881 | AUC_ROC: 0.68590423
+Epoch 062
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.80145560 | AUC_ROC: 0.95962733
+Test  loss: 3.54666550 | AUC_ROC: 0.71114751
+Epoch 063
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.57025217 | AUC_ROC: 0.97263199
+Test  loss: 3.80324469 | AUC_ROC: 0.69264862
+Epoch 064
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.72963630 | AUC_ROC: 0.96933230
+Test  loss: 4.38108850 | AUC_ROC: 0.70864245
+Epoch 065
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.89624729 | AUC_ROC: 0.95778339
+Test  loss: 3.87252310 | AUC_ROC: 0.68388091
+Epoch 066
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.76380773 | AUC_ROC: 0.96273292
+Test  loss: 4.07783011 | AUC_ROC: 0.69833317
+Epoch 067
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.55452962 | AUC_ROC: 0.96748835
+Test  loss: 4.09066800 | AUC_ROC: 0.66249157
+Epoch 068
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.63878677 | AUC_ROC: 0.96515916
+Test  loss: 3.70677151 | AUC_ROC: 0.68657867
+Epoch 069
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.83271861 | AUC_ROC: 0.97156444
+Test  loss: 5.23529972 | AUC_ROC: 0.67636574
+Epoch 070
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02066562 | AUC_ROC: 0.95933618
+Test  loss: 5.20748271 | AUC_ROC: 0.69120339
+Epoch 071
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.96954341 | AUC_ROC: 0.96253882
+Test  loss: 4.82385233 | AUC_ROC: 0.72704499
+Epoch 072
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.78353609 | AUC_ROC: 0.96632376
+Test  loss: 4.54770752 | AUC_ROC: 0.69197418
+Epoch 073
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.19585262 | AUC_ROC: 0.95836568
+Test  loss: 5.84960260 | AUC_ROC: 0.70151267
+Epoch 074
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.84853226 | AUC_ROC: 0.96904115
+Test  loss: 4.49993612 | AUC_ROC: 0.73716158
+Epoch 075
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.84626453 | AUC_ROC: 0.96088898
+Test  loss: 4.18758869 | AUC_ROC: 0.70671548
+Epoch 076
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.12390595 | AUC_ROC: 0.96545031
+Test  loss: 5.84999512 | AUC_ROC: 0.69939301
+Epoch 077
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.68980390 | AUC_ROC: 0.94671972
+Test  loss: 3.54313622 | AUC_ROC: 0.69149244
+Epoch 078
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.18384951 | AUC_ROC: 0.95564829
+Test  loss: 6.45964834 | AUC_ROC: 0.67906349
+Epoch 079
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.73835329 | AUC_ROC: 0.96894410
+Test  loss: 5.26958384 | AUC_ROC: 0.69255227
+Epoch 080
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.93690348 | AUC_ROC: 0.95390140
+Test  loss: 5.45818033 | AUC_ROC: 0.71625397
+Epoch 081
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.83357224 | AUC_ROC: 0.96185947
+Test  loss: 5.81179585 | AUC_ROC: 0.66624916
+Epoch 082
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09850545 | AUC_ROC: 0.95933618
+Test  loss: 5.67635634 | AUC_ROC: 0.70305424
+Epoch 083
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.07519929 | AUC_ROC: 0.94836957
+Test  loss: 4.64955263 | AUC_ROC: 0.70199441
+Epoch 084
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.89740900 | AUC_ROC: 0.96263587
+Test  loss: 6.68793535 | AUC_ROC: 0.67424607
+Epoch 085
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.90935433 | AUC_ROC: 0.95923913
+Test  loss: 5.13976467 | AUC_ROC: 0.68696406
+Epoch 086
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.28067988 | AUC_ROC: 0.94914596
+Test  loss: 6.83291493 | AUC_ROC: 0.65102611
+Epoch 087
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.95840391 | AUC_ROC: 0.95700699
+Test  loss: 5.22009913 | AUC_ROC: 0.68686771
+Epoch 088
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.07074522 | AUC_ROC: 0.95516304
+Test  loss: 5.69042708 | AUC_ROC: 0.70189806
+Epoch 089
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.77934690 | AUC_ROC: 0.96622671
+Test  loss: 5.48987865 | AUC_ROC: 0.68946912
+Epoch 090
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.94985379 | AUC_ROC: 0.94720497
+Test  loss: 6.09369502 | AUC_ROC: 0.67867810
+Epoch 091
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.07816391 | AUC_ROC: 0.95671584
+Test  loss: 6.07464719 | AUC_ROC: 0.70083823
+Epoch 092
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.17330886 | AUC_ROC: 0.95768634
+Test  loss: 6.68230907 | AUC_ROC: 0.68754215
+Epoch 093
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.93991935 | AUC_ROC: 0.95865683
+Test  loss: 5.36609697 | AUC_ROC: 0.67761827
+Epoch 094
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.00411353 | AUC_ROC: 0.95361025
+Test  loss: 4.40988948 | AUC_ROC: 0.70507756
+Epoch 095
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.14927024 | AUC_ROC: 0.96088898
+Test  loss: 6.33600135 | AUC_ROC: 0.68956547
+Epoch 096
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09001603 | AUC_ROC: 0.95836568
+Test  loss: 6.78804350 | AUC_ROC: 0.69033626
+Epoch 097
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.66279722 | AUC_ROC: 0.95681289
+Test  loss: 5.02034174 | AUC_ROC: 0.69033626
+Epoch 098
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.29476084 | AUC_ROC: 0.94671972
+Test  loss: 5.64658538 | AUC_ROC: 0.69602081
+Epoch 099
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.67054139 | AUC_ROC: 0.96224767
+Test  loss: 8.70221288 | AUC_ROC: 0.67193371
+Epoch 100
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.88076193 | AUC_ROC: 0.96215062
+Test  loss: 5.48977750 | AUC_ROC: 0.70083823
+
+'roc_best_model.pth' | Epoch: 074 | AUC_ROC: 0.96904115
+
+=======Test=======
+roc_best_model.pth
+Train set:
+AUC_ROC: 0.98236391
+Valid set:
+AUC_ROC: 0.96904115
+Test set:
+AUC_ROC: 0.73716158
+
+=======Finish=======
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.25276583 | AUC_ROC: 0.91110248
+Test  loss: 2.44072602 | AUC_ROC: 0.60420079
+Epoch 002
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.32104150 | AUC_ROC: 0.90819099
+Test  loss: 2.71754524 | AUC_ROC: 0.63917526
+Epoch 003
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.79901839 | AUC_ROC: 0.93779115
+Test  loss: 2.36411570 | AUC_ROC: 0.66355140
+Epoch 004
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.86562187 | AUC_ROC: 0.93361801
+Test  loss: 2.30529376 | AUC_ROC: 0.64871375
+Epoch 002
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.10374248 | AUC_ROC: 0.92779503
+Test  loss: 2.87526374 | AUC_ROC: 0.64553425
+Epoch 003
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.87458233 | AUC_ROC: 0.93303571
+Test  loss: 2.46911471 | AUC_ROC: 0.64909914
+Epoch 004
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.96478011 | AUC_ROC: 0.94244953
+Test  loss: 2.72322086 | AUC_ROC: 0.64996628
+Epoch 005
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.88246913 | AUC_ROC: 0.94429348
+Test  loss: 2.84290785 | AUC_ROC: 0.66875422
+Epoch 006
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.19667885 | AUC_ROC: 0.94147904
+Test  loss: 3.15121172 | AUC_ROC: 0.68465170
+Epoch 007
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.85214715 | AUC_ROC: 0.93691770
+Test  loss: 2.40032922 | AUC_ROC: 0.66885056
+Epoch 008
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.87588356 | AUC_ROC: 0.94186724
+Test  loss: 2.64532185 | AUC_ROC: 0.64485981
+Epoch 009
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.72461924 | AUC_ROC: 0.95254270
+Test  loss: 2.68131088 | AUC_ROC: 0.66923596
+Epoch 010
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.32825244 | AUC_ROC: 0.89994177
+Test  loss: 2.55402660 | AUC_ROC: 0.68089411
+Epoch 011
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.81335419 | AUC_ROC: 0.94671972
+Test  loss: 3.04841638 | AUC_ROC: 0.64890645
+Epoch 012
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.11085843 | AUC_ROC: 0.93060947
+Test  loss: 3.17407186 | AUC_ROC: 0.68657867
+Epoch 013
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.95084349 | AUC_ROC: 0.93099767
+Test  loss: 2.72838271 | AUC_ROC: 0.66393680
+Epoch 014
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.90455375 | AUC_ROC: 0.93604425
+Test  loss: 2.73984599 | AUC_ROC: 0.67742557
+Epoch 015
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.21772505 | AUC_ROC: 0.91449922
+Test  loss: 3.05111553 | AUC_ROC: 0.65353117
+Epoch 016
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02873003 | AUC_ROC: 0.91809006
+Test  loss: 2.63692529 | AUC_ROC: 0.71538684
+Epoch 017
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02503074 | AUC_ROC: 0.93458851
+Test  loss: 3.63347324 | AUC_ROC: 0.69004721
+Epoch 018
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02630022 | AUC_ROC: 0.94759317
+Test  loss: 3.59719929 | AUC_ROC: 0.67174102
+Epoch 019
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.73632922 | AUC_ROC: 0.94604037
+Test  loss: 2.36222030 | AUC_ROC: 0.70180172
+Epoch 020
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.90961329 | AUC_ROC: 0.93468556
+Test  loss: 2.79857327 | AUC_ROC: 0.71500145
+Epoch 021
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.42835563 | AUC_ROC: 0.91566382
+Test  loss: 4.17346140 | AUC_ROC: 0.69650255
+Epoch 022
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.18123233 | AUC_ROC: 0.92750388
+Test  loss: 3.53212707 | AUC_ROC: 0.67019944
+Epoch 023
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.14600144 | AUC_ROC: 0.94390528
+Test  loss: 3.61634503 | AUC_ROC: 0.69804413
+Epoch 024
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09385608 | AUC_ROC: 0.94244953
+Test  loss: 3.68161055 | AUC_ROC: 0.68532614
+Epoch 025
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.19080891 | AUC_ROC: 0.93390916
+Test  loss: 3.40182342 | AUC_ROC: 0.68773485
+Epoch 026
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.98858547 | AUC_ROC: 0.93555901
+Test  loss: 2.85230247 | AUC_ROC: 0.73089893
+Epoch 027
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.98515620 | AUC_ROC: 0.92352484
+Test  loss: 3.02377491 | AUC_ROC: 0.66152809
+Epoch 028
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.30165014 | AUC_ROC: 0.93352096
+Test  loss: 2.94391898 | AUC_ROC: 0.70950959
+Epoch 029
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.88936604 | AUC_ROC: 0.94526398
+Test  loss: 2.87814260 | AUC_ROC: 0.69650255
+Epoch 030
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.11552419 | AUC_ROC: 0.93837345
+Test  loss: 3.55495952 | AUC_ROC: 0.70719723
+Epoch 031
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.90882739 | AUC_ROC: 0.94701087
+Test  loss: 3.48142750 | AUC_ROC: 0.71278543
+Epoch 032
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.71042343 | AUC_ROC: 0.90683230
+Test  loss: 3.45533448 | AUC_ROC: 0.68734946
+Epoch 033
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.81428009 | AUC_ROC: 0.95526009
+Test  loss: 3.31658268 | AUC_ROC: 0.72916466
+Epoch 034
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.17564148 | AUC_ROC: 0.93973214
+Test  loss: 4.26157570 | AUC_ROC: 0.69553907
+Epoch 035
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.23633632 | AUC_ROC: 0.95108696
+Test  loss: 4.09858014 | AUC_ROC: 0.70970228
+Epoch 036
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.87388218 | AUC_ROC: 0.93216227
+Test  loss: 2.87769178 | AUC_ROC: 0.68696406
+Epoch 037
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.21810261 | AUC_ROC: 0.92430124
+Test  loss: 3.86662258 | AUC_ROC: 0.70131997
+Epoch 038
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.87453849 | AUC_ROC: 0.95118401
+Test  loss: 3.08420558 | AUC_ROC: 0.71076212
+Epoch 039
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.37351505 | AUC_ROC: 0.92536879
+Test  loss: 4.53477563 | AUC_ROC: 0.69187783
+Epoch 040
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.01033224 | AUC_ROC: 0.93245342
+Test  loss: 2.69555286 | AUC_ROC: 0.67289720
+Epoch 041
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.22058475 | AUC_ROC: 0.94526398
+Test  loss: 4.39559283 | AUC_ROC: 0.69447924
+Epoch 042
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.00095829 | AUC_ROC: 0.93216227
+Test  loss: 3.29611823 | AUC_ROC: 0.70758262
+Epoch 043
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.44499571 | AUC_ROC: 0.93711180
+Test  loss: 4.45668568 | AUC_ROC: 0.68185760
+Epoch 044
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.04178350 | AUC_ROC: 0.94429348
+Test  loss: 3.93669088 | AUC_ROC: 0.71307448
+Epoch 045
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.36617537 | AUC_ROC: 0.93701475
+Test  loss: 4.12747179 | AUC_ROC: 0.71596493
+Epoch 046
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.05441680 | AUC_ROC: 0.94681677
+Test  loss: 3.64356245 | AUC_ROC: 0.71143655
+Epoch 047
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.15558816 | AUC_ROC: 0.94992236
+Test  loss: 3.87636747 | AUC_ROC: 0.70767897
+Epoch 048
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.44231995 | AUC_ROC: 0.94681677
+Test  loss: 4.66553625 | AUC_ROC: 0.72107139
+Epoch 049
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.29702889 | AUC_ROC: 0.93060947
+Test  loss: 4.19467768 | AUC_ROC: 0.68995086
+Epoch 050
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.06649409 | AUC_ROC: 0.94196429
+Test  loss: 3.67001200 | AUC_ROC: 0.70334329
+Epoch 051
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.68831310 | AUC_ROC: 0.93856755
+Test  loss: 5.32220353 | AUC_ROC: 0.71798825
+Epoch 052
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.99653522 | AUC_ROC: 0.93497671
+Test  loss: 3.11112050 | AUC_ROC: 0.69419019
+Epoch 053
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.58380988 | AUC_ROC: 0.92342780
+Test  loss: 4.21626258 | AUC_ROC: 0.72068600
+Epoch 054
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.93974320 | AUC_ROC: 0.94526398
+Test  loss: 3.11269150 | AUC_ROC: 0.69322671
+Epoch 055
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.66091021 | AUC_ROC: 0.93517081
+Test  loss: 5.18758716 | AUC_ROC: 0.71018403
+Epoch 056
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.04745330 | AUC_ROC: 0.94293478
+Test  loss: 4.03186710 | AUC_ROC: 0.68021967
+Epoch 057
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.25550155 | AUC_ROC: 0.94477873
+Test  loss: 4.15096017 | AUC_ROC: 0.69399749
+Epoch 058
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.22214829 | AUC_ROC: 0.91983696
+Test  loss: 3.73240457 | AUC_ROC: 0.65709606
+Epoch 059
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.10763475 | AUC_ROC: 0.93526786
+Test  loss: 3.49859227 | AUC_ROC: 0.69293766
+Epoch 060
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.96636784 | AUC_ROC: 0.94545807
+Test  loss: 3.45783997 | AUC_ROC: 0.70392138
+Epoch 061
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.44012135 | AUC_ROC: 0.94429348
+Test  loss: 4.56547586 | AUC_ROC: 0.70218711
+Epoch 062
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.04439739 | AUC_ROC: 0.93847050
+Test  loss: 3.14752425 | AUC_ROC: 0.68532614
+Epoch 063
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.79590784 | AUC_ROC: 0.94361413
+Test  loss: 7.03740287 | AUC_ROC: 0.69361210
+Epoch 064
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.98103363 | AUC_ROC: 0.94167314
+Test  loss: 3.33994739 | AUC_ROC: 0.69313036
+Epoch 065
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.10860754 | AUC_ROC: 0.92789208
+Test  loss: 5.11310160 | AUC_ROC: 0.65661432
+Epoch 066
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.30882918 | AUC_ROC: 0.91498447
+Test  loss: 3.91180832 | AUC_ROC: 0.63734464
+Epoch 067
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.96649707 | AUC_ROC: 0.94118789
+Test  loss: 3.80925775 | AUC_ROC: 0.67578765
+Epoch 068
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.32920109 | AUC_ROC: 0.93497671
+Test  loss: 4.16875575 | AUC_ROC: 0.67819636
+Epoch 069
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.28791377 | AUC_ROC: 0.93788820
+Test  loss: 4.23805864 | AUC_ROC: 0.71500145
+Epoch 070
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.35832587 | AUC_ROC: 0.93313276
+Test  loss: 4.64134794 | AUC_ROC: 0.69794778
+Epoch 071
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.30073161 | AUC_ROC: 0.94157609
+Test  loss: 4.39114267 | AUC_ROC: 0.70536661
+Epoch 072
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.47958904 | AUC_ROC: 0.92129270
+Test  loss: 4.49628825 | AUC_ROC: 0.64948454
+Epoch 073
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.17687043 | AUC_ROC: 0.92507764
+Test  loss: 3.90912063 | AUC_ROC: 0.69168513
+Epoch 074
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.45002337 | AUC_ROC: 0.92624224
+Test  loss: 3.86050013 | AUC_ROC: 0.66827247
+Epoch 075
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.86267684 | AUC_ROC: 0.93555901
+Test  loss: 5.83396775 | AUC_ROC: 0.65979381
+Epoch 076
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.38176623 | AUC_ROC: 0.94186724
+Test  loss: 4.81799374 | AUC_ROC: 0.68571153
+Epoch 077
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.38996018 | AUC_ROC: 0.92983307
+Test  loss: 4.08154597 | AUC_ROC: 0.68368822
+Epoch 078
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.12016696 | AUC_ROC: 0.93730590
+Test  loss: 4.01651290 | AUC_ROC: 0.69582811
+Epoch 079
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39930110 | AUC_ROC: 0.93352096
+Test  loss: 4.55145798 | AUC_ROC: 0.71211099
+Epoch 080
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.98604032 | AUC_ROC: 0.92051630
+Test  loss: 5.74264428 | AUC_ROC: 0.69409384
+Epoch 081
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.59381049 | AUC_ROC: 0.94468168
+Test  loss: 5.23987222 | AUC_ROC: 0.70652279
+Epoch 082
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.14731636 | AUC_ROC: 0.94312888
+Test  loss: 4.03368463 | AUC_ROC: 0.71336352
+Epoch 083
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.61690735 | AUC_ROC: 0.91954581
+Test  loss: 4.44427414 | AUC_ROC: 0.68802389
+Epoch 084
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.30042153 | AUC_ROC: 0.93817935
+Test  loss: 4.62134968 | AUC_ROC: 0.69756239
+Epoch 085
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.91491349 | AUC_ROC: 0.92711568
+Test  loss: 6.34315307 | AUC_ROC: 0.69264862
+Epoch 086
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.71487110 | AUC_ROC: 0.93128882
+Test  loss: 5.47759584 | AUC_ROC: 0.69794778
+Epoch 087
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.40736404 | AUC_ROC: 0.93070652
+Test  loss: 4.64597631 | AUC_ROC: 0.70035649
+Epoch 088
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.45428151 | AUC_ROC: 0.93449146
+Test  loss: 4.80250207 | AUC_ROC: 0.67858175
+Epoch 089
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.36847626 | AUC_ROC: 0.94953416
+Test  loss: 4.67361135 | AUC_ROC: 0.70276520
+Epoch 090
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.15144962 | AUC_ROC: 0.93866460
+Test  loss: 4.34618855 | AUC_ROC: 0.68214664
+Epoch 091
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.47610206 | AUC_ROC: 0.93652950
+Test  loss: 4.81482465 | AUC_ROC: 0.65516909
+Epoch 092
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.31811373 | AUC_ROC: 0.94555512
+Test  loss: 4.38051944 | AUC_ROC: 0.71018403
+Epoch 093
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.34854384 | AUC_ROC: 0.94322593
+Test  loss: 5.24359230 | AUC_ROC: 0.69476828
+Epoch 094
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.54283786 | AUC_ROC: 0.94322593
+Test  loss: 5.42061898 | AUC_ROC: 0.68474805
+Epoch 095
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.35055495 | AUC_ROC: 0.94409938
+Test  loss: 5.17809578 | AUC_ROC: 0.70430677
+Epoch 096
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.54277607 | AUC_ROC: 0.94710792
+Test  loss: 5.66598007 | AUC_ROC: 0.69332306
+Epoch 097
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.45138658 | AUC_ROC: 0.92730978
+Test  loss: 5.21898745 | AUC_ROC: 0.69621351
+Epoch 098
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.53348062 | AUC_ROC: 0.93992624
+Test  loss: 5.57081597 | AUC_ROC: 0.70286155
+Epoch 099
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.69732839 | AUC_ROC: 0.92769798
+Test  loss: 4.64160504 | AUC_ROC: 0.68445900
+Epoch 100
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39209103 | AUC_ROC: 0.93468556
+Test  loss: 4.62998513 | AUC_ROC: 0.71577223
+
+'roc_best_model.pth' | Epoch: 026 | AUC_ROC: 0.93555901
+
+=======Test=======
+roc_best_model.pth
+Train set:
+AUC_ROC: 0.96309111
+Valid set:
+AUC_ROC: 0.93555901
+Test set:
+AUC_ROC: 0.73089893
+
+=======Finish=======
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.96077013 | AUC_ROC: 0.93206522
+Test  loss: 2.41230057 | AUC_ROC: 0.59784180
+Epoch 002
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.79513075 | AUC_ROC: 0.87577640
+Test  loss: 3.08052775 | AUC_ROC: 0.65574718
+Epoch 003
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.91070298 | AUC_ROC: 0.92333075
+Test  loss: 2.33317155 | AUC_ROC: 0.63243087
+Epoch 004
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.14319109 | AUC_ROC: 0.92022516
+Test  loss: 3.39917156 | AUC_ROC: 0.66730899
+Epoch 005
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.93974489 | AUC_ROC: 0.93303571
+Test  loss: 3.06327946 | AUC_ROC: 0.64659408
+Epoch 006
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.70301528 | AUC_ROC: 0.90595885
+Test  loss: 4.05797403 | AUC_ROC: 0.61711148
+Epoch 007
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.12823364 | AUC_ROC: 0.92294255
+Test  loss: 3.20623796 | AUC_ROC: 0.67781096
+Epoch 008
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.01316000 | AUC_ROC: 0.93361801
+Test  loss: 2.87680115 | AUC_ROC: 0.67251180
+Epoch 009
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09524896 | AUC_ROC: 0.92556289
+Test  loss: 2.99736452 | AUC_ROC: 0.66779073
+Epoch 010
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.87256404 | AUC_ROC: 0.92362189
+Test  loss: 2.66319510 | AUC_ROC: 0.65353117
+Epoch 011
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.00722958 | AUC_ROC: 0.90770575
+Test  loss: 2.31288740 | AUC_ROC: 0.68513344
+Epoch 012
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.87126975 | AUC_ROC: 0.93740295
+Test  loss: 2.79847366 | AUC_ROC: 0.67434242
+Epoch 013
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.29976729 | AUC_ROC: 0.92585404
+Test  loss: 3.73980853 | AUC_ROC: 0.68127951
+Epoch 014
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.95883337 | AUC_ROC: 0.93390916
+Test  loss: 2.62435346 | AUC_ROC: 0.68937277
+Epoch 015
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.91362030 | AUC_ROC: 0.93623835
+Test  loss: 3.37928728 | AUC_ROC: 0.67915984
+Epoch 016
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.39776869 | AUC_ROC: 0.90178571
+Test  loss: 4.21427984 | AUC_ROC: 0.68108681
+Epoch 017
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.00794799 | AUC_ROC: 0.93711180
+Test  loss: 3.65432790 | AUC_ROC: 0.67414973
+Epoch 018
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.11485261 | AUC_ROC: 0.93730590
+Test  loss: 3.48224175 | AUC_ROC: 0.71644667
+Epoch 019
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.11649213 | AUC_ROC: 0.92672748
+Test  loss: 3.85667920 | AUC_ROC: 0.67039214
+Epoch 020
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.98367803 | AUC_ROC: 0.94235248
+Test  loss: 3.60004905 | AUC_ROC: 0.71028037
+Epoch 021
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.91254189 | AUC_ROC: 0.92857143
+Test  loss: 2.46366084 | AUC_ROC: 0.68426631
+Epoch 022
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.08148195 | AUC_ROC: 0.93361801
+Test  loss: 3.07165054 | AUC_ROC: 0.68985451
+Epoch 023
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.97744471 | AUC_ROC: 0.94060559
+Test  loss: 3.66210726 | AUC_ROC: 0.69842952
+Epoch 024
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.38642962 | AUC_ROC: 0.93827640
+Test  loss: 4.06119912 | AUC_ROC: 0.69688795
+Epoch 025
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.22358321 | AUC_ROC: 0.93837345
+Test  loss: 4.28464944 | AUC_ROC: 0.69727334
+Epoch 026
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.16113949 | AUC_ROC: 0.93206522
+Test  loss: 3.64903855 | AUC_ROC: 0.70411408
+Epoch 027
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09912847 | AUC_ROC: 0.94468168
+Test  loss: 4.27358934 | AUC_ROC: 0.67713653
+Epoch 028
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.92927046 | AUC_ROC: 0.93439441
+Test  loss: 3.10215606 | AUC_ROC: 0.71230369
+Epoch 029
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.03172276 | AUC_ROC: 0.94691382
+Test  loss: 3.48700367 | AUC_ROC: 0.70758262
+Epoch 030
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.99388639 | AUC_ROC: 0.94545807
+Test  loss: 3.46248346 | AUC_ROC: 0.72348010
+Epoch 031
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02638862 | AUC_ROC: 0.94856366
+Test  loss: 4.18430386 | AUC_ROC: 0.68975817
+Epoch 032
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.04606484 | AUC_ROC: 0.94526398
+Test  loss: 3.78120232 | AUC_ROC: 0.69149244
+Epoch 033
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.63200903 | AUC_ROC: 0.93109472
+Test  loss: 4.51924327 | AUC_ROC: 0.70527026
+Epoch 034
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02507320 | AUC_ROC: 0.93633540
+Test  loss: 3.24619658 | AUC_ROC: 0.71895173
+Epoch 035
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.22272170 | AUC_ROC: 0.91828416
+Test  loss: 3.66142144 | AUC_ROC: 0.68397726
+Epoch 036
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.26090641 | AUC_ROC: 0.94167314
+Test  loss: 4.38339135 | AUC_ROC: 0.72434724
+Epoch 037
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.07352561 | AUC_ROC: 0.94225543
+Test  loss: 3.58018640 | AUC_ROC: 0.72781578
+Epoch 038
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.10950873 | AUC_ROC: 0.93973214
+Test  loss: 4.09769348 | AUC_ROC: 0.70074188
+Epoch 039
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09156203 | AUC_ROC: 0.93119177
+Test  loss: 3.57817902 | AUC_ROC: 0.70401773
+Epoch 040
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.01562416 | AUC_ROC: 0.94167314
+Test  loss: 3.41126146 | AUC_ROC: 0.71451970
+Epoch 041
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.98566179 | AUC_ROC: 0.94429348
+Test  loss: 3.19814798 | AUC_ROC: 0.69592446
+Epoch 042
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09875097 | AUC_ROC: 0.92653339
+Test  loss: 3.23952261 | AUC_ROC: 0.71191830
+Epoch 043
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.16911064 | AUC_ROC: 0.94254658
+Test  loss: 4.22511666 | AUC_ROC: 0.70170537
+Epoch 044
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.12552056 | AUC_ROC: 0.93342391
+Test  loss: 3.89596510 | AUC_ROC: 0.67106658
+Epoch 045
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09844491 | AUC_ROC: 0.93157997
+Test  loss: 3.62089443 | AUC_ROC: 0.70228346
+Epoch 046
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.20077423 | AUC_ROC: 0.92468944
+Test  loss: 3.46405048 | AUC_ROC: 0.67617304
+Epoch 047
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.08048606 | AUC_ROC: 0.93041537
+Test  loss: 3.63872661 | AUC_ROC: 0.69842952
+Epoch 048
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.06287880 | AUC_ROC: 0.93623835
+Test  loss: 4.07103038 | AUC_ROC: 0.71943347
+Epoch 049
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.21607306 | AUC_ROC: 0.93565606
+Test  loss: 4.42592996 | AUC_ROC: 0.69515368
+Epoch 050
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.18134192 | AUC_ROC: 0.94002329
+Test  loss: 4.06164214 | AUC_ROC: 0.69833317
+Epoch 051
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.58609845 | AUC_ROC: 0.91809006
+Test  loss: 4.34884739 | AUC_ROC: 0.70633009
+Epoch 052
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.07933914 | AUC_ROC: 0.93468556
+Test  loss: 3.47527095 | AUC_ROC: 0.70555930
+Epoch 053
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.11872011 | AUC_ROC: 0.93992624
+Test  loss: 4.05907345 | AUC_ROC: 0.72049330
+Epoch 054
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.52216162 | AUC_ROC: 0.92944488
+Test  loss: 4.81071476 | AUC_ROC: 0.71037672
+Epoch 055
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.23006775 | AUC_ROC: 0.92420419
+Test  loss: 3.23630646 | AUC_ROC: 0.70604104
+Epoch 056
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.51621049 | AUC_ROC: 0.90770575
+Test  loss: 5.17813866 | AUC_ROC: 0.71345987
+Epoch 057
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.18540484 | AUC_ROC: 0.92808618
+Test  loss: 4.50519913 | AUC_ROC: 0.67318624
+Epoch 058
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.16005977 | AUC_ROC: 0.94070264
+Test  loss: 5.07869121 | AUC_ROC: 0.69322671
+Epoch 059
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.19076096 | AUC_ROC: 0.94342003
+Test  loss: 4.61775609 | AUC_ROC: 0.71924077
+Epoch 060
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.98384691 | AUC_ROC: 0.92022516
+Test  loss: 5.80376935 | AUC_ROC: 0.70652279
+Epoch 061
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.08322555 | AUC_ROC: 0.94147904
+Test  loss: 4.03759589 | AUC_ROC: 0.69390115
+Epoch 062
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.15577041 | AUC_ROC: 0.92828028
+Test  loss: 3.80760591 | AUC_ROC: 0.70122362
+Epoch 063
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.30068757 | AUC_ROC: 0.93934394
+Test  loss: 5.39115458 | AUC_ROC: 0.70536661
+Epoch 064
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.59385820 | AUC_ROC: 0.90498835
+Test  loss: 7.56957977 | AUC_ROC: 0.67337894
+Epoch 065
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.14913616 | AUC_ROC: 0.93614130
+Test  loss: 4.06777120 | AUC_ROC: 0.71557954
+Epoch 066
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.16776134 | AUC_ROC: 0.94157609
+Test  loss: 4.41461975 | AUC_ROC: 0.71259274
+Epoch 067
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.17532742 | AUC_ROC: 0.93555901
+Test  loss: 3.76071024 | AUC_ROC: 0.71288178
+Epoch 068
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.33829712 | AUC_ROC: 0.93458851
+Test  loss: 4.70105106 | AUC_ROC: 0.70575200
+Epoch 069
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.95397521 | AUC_ROC: 0.92177795
+Test  loss: 5.36019744 | AUC_ROC: 0.69871857
+Epoch 070
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.09056390 | AUC_ROC: 0.90673525
+Test  loss: 5.88482969 | AUC_ROC: 0.67222276
+Epoch 071
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.29219466 | AUC_ROC: 0.93128882
+Test  loss: 4.54765967 | AUC_ROC: 0.66942865
+Epoch 072
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.65787352 | AUC_ROC: 0.93313276
+Test  loss: 5.48210703 | AUC_ROC: 0.69910396
+Epoch 073
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09084658 | AUC_ROC: 0.94604037
+Test  loss: 3.98846640 | AUC_ROC: 0.69390115
+Epoch 074
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.61876806 | AUC_ROC: 0.92206910
+Test  loss: 4.59792127 | AUC_ROC: 0.69794778
+Epoch 075
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.22514947 | AUC_ROC: 0.93390916
+Test  loss: 4.22085500 | AUC_ROC: 0.68060507
+Epoch 076
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.75980881 | AUC_ROC: 0.92721273
+Test  loss: 5.35040440 | AUC_ROC: 0.68706041
+Epoch 077
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.90627212 | AUC_ROC: 0.91527562
+Test  loss: 6.09058458 | AUC_ROC: 0.67193371
+Epoch 078
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.75464830 | AUC_ROC: 0.92129270
+Test  loss: 5.27760652 | AUC_ROC: 0.69351575
+Epoch 079
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.90973222 | AUC_ROC: 0.90052407
+Test  loss: 4.56008843 | AUC_ROC: 0.68474805
+Epoch 080
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39249571 | AUC_ROC: 0.92410714
+Test  loss: 4.01722261 | AUC_ROC: 0.67935254
+Epoch 081
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.28695976 | AUC_ROC: 0.94526398
+Test  loss: 4.66081136 | AUC_ROC: 0.71047307
+Epoch 082
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.60373795 | AUC_ROC: 0.91847826
+Test  loss: 4.65835682 | AUC_ROC: 0.67761827
+Epoch 083
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.67864503 | AUC_ROC: 0.92265140
+Test  loss: 4.49119387 | AUC_ROC: 0.70922054
+Epoch 084
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.53461564 | AUC_ROC: 0.92711568
+Test  loss: 4.83806770 | AUC_ROC: 0.68166490
+Epoch 085
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.54746431 | AUC_ROC: 0.93400621
+Test  loss: 5.17711571 | AUC_ROC: 0.69987475
+Epoch 086
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.77020874 | AUC_ROC: 0.91498447
+Test  loss: 5.35723846 | AUC_ROC: 0.68609693
+Epoch 087
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.66902038 | AUC_ROC: 0.91207298
+Test  loss: 4.51109416 | AUC_ROC: 0.69284131
+Epoch 088
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.35215862 | AUC_ROC: 0.91789596
+Test  loss: 6.22279647 | AUC_ROC: 0.68908373
+Epoch 089
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.59210448 | AUC_ROC: 0.92284550
+Test  loss: 4.45159091 | AUC_ROC: 0.68995086
+Epoch 090
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39661808 | AUC_ROC: 0.93177407
+Test  loss: 4.72412082 | AUC_ROC: 0.69717699
+Epoch 091
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.92242403 | AUC_ROC: 0.91071429
+Test  loss: 5.11579994 | AUC_ROC: 0.66981405
+Epoch 092
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.76196790 | AUC_ROC: 0.93895575
+Test  loss: 6.49961829 | AUC_ROC: 0.70498121
+Epoch 093
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.55723391 | AUC_ROC: 0.93313276
+Test  loss: 5.16557421 | AUC_ROC: 0.70257250
+Epoch 094
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.04934708 | AUC_ROC: 0.90178571
+Test  loss: 4.84962262 | AUC_ROC: 0.71134021
+Epoch 095
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.01891233 | AUC_ROC: 0.91217003
+Test  loss: 5.80869685 | AUC_ROC: 0.67694383
+Epoch 096
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.30034238 | AUC_ROC: 0.88169643
+Test  loss: 5.58543525 | AUC_ROC: 0.69399749
+Epoch 097
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.42635150 | AUC_ROC: 0.93303571
+Test  loss: 4.48097365 | AUC_ROC: 0.69226322
+Epoch 098
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.66721534 | AUC_ROC: 0.92313665
+Test  loss: 5.48511352 | AUC_ROC: 0.68272473
+Epoch 099
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.42728116 | AUC_ROC: 0.91381988
+Test  loss: 6.04942659 | AUC_ROC: 0.69910396
+Epoch 100
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.58727953 | AUC_ROC: 0.93138587
+Test  loss: 5.40251374 | AUC_ROC: 0.70122362
+
+'roc_best_model.pth' | Epoch: 037 | AUC_ROC: 0.94225543
+
+=======Test=======
+roc_best_model.pth
+Train set:
+AUC_ROC: 0.97829206
+Valid set:
+AUC_ROC: 0.94225543
+Test set:
+AUC_ROC: 0.72781578
+
+=======Finish=======
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.23979839 | AUC_ROC: 0.93167702
+Test  loss: 4.29105258 | AUC_ROC: 0.61913479
+Epoch 002
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.87308669 | AUC_ROC: 0.88528727
+Test  loss: 3.09384896 | AUC_ROC: 0.63869352
+Epoch 003
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.96713384 | AUC_ROC: 0.93905280
+Test  loss: 2.82090841 | AUC_ROC: 0.66596011
+Epoch 004
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.88116022 | AUC_ROC: 0.92944488
+Test  loss: 2.49044984 | AUC_ROC: 0.61460642
+Epoch 002
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.10211063 | AUC_ROC: 0.94875776
+Test  loss: 4.80394367 | AUC_ROC: 0.67029579
+Epoch 002
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.11284140 | AUC_ROC: 0.95865683
+Test  loss: 3.51139811 | AUC_ROC: 0.64958088
+Epoch 003
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.75870541 | AUC_ROC: 0.95855978
+Test  loss: 3.65853030 | AUC_ROC: 0.66441854
+Epoch 004
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.71384905 | AUC_ROC: 0.95943323
+Test  loss: 2.36455102 | AUC_ROC: 0.66711629
+Epoch 005
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.71605158 | AUC_ROC: 0.95642469
+Test  loss: 2.35876763 | AUC_ROC: 0.66913961
+Epoch 006
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.91134160 | AUC_ROC: 0.92682453
+Test  loss: 2.96920042 | AUC_ROC: 0.63406879
+Epoch 007
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.61031356 | AUC_ROC: 0.96166537
+Test  loss: 2.41971811 | AUC_ROC: 0.69043260
+Epoch 008
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.71695067 | AUC_ROC: 0.95128106
+Test  loss: 2.47307491 | AUC_ROC: 0.66095000
+Epoch 009
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.25680777 | AUC_ROC: 0.95011646
+Test  loss: 5.60888180 | AUC_ROC: 0.66913961
+Epoch 010
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.86121573 | AUC_ROC: 0.95448370
+Test  loss: 5.33516754 | AUC_ROC: 0.67357164
+Epoch 011
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.74068264 | AUC_ROC: 0.92769798
+Test  loss: 8.95008765 | AUC_ROC: 0.66200983
+Epoch 012
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.01856429 | AUC_ROC: 0.95409550
+Test  loss: 6.40896218 | AUC_ROC: 0.70536661
+Epoch 013
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.92845528 | AUC_ROC: 0.95390140
+Test  loss: 5.79814877 | AUC_ROC: 0.69573177
+Epoch 014
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.25108328 | AUC_ROC: 0.95477484
+Test  loss: 6.61976767 | AUC_ROC: 0.68021967
+Epoch 015
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.43000457 | AUC_ROC: 0.95166925
+Test  loss: 7.29350948 | AUC_ROC: 0.67424607
+Epoch 016
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.70403646 | AUC_ROC: 0.96020963
+Test  loss: 4.67218808 | AUC_ROC: 0.67299354
+Epoch 017
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.81747114 | AUC_ROC: 0.95050466
+Test  loss: 4.67481075 | AUC_ROC: 0.66133539
+Epoch 018
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.00959450 | AUC_ROC: 0.95681289
+Test  loss: 6.74204431 | AUC_ROC: 0.69120339
+Epoch 019
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02997845 | AUC_ROC: 0.95933618
+Test  loss: 6.92368616 | AUC_ROC: 0.67222276
+Epoch 020
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.92548146 | AUC_ROC: 0.95322205
+Test  loss: 4.41906757 | AUC_ROC: 0.67395703
+Epoch 021
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.23717792 | AUC_ROC: 0.94157609
+Test  loss: 6.08271473 | AUC_ROC: 0.64090953
+Epoch 022
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.00094638 | AUC_ROC: 0.94866071
+Test  loss: 6.42775556 | AUC_ROC: 0.64832836
+Epoch 023
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.10360189 | AUC_ROC: 0.94545807
+Test  loss: 5.25384120 | AUC_ROC: 0.66817612
+Epoch 024
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02310530 | AUC_ROC: 0.96098602
+Test  loss: 8.37243298 | AUC_ROC: 0.68484440
+Epoch 025
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.32312493 | AUC_ROC: 0.96059783
+Test  loss: 11.14544732 | AUC_ROC: 0.69043260
+Epoch 026
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.97942234 | AUC_ROC: 0.95031056
+Test  loss: 6.13294472 | AUC_ROC: 0.61961653
+Epoch 027
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.06954659 | AUC_ROC: 0.93788820
+Test  loss: 6.55116858 | AUC_ROC: 0.64437807
+Epoch 028
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.79783911 | AUC_ROC: 0.94681677
+Test  loss: 13.47787690 | AUC_ROC: 0.67289720
+Epoch 029
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.83428552 | AUC_ROC: 0.96273292
+Test  loss: 6.87323672 | AUC_ROC: 0.68513344
+Epoch 030
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.06300750 | AUC_ROC: 0.94390528
+Test  loss: 17.16304248 | AUC_ROC: 0.67395703
+Epoch 031
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.01291757 | AUC_ROC: 0.94662267
+Test  loss: 6.69374810 | AUC_ROC: 0.68436266
+Epoch 032
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.40631358 | AUC_ROC: 0.95758929
+Test  loss: 16.22156661 | AUC_ROC: 0.68840929
+Epoch 033
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02985360 | AUC_ROC: 0.95312500
+Test  loss: 5.30483939 | AUC_ROC: 0.67337894
+Epoch 034
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.76997524 | AUC_ROC: 0.94914596
+Test  loss: 4.96513173 | AUC_ROC: 0.65777050
+Epoch 035
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.62859442 | AUC_ROC: 0.95506599
+Test  loss: 8.62786167 | AUC_ROC: 0.67549860
+Epoch 036
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.90739917 | AUC_ROC: 0.93497671
+Test  loss: 5.13833679 | AUC_ROC: 0.62501204
+Epoch 037
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.34900345 | AUC_ROC: 0.95137811
+Test  loss: 9.92624930 | AUC_ROC: 0.69284131
+Epoch 038
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.88812687 | AUC_ROC: 0.96418866
+Test  loss: 7.78529947 | AUC_ROC: 0.66268427
+Epoch 039
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.41520041 | AUC_ROC: 0.96467391
+Test  loss: 11.67543030 | AUC_ROC: 0.67463147
+Epoch 040
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.17289104 | AUC_ROC: 0.95555124
+Test  loss: 8.08937659 | AUC_ROC: 0.67530591
+Epoch 041
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.79407240 | AUC_ROC: 0.93866460
+Test  loss: 7.17331907 | AUC_ROC: 0.68715676
+Epoch 042
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.52681909 | AUC_ROC: 0.95448370
+Test  loss: 10.56349352 | AUC_ROC: 0.68754215
+Epoch 043
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.04583084 | AUC_ROC: 0.94662267
+Test  loss: 6.91906462 | AUC_ROC: 0.68706041
+Epoch 044
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.05188750 | AUC_ROC: 0.96195652
+Test  loss: 9.66842781 | AUC_ROC: 0.68850564
+Epoch 045
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.63633987 | AUC_ROC: 0.95166925
+Test  loss: 12.97082278 | AUC_ROC: 0.66952500
+Epoch 046
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.20237508 | AUC_ROC: 0.94613742
+Test  loss: 10.52964837 | AUC_ROC: 0.70372868
+Epoch 047
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.41233395 | AUC_ROC: 0.96428571
+Test  loss: 20.57837122 | AUC_ROC: 0.65777050
+Epoch 048
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.22299355 | AUC_ROC: 0.95826863
+Test  loss: 9.09637485 | AUC_ROC: 0.64611234
+Epoch 049
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.50396984 | AUC_ROC: 0.94943711
+Test  loss: 8.97984808 | AUC_ROC: 0.66615281
+Epoch 050
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.52744696 | AUC_ROC: 0.94565217
+Test  loss: 14.08870813 | AUC_ROC: 0.66952500
+Epoch 051
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.83185557 | AUC_ROC: 0.94254658
+Test  loss: 17.36374984 | AUC_ROC: 0.64986993
+Epoch 052
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39050552 | AUC_ROC: 0.94303183
+Test  loss: 7.29061685 | AUC_ROC: 0.68619327
+Epoch 053
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.34597655 | AUC_ROC: 0.94041149
+Test  loss: 8.15946014 | AUC_ROC: 0.63628481
+Epoch 054
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.84362311 | AUC_ROC: 0.95283385
+Test  loss: 8.04553986 | AUC_ROC: 0.65064072
+Epoch 055
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.53624328 | AUC_ROC: 0.95361025
+Test  loss: 13.83228915 | AUC_ROC: 0.65931207
+Epoch 056
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.34157370 | AUC_ROC: 0.96079193
+Test  loss: 14.69394568 | AUC_ROC: 0.65247134
+Epoch 057
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.35432739 | AUC_ROC: 0.95797748
+Test  loss: 15.86402689 | AUC_ROC: 0.67906349
+Epoch 058
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.20137559 | AUC_ROC: 0.95186335
+Test  loss: 12.25236218 | AUC_ROC: 0.65410926
+Epoch 059
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.67559156 | AUC_ROC: 0.96671196
+Test  loss: 13.53703063 | AUC_ROC: 0.68127951
+Epoch 060
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.50442354 | AUC_ROC: 0.95205745
+Test  loss: 11.71941614 | AUC_ROC: 0.65536179
+Epoch 061
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.55161511 | AUC_ROC: 0.95254270
+Test  loss: 13.02628994 | AUC_ROC: 0.64418537
+Epoch 062
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.70463861 | AUC_ROC: 0.95720109
+Test  loss: 10.33658610 | AUC_ROC: 0.67655844
+Epoch 063
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.07352414 | AUC_ROC: 0.95749224
+Test  loss: 5.92678261 | AUC_ROC: 0.68436266
+Epoch 064
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.60728886 | AUC_ROC: 0.93992624
+Test  loss: 9.02983241 | AUC_ROC: 0.66692360
+Epoch 065
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.26318384 | AUC_ROC: 0.95011646
+Test  loss: 13.18880211 | AUC_ROC: 0.67684748
+Epoch 066
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09987479 | AUC_ROC: 0.95448370
+Test  loss: 12.52424390 | AUC_ROC: 0.65690336
+Epoch 067
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.29031355 | AUC_ROC: 0.94516693
+Test  loss: 10.42886628 | AUC_ROC: 0.65526544
+Epoch 068
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.32768804 | AUC_ROC: 0.95943323
+Test  loss: 11.72844880 | AUC_ROC: 0.64977358
+Epoch 069
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.78267886 | AUC_ROC: 0.94429348
+Test  loss: 17.78220446 | AUC_ROC: 0.63050390
+Epoch 070
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.81815771 | AUC_ROC: 0.93866460
+Test  loss: 9.58383182 | AUC_ROC: 0.66316601
+Epoch 071
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.16182716 | AUC_ROC: 0.95894798
+Test  loss: 7.58130787 | AUC_ROC: 0.66692360
+Epoch 072
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.79331206 | AUC_ROC: 0.96341227
+Test  loss: 14.53014054 | AUC_ROC: 0.63300896
+Epoch 073
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.49178126 | AUC_ROC: 0.94419643
+Test  loss: 11.72836651 | AUC_ROC: 0.64948454
+Epoch 074
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.80441449 | AUC_ROC: 0.96147127
+Test  loss: 17.41262994 | AUC_ROC: 0.66268427
+Epoch 075
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.68175067 | AUC_ROC: 0.95749224
+Test  loss: 16.68460570 | AUC_ROC: 0.64958088
+Epoch 076
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.48869268 | AUC_ROC: 0.96282997
+Test  loss: 19.04670961 | AUC_ROC: 0.63878986
+Epoch 077
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.30263467 | AUC_ROC: 0.96321817
+Test  loss: 22.12522640 | AUC_ROC: 0.63021486
+Epoch 078
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.33088903 | AUC_ROC: 0.92915373
+Test  loss: 11.58174235 | AUC_ROC: 0.60304461
+Epoch 079
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39200295 | AUC_ROC: 0.95225155
+Test  loss: 12.60136775 | AUC_ROC: 0.66470758
+Epoch 080
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.44592017 | AUC_ROC: 0.94138199
+Test  loss: 14.00083174 | AUC_ROC: 0.66075730
+Epoch 081
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.58045445 | AUC_ROC: 0.95962733
+Test  loss: 18.13961383 | AUC_ROC: 0.65690336
+Epoch 082
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.64563462 | AUC_ROC: 0.95380435
+Test  loss: 19.10268770 | AUC_ROC: 0.66673090
+Epoch 083
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.88720743 | AUC_ROC: 0.95914208
+Test  loss: 18.34231656 | AUC_ROC: 0.66432219
+Epoch 084
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.89936262 | AUC_ROC: 0.95341615
+Test  loss: 7.68582225 | AUC_ROC: 0.68311013
+Epoch 085
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.70164093 | AUC_ROC: 0.95215450
+Test  loss: 18.91846214 | AUC_ROC: 0.66673090
+Epoch 086
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.69165430 | AUC_ROC: 0.95273680
+Test  loss: 17.05796071 | AUC_ROC: 0.62867328
+Epoch 087
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.10030822 | AUC_ROC: 0.94089674
+Test  loss: 9.97996637 | AUC_ROC: 0.66133539
+Epoch 088
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.43651831 | AUC_ROC: 0.94409938
+Test  loss: 17.69547830 | AUC_ROC: 0.64139127
+Epoch 089
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.96228158 | AUC_ROC: 0.93390916
+Test  loss: 12.67124162 | AUC_ROC: 0.66249157
+Epoch 090
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.34175464 | AUC_ROC: 0.95011646
+Test  loss: 16.98723602 | AUC_ROC: 0.65892668
+Epoch 091
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.39368908 | AUC_ROC: 0.95545419
+Test  loss: 22.82476207 | AUC_ROC: 0.62915502
+Epoch 092
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.30021154 | AUC_ROC: 0.95875388
+Test  loss: 12.53785174 | AUC_ROC: 0.65632527
+Epoch 093
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.49931068 | AUC_ROC: 0.94739907
+Test  loss: 11.14467076 | AUC_ROC: 0.62790250
+Epoch 094
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.36001148 | AUC_ROC: 0.95574534
+Test  loss: 14.65041787 | AUC_ROC: 0.63676655
+Epoch 095
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.37936133 | AUC_ROC: 0.90974379
+Test  loss: 10.21794741 | AUC_ROC: 0.62375951
+Epoch 096
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.50049307 | AUC_ROC: 0.94390528
+Test  loss: 9.96251501 | AUC_ROC: 0.67337894
+Epoch 097
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.69298260 | AUC_ROC: 0.94720497
+Test  loss: 14.21141236 | AUC_ROC: 0.66306966
+Epoch 098
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.12659237 | AUC_ROC: 0.94118789
+Test  loss: 21.02669689 | AUC_ROC: 0.64514886
+Epoch 099
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.17202545 | AUC_ROC: 0.93643245
+Test  loss: 18.85528633 | AUC_ROC: 0.65989016
+Epoch 100
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.93915279 | AUC_ROC: 0.92410714
+Test  loss: 15.22990492 | AUC_ROC: 0.68484440
+
+'roc_best_model.pth' | Epoch: 012 | AUC_ROC: 0.95409550
+
+=======Test=======
+roc_best_model.pth
+Train set:
+AUC_ROC: 0.97377407
+Valid set:
+AUC_ROC: 0.95409550
+Test set:
+AUC_ROC: 0.70536661
+
+=======Finish=======
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 4.67447755 | AUC_ROC: 0.78542314
+Test  loss: 5.90517551 | AUC_ROC: 0.61711148
+Epoch 002
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.28339247 | AUC_ROC: 0.94235248
+Test  loss: 4.61015945 | AUC_ROC: 0.65295308
+Epoch 003
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.70495881 | AUC_ROC: 0.95428960
+Test  loss: 2.65742244 | AUC_ROC: 0.68378456
+Epoch 004
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.40813057 | AUC_ROC: 0.94817547
+Test  loss: 4.18912058 | AUC_ROC: 0.64890645
+Epoch 005
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.76044702 | AUC_ROC: 0.95040761
+Test  loss: 3.28723138 | AUC_ROC: 0.65998651
+Epoch 006
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.94067370 | AUC_ROC: 0.94293478
+Test  loss: 3.71961956 | AUC_ROC: 0.66846517
+Epoch 007
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.73020335 | AUC_ROC: 0.95758929
+Test  loss: 3.72730855 | AUC_ROC: 0.69438289
+Epoch 008
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.60614120 | AUC_ROC: 0.93837345
+Test  loss: 5.33755062 | AUC_ROC: 0.68889103
+Epoch 009
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 5.32430644 | AUC_ROC: 0.92391304
+Test  loss: 13.02706262 | AUC_ROC: 0.66682725
+Epoch 010
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.56857112 | AUC_ROC: 0.96147127
+Test  loss: 3.35210630 | AUC_ROC: 0.69794778
+Epoch 011
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.81943391 | AUC_ROC: 0.95526009
+Test  loss: 3.47467831 | AUC_ROC: 0.67183736
+Epoch 012
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.15395991 | AUC_ROC: 0.95157220
+Test  loss: 6.03587839 | AUC_ROC: 0.67578765
+Epoch 013
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.85423118 | AUC_ROC: 0.95390140
+Test  loss: 2.89410814 | AUC_ROC: 0.65073707
+Epoch 014
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.82314991 | AUC_ROC: 0.95535714
+Test  loss: 4.32788897 | AUC_ROC: 0.66027556
+Epoch 015
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.50275094 | AUC_ROC: 0.94827252
+Test  loss: 5.18052915 | AUC_ROC: 0.64784661
+Epoch 016
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.21447026 | AUC_ROC: 0.94574922
+Test  loss: 5.88018724 | AUC_ROC: 0.66759803
+Epoch 017
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.56356699 | AUC_ROC: 0.95564829
+Test  loss: 7.41923302 | AUC_ROC: 0.68243569
+Epoch 018
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.17083116 | AUC_ROC: 0.94982531
+Test  loss: 6.26744992 | AUC_ROC: 0.66952500
+Epoch 019
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.76353447 | AUC_ROC: 0.95894798
+Test  loss: 4.51221275 | AUC_ROC: 0.66335871
+Epoch 020
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.33393625 | AUC_ROC: 0.95001941
+Test  loss: 6.49695958 | AUC_ROC: 0.66779073
+Epoch 021
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.10699246 | AUC_ROC: 0.94031444
+Test  loss: 4.43742749 | AUC_ROC: 0.67964158
+Epoch 022
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.22074591 | AUC_ROC: 0.94788432
+Test  loss: 6.21429287 | AUC_ROC: 0.66817612
+Epoch 023
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.96466789 | AUC_ROC: 0.95535714
+Test  loss: 5.30048953 | AUC_ROC: 0.70112728
+Epoch 024
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.38550726 | AUC_ROC: 0.95593944
+Test  loss: 9.19774008 | AUC_ROC: 0.65825224
+Epoch 025
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.19536129 | AUC_ROC: 0.95991848
+Test  loss: 9.20074115 | AUC_ROC: 0.66268427
+Epoch 026
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.77206451 | AUC_ROC: 0.95574534
+Test  loss: 11.41408185 | AUC_ROC: 0.68079776
+Epoch 027
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 9.67660144 | AUC_ROC: 0.86645963
+Test  loss: 14.82618878 | AUC_ROC: 0.65073707
+Epoch 028
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.79131012 | AUC_ROC: 0.96166537
+Test  loss: 5.40416159 | AUC_ROC: 0.66653820
+Epoch 029
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.34890953 | AUC_ROC: 0.93924689
+Test  loss: 4.60699630 | AUC_ROC: 0.67810001
+Epoch 030
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.31830893 | AUC_ROC: 0.94225543
+Test  loss: 6.33225986 | AUC_ROC: 0.64437807
+Epoch 031
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09153174 | AUC_ROC: 0.95128106
+Test  loss: 6.88765185 | AUC_ROC: 0.67164467
+Epoch 032
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.74501925 | AUC_ROC: 0.95205745
+Test  loss: 11.77579308 | AUC_ROC: 0.66807978
+Epoch 033
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.84228967 | AUC_ROC: 0.94623447
+Test  loss: 6.56577124 | AUC_ROC: 0.65950477
+Epoch 034
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.40530178 | AUC_ROC: 0.93322981
+Test  loss: 15.58875384 | AUC_ROC: 0.67472782
+Epoch 035
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.32556363 | AUC_ROC: 0.95923913
+Test  loss: 14.44626713 | AUC_ROC: 0.64832836
+Epoch 036
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.94281150 | AUC_ROC: 0.94652562
+Test  loss: 4.54251541 | AUC_ROC: 0.64013874
+Epoch 037
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.11912629 | AUC_ROC: 0.94584627
+Test  loss: 6.99865443 | AUC_ROC: 0.67145197
+Epoch 038
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.48225067 | AUC_ROC: 0.94264363
+Test  loss: 6.50185135 | AUC_ROC: 0.68070142
+Epoch 039
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.50015174 | AUC_ROC: 0.96477096
+Test  loss: 9.00277969 | AUC_ROC: 0.65661432
+Epoch 040
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.95364144 | AUC_ROC: 0.95632764
+Test  loss: 7.15018858 | AUC_ROC: 0.66114269
+Epoch 041
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.32204913 | AUC_ROC: 0.93982919
+Test  loss: 10.49484151 | AUC_ROC: 0.65873398
+Epoch 042
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09869723 | AUC_ROC: 0.94487578
+Test  loss: 6.47578151 | AUC_ROC: 0.67472782
+Epoch 043
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.85537219 | AUC_ROC: 0.94283773
+Test  loss: 10.42982224 | AUC_ROC: 0.65719241
+Epoch 044
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.50296616 | AUC_ROC: 0.94856366
+Test  loss: 13.90178980 | AUC_ROC: 0.66750169
+Epoch 045
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.82710234 | AUC_ROC: 0.95982143
+Test  loss: 6.32830695 | AUC_ROC: 0.69438289
+Epoch 046
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.31653635 | AUC_ROC: 0.96176242
+Test  loss: 11.45629086 | AUC_ROC: 0.66971770
+Epoch 047
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.24138351 | AUC_ROC: 0.95642469
+Test  loss: 13.40744809 | AUC_ROC: 0.66865787
+Epoch 048
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39471381 | AUC_ROC: 0.93944099
+Test  loss: 6.89774305 | AUC_ROC: 0.69081800
+Epoch 049
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.44701689 | AUC_ROC: 0.94807842
+Test  loss: 10.86232724 | AUC_ROC: 0.64071683
+Epoch 050
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.83626957 | AUC_ROC: 0.94060559
+Test  loss: 11.04310002 | AUC_ROC: 0.65526544
+Epoch 051
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.65891192 | AUC_ROC: 0.96079193
+Test  loss: 13.09653732 | AUC_ROC: 0.68638597
+Epoch 052
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.56960507 | AUC_ROC: 0.96098602
+Test  loss: 12.03082051 | AUC_ROC: 0.68099046
+Epoch 053
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.62170438 | AUC_ROC: 0.96118012
+Test  loss: 17.71194785 | AUC_ROC: 0.67771462
+Epoch 054
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 4.21142833 | AUC_ROC: 0.94002329
+Test  loss: 17.83051913 | AUC_ROC: 0.66740534
+Epoch 055
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.78311126 | AUC_ROC: 0.95118401
+Test  loss: 13.81728976 | AUC_ROC: 0.66191348
+Epoch 056
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.69423655 | AUC_ROC: 0.94895186
+Test  loss: 8.00161450 | AUC_ROC: 0.65940842
+Epoch 057
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.03527520 | AUC_ROC: 0.94769022
+Test  loss: 10.11069257 | AUC_ROC: 0.69149244
+Epoch 058
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.40603397 | AUC_ROC: 0.95390140
+Test  loss: 13.99013983 | AUC_ROC: 0.65372387
+Epoch 059
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.93522970 | AUC_ROC: 0.95302795
+Test  loss: 5.03449668 | AUC_ROC: 0.70276520
+Epoch 060
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.74816472 | AUC_ROC: 0.95564829
+Test  loss: 18.92660495 | AUC_ROC: 0.68339917
+Epoch 061
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.27033180 | AUC_ROC: 0.95681289
+Test  loss: 15.58310577 | AUC_ROC: 0.67299354
+Epoch 062
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.29526344 | AUC_ROC: 0.94836957
+Test  loss: 14.95876040 | AUC_ROC: 0.67212641
+Epoch 063
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.06852715 | AUC_ROC: 0.96127717
+Test  loss: 15.36911964 | AUC_ROC: 0.66355140
+Epoch 064
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.31139827 | AUC_ROC: 0.94312888
+Test  loss: 6.72820868 | AUC_ROC: 0.68108681
+Epoch 065
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.51338562 | AUC_ROC: 0.94050854
+Test  loss: 8.41931902 | AUC_ROC: 0.65671067
+Epoch 066
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.43055392 | AUC_ROC: 0.94953416
+Test  loss: 13.39604405 | AUC_ROC: 0.68339917
+Epoch 067
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.03043236 | AUC_ROC: 0.94798137
+Test  loss: 14.78720542 | AUC_ROC: 0.67347529
+Epoch 068
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.89733584 | AUC_ROC: 0.95768634
+Test  loss: 14.62413311 | AUC_ROC: 0.66441854
+Epoch 069
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.70984170 | AUC_ROC: 0.95438665
+Test  loss: 15.48444448 | AUC_ROC: 0.65767415
+Epoch 070
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.01604247 | AUC_ROC: 0.94322593
+Test  loss: 15.02096190 | AUC_ROC: 0.67116293
+Epoch 071
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.20084600 | AUC_ROC: 0.95050466
+Test  loss: 7.93986750 | AUC_ROC: 0.66509298
+Epoch 072
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.64845384 | AUC_ROC: 0.94613742
+Test  loss: 17.29221426 | AUC_ROC: 0.69264862
+Epoch 073
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39868670 | AUC_ROC: 0.95254270
+Test  loss: 10.28707545 | AUC_ROC: 0.66730899
+Epoch 074
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.67593605 | AUC_ROC: 0.94235248
+Test  loss: 18.45154476 | AUC_ROC: 0.64900279
+Epoch 075
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.00687343 | AUC_ROC: 0.92643634
+Test  loss: 14.75189584 | AUC_ROC: 0.63243087
+Epoch 076
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.82533344 | AUC_ROC: 0.95914208
+Test  loss: 25.81818199 | AUC_ROC: 0.63917526
+Epoch 077
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.38673292 | AUC_ROC: 0.94904891
+Test  loss: 15.71123573 | AUC_ROC: 0.62876963
+Epoch 078
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.00539794 | AUC_ROC: 0.92274845
+Test  loss: 11.72093453 | AUC_ROC: 0.63927161
+Epoch 079
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.49329985 | AUC_ROC: 0.95205745
+Test  loss: 17.11013331 | AUC_ROC: 0.62559013
+Epoch 080
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.08481279 | AUC_ROC: 0.94079969
+Test  loss: 17.20202037 | AUC_ROC: 0.64977358
+Epoch 081
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.50815344 | AUC_ROC: 0.92362189
+Test  loss: 6.85075164 | AUC_ROC: 0.63387610
+Epoch 082
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.70885567 | AUC_ROC: 0.95050466
+Test  loss: 10.85269771 | AUC_ROC: 0.66422584
+Epoch 083
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.06411385 | AUC_ROC: 0.95516304
+Test  loss: 10.25774125 | AUC_ROC: 0.68600058
+Epoch 084
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.45424578 | AUC_ROC: 0.94419643
+Test  loss: 12.41594407 | AUC_ROC: 0.68590423
+Epoch 085
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.18406676 | AUC_ROC: 0.96098602
+Test  loss: 14.72049270 | AUC_ROC: 0.67675113
+Epoch 086
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.81019500 | AUC_ROC: 0.95060171
+Test  loss: 18.10709912 | AUC_ROC: 0.67569130
+Epoch 087
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.73664297 | AUC_ROC: 0.95642469
+Test  loss: 12.20747846 | AUC_ROC: 0.67482416
+Epoch 088
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.02785477 | AUC_ROC: 0.95681289
+Test  loss: 20.82753481 | AUC_ROC: 0.66200983
+Epoch 089
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.04597609 | AUC_ROC: 0.95923913
+Test  loss: 24.03203242 | AUC_ROC: 0.67135562
+Epoch 090
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.83994161 | AUC_ROC: 0.93575311
+Test  loss: 10.46028117 | AUC_ROC: 0.68224299
+Epoch 091
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.34637168 | AUC_ROC: 0.94041149
+Test  loss: 9.21372632 | AUC_ROC: 0.67029579
+Epoch 092
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.57903426 | AUC_ROC: 0.94283773
+Test  loss: 13.26900312 | AUC_ROC: 0.67125927
+Epoch 093
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.30110497 | AUC_ROC: 0.95623059
+Test  loss: 11.16460793 | AUC_ROC: 0.65170055
+Epoch 094
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.78137895 | AUC_ROC: 0.95341615
+Test  loss: 14.27666398 | AUC_ROC: 0.67077753
+Epoch 095
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.25995904 | AUC_ROC: 0.95293090
+Test  loss: 16.03341171 | AUC_ROC: 0.65295308
+Epoch 096
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.94505096 | AUC_ROC: 0.95322205
+Test  loss: 16.73052747 | AUC_ROC: 0.65767415
+Epoch 097
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.48955738 | AUC_ROC: 0.95739519
+Test  loss: 13.78689017 | AUC_ROC: 0.66066095
+Epoch 098
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 9.16612171 | AUC_ROC: 0.94526398
+Test  loss: 30.35772174 | AUC_ROC: 0.69525002
+Epoch 099
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.16381671 | AUC_ROC: 0.95904503
+Test  loss: 7.30132641 | AUC_ROC: 0.66085365
+Epoch 100
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.47900980 | AUC_ROC: 0.94477873
+Test  loss: 14.15559810 | AUC_ROC: 0.67520956
+
+'roc_best_model.pth' | Epoch: 059 | AUC_ROC: 0.95302795
+
+=======Test=======
+roc_best_model.pth
+Train set:
+AUC_ROC: 0.99048060
+Valid set:
+AUC_ROC: 0.95302795
+Test set:
+AUC_ROC: 0.70276520
+
+=======Finish=======
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.07110027 | AUC_ROC: 0.94574922
+Test  loss: 5.14329774 | AUC_ROC: 0.64379998
+Epoch 002
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.13901766 | AUC_ROC: 0.88781056
+Test  loss: 2.73105110 | AUC_ROC: 0.62462665
+Epoch 003
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.06426734 | AUC_ROC: 0.92915373
+Test  loss: 7.53039891 | AUC_ROC: 0.66913961
+Epoch 004
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.80131605 | AUC_ROC: 0.93594720
+Test  loss: 2.59959544 | AUC_ROC: 0.65834859
+Epoch 005
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.06519254 | AUC_ROC: 0.95157220
+Test  loss: 5.47805537 | AUC_ROC: 0.68253204
+Epoch 006
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.66469151 | AUC_ROC: 0.96001553
+Test  loss: 2.71544559 | AUC_ROC: 0.70035649
+Epoch 007
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.19768348 | AUC_ROC: 0.93497671
+Test  loss: 4.74469754 | AUC_ROC: 0.69341940
+Epoch 008
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.84805997 | AUC_ROC: 0.94710792
+Test  loss: 13.13085917 | AUC_ROC: 0.70825706
+Epoch 009
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.73415151 | AUC_ROC: 0.96389752
+Test  loss: 3.95091001 | AUC_ROC: 0.69891126
+Epoch 010
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.92295289 | AUC_ROC: 0.94778727
+Test  loss: 3.70695261 | AUC_ROC: 0.62125446
+Epoch 011
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.20395051 | AUC_ROC: 0.95846273
+Test  loss: 9.18956072 | AUC_ROC: 0.67029579
+Epoch 012
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.93862051 | AUC_ROC: 0.93604425
+Test  loss: 6.92307673 | AUC_ROC: 0.64505251
+Epoch 013
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.74981776 | AUC_ROC: 0.95351320
+Test  loss: 4.12866138 | AUC_ROC: 0.65160420
+Epoch 014
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.70471121 | AUC_ROC: 0.96457686
+Test  loss: 3.76300498 | AUC_ROC: 0.68600058
+Epoch 015
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.97993158 | AUC_ROC: 0.95108696
+Test  loss: 6.30414309 | AUC_ROC: 0.68253204
+Epoch 016
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.23074590 | AUC_ROC: 0.95758929
+Test  loss: 7.15642016 | AUC_ROC: 0.65661432
+Epoch 017
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.45740532 | AUC_ROC: 0.95322205
+Test  loss: 9.54406091 | AUC_ROC: 0.66605646
+Epoch 018
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.75853214 | AUC_ROC: 0.96302407
+Test  loss: 5.01365709 | AUC_ROC: 0.69139609
+Epoch 019
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.42534937 | AUC_ROC: 0.94293478
+Test  loss: 6.42808315 | AUC_ROC: 0.69659890
+Epoch 020
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.01267727 | AUC_ROC: 0.96680901
+Test  loss: 7.65243799 | AUC_ROC: 0.65709606
+Epoch 021
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.78919462 | AUC_ROC: 0.95516304
+Test  loss: 10.03869387 | AUC_ROC: 0.67607669
+Epoch 022
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.92119913 | AUC_ROC: 0.95331910
+Test  loss: 6.45280082 | AUC_ROC: 0.66258792
+Epoch 023
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.88172176 | AUC_ROC: 0.95923913
+Test  loss: 13.80976060 | AUC_ROC: 0.66856152
+Epoch 024
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.95902006 | AUC_ROC: 0.95826863
+Test  loss: 4.61472731 | AUC_ROC: 0.67318624
+Epoch 025
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02225427 | AUC_ROC: 0.94565217
+Test  loss: 5.70085934 | AUC_ROC: 0.65834859
+Epoch 026
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09172559 | AUC_ROC: 0.94934006
+Test  loss: 4.75797623 | AUC_ROC: 0.67694383
+Epoch 027
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.30866702 | AUC_ROC: 0.94671972
+Test  loss: 7.22487671 | AUC_ROC: 0.63773003
+Epoch 028
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.97483532 | AUC_ROC: 0.95118401
+Test  loss: 4.96241663 | AUC_ROC: 0.70883515
+Epoch 029
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.45174151 | AUC_ROC: 0.95807453
+Test  loss: 10.84683306 | AUC_ROC: 0.69091435
+Epoch 030
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.83185898 | AUC_ROC: 0.95273680
+Test  loss: 9.27671152 | AUC_ROC: 0.68079776
+Epoch 031
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.99441180 | AUC_ROC: 0.94109084
+Test  loss: 10.71655674 | AUC_ROC: 0.66750169
+Epoch 032
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.08175643 | AUC_ROC: 0.95817158
+Test  loss: 7.09547588 | AUC_ROC: 0.67559495
+Epoch 033
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.78002329 | AUC_ROC: 0.95826863
+Test  loss: 10.65034430 | AUC_ROC: 0.68600058
+Epoch 034
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.22911876 | AUC_ROC: 0.95962733
+Test  loss: 7.76692203 | AUC_ROC: 0.69457559
+Epoch 035
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.54256241 | AUC_ROC: 0.95720109
+Test  loss: 11.82065712 | AUC_ROC: 0.67183736
+Epoch 036
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.22274960 | AUC_ROC: 0.95021351
+Test  loss: 12.85849646 | AUC_ROC: 0.67376433
+Epoch 037
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.43806214 | AUC_ROC: 0.97321429
+Test  loss: 11.81159684 | AUC_ROC: 0.67106658
+Epoch 038
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.88049379 | AUC_ROC: 0.96263587
+Test  loss: 7.14826696 | AUC_ROC: 0.68927642
+Epoch 039
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.29056976 | AUC_ROC: 0.96098602
+Test  loss: 15.73543624 | AUC_ROC: 0.66663455
+Epoch 040
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.31661540 | AUC_ROC: 0.95205745
+Test  loss: 9.60366406 | AUC_ROC: 0.68840929
+Epoch 041
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.03776841 | AUC_ROC: 0.94904891
+Test  loss: 6.09910635 | AUC_ROC: 0.65613258
+Epoch 042
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.78128402 | AUC_ROC: 0.94089674
+Test  loss: 11.33750241 | AUC_ROC: 0.69688795
+Epoch 043
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.26689226 | AUC_ROC: 0.96855590
+Test  loss: 17.48585074 | AUC_ROC: 0.67993063
+Epoch 044
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.96983821 | AUC_ROC: 0.96486801
+Test  loss: 6.55550371 | AUC_ROC: 0.70151267
+Epoch 045
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.31460262 | AUC_ROC: 0.95564829
+Test  loss: 10.33333172 | AUC_ROC: 0.70546295
+Epoch 046
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.71293685 | AUC_ROC: 0.94429348
+Test  loss: 10.44379248 | AUC_ROC: 0.69602081
+Epoch 047
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.85255128 | AUC_ROC: 0.95157220
+Test  loss: 12.16108060 | AUC_ROC: 0.69814048
+Epoch 048
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.14984809 | AUC_ROC: 0.96612966
+Test  loss: 13.55178479 | AUC_ROC: 0.67713653
+Epoch 049
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.70587591 | AUC_ROC: 0.95254270
+Test  loss: 13.92266165 | AUC_ROC: 0.67925619
+Epoch 050
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.44101796 | AUC_ROC: 0.95069876
+Test  loss: 7.00176702 | AUC_ROC: 0.69043260
+Epoch 051
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.65626992 | AUC_ROC: 0.96069488
+Test  loss: 12.90785578 | AUC_ROC: 0.69255227
+Epoch 052
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.66055268 | AUC_ROC: 0.96079193
+Test  loss: 15.27114139 | AUC_ROC: 0.66682725
+Epoch 053
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.74337390 | AUC_ROC: 0.94206134
+Test  loss: 9.70007624 | AUC_ROC: 0.66769438
+Epoch 054
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.56573787 | AUC_ROC: 0.95642469
+Test  loss: 12.90095384 | AUC_ROC: 0.66518932
+Epoch 055
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.12367550 | AUC_ROC: 0.95050466
+Test  loss: 9.84844337 | AUC_ROC: 0.65950477
+Epoch 056
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.27867977 | AUC_ROC: 0.96224767
+Test  loss: 8.92664759 | AUC_ROC: 0.67145197
+Epoch 057
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.55782696 | AUC_ROC: 0.95380435
+Test  loss: 13.20076220 | AUC_ROC: 0.68002698
+Epoch 058
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.49376541 | AUC_ROC: 0.96700311
+Test  loss: 16.24624286 | AUC_ROC: 0.66403314
+Epoch 059
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.58447980 | AUC_ROC: 0.96807065
+Test  loss: 17.79794516 | AUC_ROC: 0.67366798
+Epoch 060
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.65355143 | AUC_ROC: 0.93711180
+Test  loss: 14.66226646 | AUC_ROC: 0.68831294
+Epoch 061
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.60200456 | AUC_ROC: 0.94041149
+Test  loss: 21.69555105 | AUC_ROC: 0.68812024
+Epoch 062
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.62434284 | AUC_ROC: 0.92769798
+Test  loss: 10.66319002 | AUC_ROC: 0.70199441
+Epoch 063
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39761023 | AUC_ROC: 0.92197205
+Test  loss: 4.44489656 | AUC_ROC: 0.71577223
+Epoch 064
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.86295551 | AUC_ROC: 0.94807842
+Test  loss: 10.16190239 | AUC_ROC: 0.68918008
+Epoch 065
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.55252151 | AUC_ROC: 0.95458075
+Test  loss: 12.58704431 | AUC_ROC: 0.68551884
+Epoch 066
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 5.94870857 | AUC_ROC: 0.93652950
+Test  loss: 27.60635226 | AUC_ROC: 0.67414973
+Epoch 067
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.59582116 | AUC_ROC: 0.94536102
+Test  loss: 13.08274569 | AUC_ROC: 0.66721264
+Epoch 068
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.23443013 | AUC_ROC: 0.94429348
+Test  loss: 16.21677126 | AUC_ROC: 0.67790731
+Epoch 069
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.81134012 | AUC_ROC: 0.96263587
+Test  loss: 9.92795638 | AUC_ROC: 0.69659890
+Epoch 070
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.84619167 | AUC_ROC: 0.94633152
+Test  loss: 15.50420897 | AUC_ROC: 0.65854129
+Epoch 071
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.71475835 | AUC_ROC: 0.95341615
+Test  loss: 15.84848050 | AUC_ROC: 0.66904326
+Epoch 072
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.38263428 | AUC_ROC: 0.95399845
+Test  loss: 17.58265018 | AUC_ROC: 0.65439830
+Epoch 073
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.88903876 | AUC_ROC: 0.94681677
+Test  loss: 19.99835689 | AUC_ROC: 0.66220252
+Epoch 074
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.21113045 | AUC_ROC: 0.95448370
+Test  loss: 13.67246240 | AUC_ROC: 0.67617304
+Epoch 075
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.87582450 | AUC_ROC: 0.95205745
+Test  loss: 16.47400825 | AUC_ROC: 0.64351094
+Epoch 076
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.02447108 | AUC_ROC: 0.95157220
+Test  loss: 16.47536152 | AUC_ROC: 0.66952500
+Epoch 077
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.80560659 | AUC_ROC: 0.95205745
+Test  loss: 11.08729717 | AUC_ROC: 0.66701994
+Epoch 078
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.61569501 | AUC_ROC: 0.94759317
+Test  loss: 14.66875138 | AUC_ROC: 0.67771462
+Epoch 079
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.32324413 | AUC_ROC: 0.95428960
+Test  loss: 23.47645412 | AUC_ROC: 0.67251180
+Epoch 080
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.36780281 | AUC_ROC: 0.95953028
+Test  loss: 32.56151881 | AUC_ROC: 0.67087388
+Epoch 081
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.51198474 | AUC_ROC: 0.95322205
+Test  loss: 23.51196871 | AUC_ROC: 0.66875422
+Epoch 082
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.58722967 | AUC_ROC: 0.95923913
+Test  loss: 10.33902546 | AUC_ROC: 0.69823682
+Epoch 083
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.28309869 | AUC_ROC: 0.95894798
+Test  loss: 15.86608778 | AUC_ROC: 0.69033626
+Epoch 084
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.75143987 | AUC_ROC: 0.95826863
+Test  loss: 21.43459947 | AUC_ROC: 0.66345505
+Epoch 085
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.56911498 | AUC_ROC: 0.95652174
+Test  loss: 20.42163277 | AUC_ROC: 0.66962135
+Epoch 086
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.89968761 | AUC_ROC: 0.95166925
+Test  loss: 16.22952448 | AUC_ROC: 0.69158879
+Epoch 087
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.07128648 | AUC_ROC: 0.95302795
+Test  loss: 24.00648253 | AUC_ROC: 0.66133539
+Epoch 088
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.13303806 | AUC_ROC: 0.95826863
+Test  loss: 17.73253999 | AUC_ROC: 0.69178148
+Epoch 089
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.81549094 | AUC_ROC: 0.94924301
+Test  loss: 18.26132447 | AUC_ROC: 0.67867810
+Epoch 090
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.30348284 | AUC_ROC: 0.96001553
+Test  loss: 12.57526936 | AUC_ROC: 0.69968205
+Epoch 091
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.99921075 | AUC_ROC: 0.95380435
+Test  loss: 15.07100895 | AUC_ROC: 0.67347529
+Epoch 092
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.04104308 | AUC_ROC: 0.96234472
+Test  loss: 16.83137485 | AUC_ROC: 0.66104634
+Epoch 093
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.23607161 | AUC_ROC: 0.95098991
+Test  loss: 25.31678956 | AUC_ROC: 0.66114269
+Epoch 094
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.44684179 | AUC_ROC: 0.94642857
+Test  loss: 25.70900944 | AUC_ROC: 0.65121881
+Epoch 095
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.41967621 | AUC_ROC: 0.94623447
+Test  loss: 29.33174964 | AUC_ROC: 0.65285673
+Epoch 096
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.08441548 | AUC_ROC: 0.94982531
+Test  loss: 14.04228851 | AUC_ROC: 0.64081318
+Epoch 097
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.67392512 | AUC_ROC: 0.93517081
+Test  loss: 22.34307320 | AUC_ROC: 0.62279603
+Epoch 098
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.05566901 | AUC_ROC: 0.95040761
+Test  loss: 11.97492579 | AUC_ROC: 0.66066095
+Epoch 099
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.55448397 | AUC_ROC: 0.94691382
+Test  loss: 18.48720482 | AUC_ROC: 0.64553425
+Epoch 100
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.70350138 | AUC_ROC: 0.95380435
+Test  loss: 21.92015852 | AUC_ROC: 0.64659408
+
+'roc_best_model.pth' | Epoch: 063 | AUC_ROC: 0.92197205
+
+=======Test=======
+roc_best_model.pth
+Train set:
+AUC_ROC: 0.98631747
+Valid set:
+AUC_ROC: 0.92197205
+Test set:
+AUC_ROC: 0.71577223
+
+=======Finish=======
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.28395826 | AUC_ROC: 0.93361801
+Test  loss: 3.04195275 | AUC_ROC: 0.67964158
+Epoch 002
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.66702440 | AUC_ROC: 0.90819099
+Test  loss: 6.27384672 | AUC_ROC: 0.66769438
+Epoch 003
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.90181633 | AUC_ROC: 0.95312500
+Test  loss: 3.35473871 | AUC_ROC: 0.68378456
+Epoch 004
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.48186513 | AUC_ROC: 0.93507376
+Test  loss: 4.68555352 | AUC_ROC: 0.63599576
+Epoch 005
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.61810388 | AUC_ROC: 0.95885093
+Test  loss: 2.34310028 | AUC_ROC: 0.71374892
+Epoch 006
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.81986516 | AUC_ROC: 0.92643634
+Test  loss: 5.58756471 | AUC_ROC: 0.64765392
+Epoch 007
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.89695905 | AUC_ROC: 0.95040761
+Test  loss: 3.84096272 | AUC_ROC: 0.68224299
+Epoch 008
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.78940416 | AUC_ROC: 0.93750000
+Test  loss: 3.00335555 | AUC_ROC: 0.65632527
+Epoch 009
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.12043291 | AUC_ROC: 0.95855978
+Test  loss: 5.21542103 | AUC_ROC: 0.69987475
+Epoch 010
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.64838258 | AUC_ROC: 0.95778339
+Test  loss: 3.56127228 | AUC_ROC: 0.66114269
+Epoch 011
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.94856321 | AUC_ROC: 0.94836957
+Test  loss: 4.29928551 | AUC_ROC: 0.65863763
+Epoch 012
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.73760420 | AUC_ROC: 0.94778727
+Test  loss: 3.12105206 | AUC_ROC: 0.67675113
+Epoch 013
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.14941554 | AUC_ROC: 0.95700699
+Test  loss: 5.37275183 | AUC_ROC: 0.65632527
+Epoch 014
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.88842973 | AUC_ROC: 0.94671972
+Test  loss: 4.35243089 | AUC_ROC: 0.68368822
+Epoch 015
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.78242550 | AUC_ROC: 0.95496894
+Test  loss: 4.06129755 | AUC_ROC: 0.69062530
+Epoch 016
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39536892 | AUC_ROC: 0.95244565
+Test  loss: 7.46890121 | AUC_ROC: 0.65459100
+Epoch 017
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.69623969 | AUC_ROC: 0.96807065
+Test  loss: 4.74330999 | AUC_ROC: 0.68368822
+Epoch 018
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.99346034 | AUC_ROC: 0.94739907
+Test  loss: 4.10122732 | AUC_ROC: 0.67337894
+Epoch 019
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.94968609 | AUC_ROC: 0.94827252
+Test  loss: 5.91521924 | AUC_ROC: 0.63695924
+Epoch 020
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.83700308 | AUC_ROC: 0.96001553
+Test  loss: 5.50887319 | AUC_ROC: 0.63194913
+Epoch 021
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.83792006 | AUC_ROC: 0.96020963
+Test  loss: 4.64401364 | AUC_ROC: 0.65834859
+Epoch 022
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.93304273 | AUC_ROC: 0.97350543
+Test  loss: 7.35692160 | AUC_ROC: 0.68744580
+Epoch 023
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.98186446 | AUC_ROC: 0.96312112
+Test  loss: 7.88540941 | AUC_ROC: 0.67569130
+Epoch 024
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.21694376 | AUC_ROC: 0.95370730
+Test  loss: 10.21368304 | AUC_ROC: 0.65757780
+Epoch 025
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.20572931 | AUC_ROC: 0.95157220
+Test  loss: 8.20714624 | AUC_ROC: 0.67135562
+Epoch 026
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.27458270 | AUC_ROC: 0.95768634
+Test  loss: 9.93354058 | AUC_ROC: 0.66297331
+Epoch 027
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.72506364 | AUC_ROC: 0.96816770
+Test  loss: 5.35874639 | AUC_ROC: 0.68590423
+Epoch 028
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.04140607 | AUC_ROC: 0.95817158
+Test  loss: 6.83572606 | AUC_ROC: 0.68272473
+Epoch 029
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.81001020 | AUC_ROC: 0.95972438
+Test  loss: 5.72805572 | AUC_ROC: 0.67395703
+Epoch 030
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.30189506 | AUC_ROC: 0.96457686
+Test  loss: 10.11166869 | AUC_ROC: 0.66942865
+Epoch 031
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.87427042 | AUC_ROC: 0.95050466
+Test  loss: 7.77631111 | AUC_ROC: 0.66615281
+Epoch 032
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.98996467 | AUC_ROC: 0.93517081
+Test  loss: 6.12428243 | AUC_ROC: 0.62115811
+Epoch 033
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.27548044 | AUC_ROC: 0.95069876
+Test  loss: 6.38501322 | AUC_ROC: 0.69197418
+Epoch 034
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.22451678 | AUC_ROC: 0.96050078
+Test  loss: 8.57784268 | AUC_ROC: 0.66750169
+Epoch 035
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.95675341 | AUC_ROC: 0.95933618
+Test  loss: 8.66775901 | AUC_ROC: 0.68060507
+Epoch 036
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.10556625 | AUC_ROC: 0.96069488
+Test  loss: 9.44264473 | AUC_ROC: 0.62115811
+Epoch 037
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.35845358 | AUC_ROC: 0.96350932
+Test  loss: 9.34198724 | AUC_ROC: 0.67366798
+Epoch 038
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.10142675 | AUC_ROC: 0.96380047
+Test  loss: 8.78176137 | AUC_ROC: 0.66046825
+Epoch 039
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.14899307 | AUC_ROC: 0.91828416
+Test  loss: 7.51585470 | AUC_ROC: 0.66191348
+Epoch 040
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.32720855 | AUC_ROC: 0.95147516
+Test  loss: 9.38838318 | AUC_ROC: 0.67704018
+Epoch 041
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.37823552 | AUC_ROC: 0.93565606
+Test  loss: 7.97539275 | AUC_ROC: 0.67463147
+Epoch 042
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.82539257 | AUC_ROC: 0.95642469
+Test  loss: 7.65308397 | AUC_ROC: 0.65931207
+Epoch 043
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.90466832 | AUC_ROC: 0.95962733
+Test  loss: 12.70366519 | AUC_ROC: 0.66885056
+Epoch 044
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.07971687 | AUC_ROC: 0.96011258
+Test  loss: 9.80423202 | AUC_ROC: 0.65160420
+Epoch 045
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.88109155 | AUC_ROC: 0.96865295
+Test  loss: 15.21904996 | AUC_ROC: 0.66673090
+Epoch 046
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.66304485 | AUC_ROC: 0.95885093
+Test  loss: 17.94982631 | AUC_ROC: 0.63223817
+Epoch 047
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.18925804 | AUC_ROC: 0.95807453
+Test  loss: 13.10944986 | AUC_ROC: 0.67318624
+Epoch 048
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.77424297 | AUC_ROC: 0.95593944
+Test  loss: 16.39926767 | AUC_ROC: 0.65516909
+Epoch 049
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.73392445 | AUC_ROC: 0.93361801
+Test  loss: 8.01855585 | AUC_ROC: 0.66701994
+Epoch 050
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.14188515 | AUC_ROC: 0.95147516
+Test  loss: 12.74008625 | AUC_ROC: 0.66913961
+Epoch 051
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02254533 | AUC_ROC: 0.95642469
+Test  loss: 11.15244464 | AUC_ROC: 0.67713653
+Epoch 052
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.73845557 | AUC_ROC: 0.96108307
+Test  loss: 7.13918373 | AUC_ROC: 0.65439830
+Epoch 053
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.36033205 | AUC_ROC: 0.94992236
+Test  loss: 7.31582986 | AUC_ROC: 0.65854129
+Epoch 054
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.18878007 | AUC_ROC: 0.95487189
+Test  loss: 6.89092469 | AUC_ROC: 0.68368822
+Epoch 055
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.90546329 | AUC_ROC: 0.95293090
+Test  loss: 3.81915767 | AUC_ROC: 0.70902784
+Epoch 056
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.16507709 | AUC_ROC: 0.96185947
+Test  loss: 6.97601438 | AUC_ROC: 0.69062530
+Epoch 057
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.94305964 | AUC_ROC: 0.96253882
+Test  loss: 11.15461097 | AUC_ROC: 0.70671548
+Epoch 058
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.87664644 | AUC_ROC: 0.94972826
+Test  loss: 14.02247085 | AUC_ROC: 0.68089411
+Epoch 059
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.48295255 | AUC_ROC: 0.96011258
+Test  loss: 13.11069877 | AUC_ROC: 0.69736969
+Epoch 060
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.80045478 | AUC_ROC: 0.94555512
+Test  loss: 18.39749500 | AUC_ROC: 0.67520956
+Epoch 061
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.12934586 | AUC_ROC: 0.93934394
+Test  loss: 7.71670253 | AUC_ROC: 0.65131516
+Epoch 062
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.27991371 | AUC_ROC: 0.95817158
+Test  loss: 18.76084774 | AUC_ROC: 0.62944407
+Epoch 063
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.43450770 | AUC_ROC: 0.96195652
+Test  loss: 9.15849229 | AUC_ROC: 0.70767897
+Epoch 064
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.35837980 | AUC_ROC: 0.95438665
+Test  loss: 10.79824672 | AUC_ROC: 0.67453512
+Epoch 065
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.21865916 | AUC_ROC: 0.94274068
+Test  loss: 8.62567527 | AUC_ROC: 0.65276038
+Epoch 066
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02584715 | AUC_ROC: 0.91692547
+Test  loss: 11.45167136 | AUC_ROC: 0.67482416
+Epoch 067
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.15781076 | AUC_ROC: 0.94380823
+Test  loss: 9.74519389 | AUC_ROC: 0.67848540
+Epoch 068
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.47281303 | AUC_ROC: 0.94322593
+Test  loss: 15.20367490 | AUC_ROC: 0.65420561
+Epoch 069
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.47521969 | AUC_ROC: 0.95982143
+Test  loss: 24.57940578 | AUC_ROC: 0.65218229
+Epoch 070
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.58665591 | AUC_ROC: 0.94788432
+Test  loss: 18.91824899 | AUC_ROC: 0.63898256
+Epoch 071
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39045077 | AUC_ROC: 0.95196040
+Test  loss: 15.87191296 | AUC_ROC: 0.66933231
+Epoch 072
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.29385930 | AUC_ROC: 0.94730202
+Test  loss: 13.35601963 | AUC_ROC: 0.64620869
+Epoch 073
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.39617501 | AUC_ROC: 0.94497283
+Test  loss: 16.48944228 | AUC_ROC: 0.66499663
+Epoch 074
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.22962269 | AUC_ROC: 0.95050466
+Test  loss: 11.20109572 | AUC_ROC: 0.67829271
+Epoch 075
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.22542335 | AUC_ROC: 0.95079581
+Test  loss: 8.71167977 | AUC_ROC: 0.67337894
+Epoch 076
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.03391971 | AUC_ROC: 0.95477484
+Test  loss: 17.12587670 | AUC_ROC: 0.66326236
+Epoch 077
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.58610550 | AUC_ROC: 0.94710792
+Test  loss: 19.46818801 | AUC_ROC: 0.68465170
+Epoch 078
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09053763 | AUC_ROC: 0.94846661
+Test  loss: 5.02350742 | AUC_ROC: 0.68648232
+Epoch 079
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.59227452 | AUC_ROC: 0.95341615
+Test  loss: 13.19202995 | AUC_ROC: 0.65276038
+Epoch 080
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.07536095 | AUC_ROC: 0.94429348
+Test  loss: 10.98931081 | AUC_ROC: 0.64746122
+Epoch 081
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.92991552 | AUC_ROC: 0.96088898
+Test  loss: 15.28760379 | AUC_ROC: 0.69023991
+Epoch 082
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.37609722 | AUC_ROC: 0.94613742
+Test  loss: 10.85080593 | AUC_ROC: 0.66490028
+Epoch 083
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.97629125 | AUC_ROC: 0.95419255
+Test  loss: 8.45902422 | AUC_ROC: 0.67742557
+Epoch 084
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.77990203 | AUC_ROC: 0.94652562
+Test  loss: 13.09223747 | AUC_ROC: 0.66095000
+Epoch 085
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.99434356 | AUC_ROC: 0.94439053
+Test  loss: 15.67240906 | AUC_ROC: 0.65314578
+Epoch 086
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.38777453 | AUC_ROC: 0.95894798
+Test  loss: 22.46463169 | AUC_ROC: 0.66287696
+Epoch 087
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.24679198 | AUC_ROC: 0.92527174
+Test  loss: 12.99105089 | AUC_ROC: 0.63281626
+Epoch 088
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.76931281 | AUC_ROC: 0.95419255
+Test  loss: 18.65624911 | AUC_ROC: 0.67626939
+Epoch 089
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.64880040 | AUC_ROC: 0.95477484
+Test  loss: 15.49747297 | AUC_ROC: 0.67299354
+Epoch 090
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.68036215 | AUC_ROC: 0.95380435
+Test  loss: 20.81933539 | AUC_ROC: 0.67183736
+Epoch 091
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.20620464 | AUC_ROC: 0.95108696
+Test  loss: 20.40626396 | AUC_ROC: 0.68388091
+Epoch 092
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.88666351 | AUC_ROC: 0.96224767
+Test  loss: 15.60400588 | AUC_ROC: 0.64129492
+Epoch 093
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.90872709 | AUC_ROC: 0.93905280
+Test  loss: 7.72721958 | AUC_ROC: 0.66384045
+Epoch 094
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.23993720 | AUC_ROC: 0.96583851
+Test  loss: 8.52260862 | AUC_ROC: 0.69640620
+Epoch 095
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.61038905 | AUC_ROC: 0.95574534
+Test  loss: 14.75471067 | AUC_ROC: 0.69553907
+Epoch 096
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.10449090 | AUC_ROC: 0.96292702
+Test  loss: 16.83686795 | AUC_ROC: 0.68031602
+Epoch 097
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.18436870 | AUC_ROC: 0.95496894
+Test  loss: 16.05859004 | AUC_ROC: 0.64919549
+Epoch 098
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.16996030 | AUC_ROC: 0.95807453
+Test  loss: 12.47708627 | AUC_ROC: 0.68898738
+Epoch 099
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.98348912 | AUC_ROC: 0.95574534
+Test  loss: 13.56308222 | AUC_ROC: 0.68118316
+Epoch 100
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.52676084 | AUC_ROC: 0.96215062
+Test  loss: 16.17537154 | AUC_ROC: 0.67935254
+
+'roc_best_model.pth' | Epoch: 005 | AUC_ROC: 0.95885093
+
+=======Test=======
+roc_best_model.pth
+Train set:
+AUC_ROC: 0.95087428
+Valid set:
+AUC_ROC: 0.95885093
+Test set:
+AUC_ROC: 0.71374892
+
+=======Finish=======
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.48883156 | AUC_ROC: 0.87655280
+Test  loss: 2.51721089 | AUC_ROC: 0.65931207
+Epoch 002
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.21529933 | AUC_ROC: 0.92216615
+Test  loss: 5.85430993 | AUC_ROC: 0.63965700
+Epoch 003
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.82852719 | AUC_ROC: 0.94604037
+Test  loss: 2.20897537 | AUC_ROC: 0.67183736
+Epoch 004
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.74148922 | AUC_ROC: 0.94904891
+Test  loss: 3.14470049 | AUC_ROC: 0.65285673
+Epoch 005
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.98347920 | AUC_ROC: 0.93827640
+Test  loss: 4.49192277 | AUC_ROC: 0.68012333
+Epoch 006
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.82465168 | AUC_ROC: 0.93565606
+Test  loss: 2.86378305 | AUC_ROC: 0.63715194
+Epoch 007
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.79123279 | AUC_ROC: 0.95613354
+Test  loss: 3.80724498 | AUC_ROC: 0.69062530
+Epoch 008
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.16209500 | AUC_ROC: 0.96156832
+Test  loss: 6.62857434 | AUC_ROC: 0.66037190
+Epoch 009
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.49861089 | AUC_ROC: 0.94419643
+Test  loss: 8.19180288 | AUC_ROC: 0.66547837
+Epoch 010
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.94459063 | AUC_ROC: 0.95399845
+Test  loss: 4.86468422 | AUC_ROC: 0.66933231
+Epoch 011
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.32026765 | AUC_ROC: 0.95855978
+Test  loss: 7.14337495 | AUC_ROC: 0.69833317
+Epoch 012
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.30044531 | AUC_ROC: 0.94613742
+Test  loss: 6.62297651 | AUC_ROC: 0.66913961
+Epoch 013
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.38363568 | AUC_ROC: 0.94536102
+Test  loss: 9.57029201 | AUC_ROC: 0.65883033
+Epoch 014
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.42393060 | AUC_ROC: 0.95652174
+Test  loss: 8.34709866 | AUC_ROC: 0.65613258
+Epoch 015
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.80483596 | AUC_ROC: 0.96409161
+Test  loss: 6.71373068 | AUC_ROC: 0.64572695
+Epoch 016
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.56585185 | AUC_ROC: 0.92730978
+Test  loss: 6.77545047 | AUC_ROC: 0.66037190
+Epoch 017
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.77848712 | AUC_ROC: 0.93225932
+Test  loss: 9.53402989 | AUC_ROC: 0.63763368
+Epoch 018
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.91763456 | AUC_ROC: 0.94749612
+Test  loss: 4.96305738 | AUC_ROC: 0.64389633
+Epoch 019
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.44004345 | AUC_ROC: 0.92711568
+Test  loss: 6.30622283 | AUC_ROC: 0.62992581
+Epoch 020
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.57392784 | AUC_ROC: 0.94312888
+Test  loss: 7.62391250 | AUC_ROC: 0.64726852
+Epoch 021
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.80437738 | AUC_ROC: 0.95506599
+Test  loss: 3.78796090 | AUC_ROC: 0.68445900
+Epoch 022
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.88383725 | AUC_ROC: 0.95894798
+Test  loss: 12.02683990 | AUC_ROC: 0.64177666
+Epoch 023
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.19601570 | AUC_ROC: 0.96321817
+Test  loss: 7.42063648 | AUC_ROC: 0.67713653
+Epoch 024
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.44352474 | AUC_ROC: 0.93905280
+Test  loss: 8.29997948 | AUC_ROC: 0.64004239
+Epoch 025
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.81122025 | AUC_ROC: 0.93517081
+Test  loss: 8.21063069 | AUC_ROC: 0.65362752
+Epoch 026
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.84696646 | AUC_ROC: 0.93992624
+Test  loss: 4.33902969 | AUC_ROC: 0.66518932
+Epoch 027
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.14639066 | AUC_ROC: 0.94730202
+Test  loss: 5.80886589 | AUC_ROC: 0.66393680
+Epoch 028
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.42282647 | AUC_ROC: 0.95293090
+Test  loss: 7.29133323 | AUC_ROC: 0.66885056
+Epoch 029
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.26882494 | AUC_ROC: 0.95361025
+Test  loss: 10.28002371 | AUC_ROC: 0.64697948
+Epoch 030
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.46803579 | AUC_ROC: 0.96661491
+Test  loss: 12.07627688 | AUC_ROC: 0.66172078
+Epoch 031
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.01852305 | AUC_ROC: 0.95031056
+Test  loss: 7.47296361 | AUC_ROC: 0.66403314
+Epoch 032
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.18698683 | AUC_ROC: 0.96554736
+Test  loss: 11.40785994 | AUC_ROC: 0.64813566
+Epoch 033
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.90597512 | AUC_ROC: 0.95933618
+Test  loss: 6.95965869 | AUC_ROC: 0.66316601
+Epoch 034
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.78914625 | AUC_ROC: 0.95972438
+Test  loss: 10.85728448 | AUC_ROC: 0.66384045
+Epoch 035
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.86036994 | AUC_ROC: 0.96059783
+Test  loss: 9.62602288 | AUC_ROC: 0.66412949
+Epoch 036
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.49831916 | AUC_ROC: 0.96059783
+Test  loss: 9.85328136 | AUC_ROC: 0.68301378
+Epoch 037
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.32719533 | AUC_ROC: 0.94681677
+Test  loss: 12.15922465 | AUC_ROC: 0.63214182
+Epoch 038
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.30627327 | AUC_ROC: 0.96127717
+Test  loss: 8.36503485 | AUC_ROC: 0.66345505
+Epoch 039
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.97009022 | AUC_ROC: 0.96574146
+Test  loss: 7.10854408 | AUC_ROC: 0.67019944
+Epoch 040
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.86239771 | AUC_ROC: 0.96079193
+Test  loss: 6.70053176 | AUC_ROC: 0.68532614
+Epoch 041
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.08967549 | AUC_ROC: 0.96147127
+Test  loss: 9.68909768 | AUC_ROC: 0.65006263
+Epoch 042
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.52378133 | AUC_ROC: 0.96496506
+Test  loss: 15.74764660 | AUC_ROC: 0.64013874
+Epoch 043
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09030977 | AUC_ROC: 0.96195652
+Test  loss: 7.36712742 | AUC_ROC: 0.65237499
+Epoch 044
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.11797982 | AUC_ROC: 0.96166537
+Test  loss: 8.11382655 | AUC_ROC: 0.65719241
+Epoch 045
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.68839074 | AUC_ROC: 0.96739130
+Test  loss: 15.23409625 | AUC_ROC: 0.67598034
+Epoch 046
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.05418092 | AUC_ROC: 0.95603649
+Test  loss: 7.81265892 | AUC_ROC: 0.67203006
+Epoch 047
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.50740508 | AUC_ROC: 0.95351320
+Test  loss: 16.98234218 | AUC_ROC: 0.66008286
+Epoch 048
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.21290202 | AUC_ROC: 0.96671196
+Test  loss: 14.99875518 | AUC_ROC: 0.64591965
+Epoch 049
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.85357269 | AUC_ROC: 0.96302407
+Test  loss: 6.20458804 | AUC_ROC: 0.67366798
+Epoch 050
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.02293595 | AUC_ROC: 0.94885481
+Test  loss: 5.55596059 | AUC_ROC: 0.65738510
+Epoch 051
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.17386697 | AUC_ROC: 0.94060559
+Test  loss: 8.11644874 | AUC_ROC: 0.63878986
+Epoch 052
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.65315666 | AUC_ROC: 0.94992236
+Test  loss: 13.77502973 | AUC_ROC: 0.64081318
+Epoch 053
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.54894727 | AUC_ROC: 0.94138199
+Test  loss: 13.47419752 | AUC_ROC: 0.63984970
+Epoch 054
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.75767308 | AUC_ROC: 0.95923913
+Test  loss: 17.32379491 | AUC_ROC: 0.65410926
+Epoch 055
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.90902242 | AUC_ROC: 0.96680901
+Test  loss: 7.85827180 | AUC_ROC: 0.69216688
+Epoch 056
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.85350766 | AUC_ROC: 0.93963509
+Test  loss: 9.77886316 | AUC_ROC: 0.67665478
+Epoch 057
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.42207570 | AUC_ROC: 0.95293090
+Test  loss: 9.46731499 | AUC_ROC: 0.67337894
+Epoch 058
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.49210778 | AUC_ROC: 0.96001553
+Test  loss: 10.95097719 | AUC_ROC: 0.69293766
+Epoch 059
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.19975632 | AUC_ROC: 0.93856755
+Test  loss: 10.18251528 | AUC_ROC: 0.65266403
+Epoch 060
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.01749743 | AUC_ROC: 0.96690606
+Test  loss: 11.92930882 | AUC_ROC: 0.66297331
+Epoch 061
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.45159215 | AUC_ROC: 0.96428571
+Test  loss: 13.95382200 | AUC_ROC: 0.65960112
+Epoch 062
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.68516583 | AUC_ROC: 0.96923525
+Test  loss: 18.53145613 | AUC_ROC: 0.66991040
+Epoch 063
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.11924851 | AUC_ROC: 0.94351708
+Test  loss: 17.23957804 | AUC_ROC: 0.62058002
+Epoch 064
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.37137423 | AUC_ROC: 0.96011258
+Test  loss: 15.50373363 | AUC_ROC: 0.66432219
+Epoch 065
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.82579500 | AUC_ROC: 0.94147904
+Test  loss: 3.29315577 | AUC_ROC: 0.68118316
+Epoch 066
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.79394018 | AUC_ROC: 0.95642469
+Test  loss: 5.44353628 | AUC_ROC: 0.69515368
+Epoch 067
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.10189649 | AUC_ROC: 0.95254270
+Test  loss: 10.78571803 | AUC_ROC: 0.68388091
+Epoch 068
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.82187539 | AUC_ROC: 0.94769022
+Test  loss: 14.45740986 | AUC_ROC: 0.66865787
+Epoch 069
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.75549453 | AUC_ROC: 0.95555124
+Test  loss: 9.08309228 | AUC_ROC: 0.69033626
+Epoch 070
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.00560706 | AUC_ROC: 0.95496894
+Test  loss: 8.16070850 | AUC_ROC: 0.67655844
+Epoch 071
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.99355247 | AUC_ROC: 0.94361413
+Test  loss: 14.73679379 | AUC_ROC: 0.67838905
+Epoch 072
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.01411342 | AUC_ROC: 0.94749612
+Test  loss: 14.32149587 | AUC_ROC: 0.66104634
+Epoch 073
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.24284030 | AUC_ROC: 0.93895575
+Test  loss: 7.08742097 | AUC_ROC: 0.63137104
+Epoch 074
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.18822289 | AUC_ROC: 0.95564829
+Test  loss: 12.09764447 | AUC_ROC: 0.65131516
+Epoch 075
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.29751251 | AUC_ROC: 0.95428960
+Test  loss: 10.43898392 | AUC_ROC: 0.65632527
+Epoch 076
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.06605886 | AUC_ROC: 0.96185947
+Test  loss: 16.93250316 | AUC_ROC: 0.66287696
+Epoch 077
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.47594188 | AUC_ROC: 0.93934394
+Test  loss: 21.94025557 | AUC_ROC: 0.64630504
+Epoch 078
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.91417464 | AUC_ROC: 0.94807842
+Test  loss: 23.93276623 | AUC_ROC: 0.65526544
+Epoch 079
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.23330803 | AUC_ROC: 0.95283385
+Test  loss: 10.21463537 | AUC_ROC: 0.64476346
+Epoch 080
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.31919213 | AUC_ROC: 0.95700699
+Test  loss: 10.52435235 | AUC_ROC: 0.66114269
+Epoch 081
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.52565285 | AUC_ROC: 0.94206134
+Test  loss: 12.15941484 | AUC_ROC: 0.66663455
+Epoch 082
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.19055122 | AUC_ROC: 0.95331910
+Test  loss: 15.92153345 | AUC_ROC: 0.66836882
+Epoch 083
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.16214247 | AUC_ROC: 0.95885093
+Test  loss: 25.04668454 | AUC_ROC: 0.66653820
+Epoch 084
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.04251500 | AUC_ROC: 0.94866071
+Test  loss: 26.64322730 | AUC_ROC: 0.65382021
+Epoch 085
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.17451425 | AUC_ROC: 0.95331910
+Test  loss: 22.34177126 | AUC_ROC: 0.65092976
+Epoch 086
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.35722493 | AUC_ROC: 0.96506211
+Test  loss: 18.08617892 | AUC_ROC: 0.66017921
+Epoch 087
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.47961006 | AUC_ROC: 0.94468168
+Test  loss: 10.09682594 | AUC_ROC: 0.65680701
+Epoch 088
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.81475457 | AUC_ROC: 0.95516304
+Test  loss: 17.62308175 | AUC_ROC: 0.64418537
+Epoch 089
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.17568564 | AUC_ROC: 0.95953028
+Test  loss: 13.11812087 | AUC_ROC: 0.64726852
+Epoch 090
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.45915671 | AUC_ROC: 0.96321817
+Test  loss: 15.69800731 | AUC_ROC: 0.66962135
+Epoch 091
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.30150554 | AUC_ROC: 0.95661879
+Test  loss: 23.80901691 | AUC_ROC: 0.64505251
+Epoch 092
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.12997946 | AUC_ROC: 0.96428571
+Test  loss: 12.42858573 | AUC_ROC: 0.65873398
+Epoch 093
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.35116986 | AUC_ROC: 0.95467780
+Test  loss: 13.71642249 | AUC_ROC: 0.66152809
+Epoch 094
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.85022704 | AUC_ROC: 0.95623059
+Test  loss: 20.62408883 | AUC_ROC: 0.64553425
+Epoch 095
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.45398944 | AUC_ROC: 0.95293090
+Test  loss: 15.07400281 | AUC_ROC: 0.64591965
+Epoch 096
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.72135771 | AUC_ROC: 0.94730202
+Test  loss: 11.42073870 | AUC_ROC: 0.67540225
+Epoch 097
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.76363464 | AUC_ROC: 0.95681289
+Test  loss: 24.81728567 | AUC_ROC: 0.66278061
+Epoch 098
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.65997951 | AUC_ROC: 0.92439829
+Test  loss: 7.78908617 | AUC_ROC: 0.66133539
+Epoch 099
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.31983941 | AUC_ROC: 0.94992236
+Test  loss: 9.32256249 | AUC_ROC: 0.69023991
+Epoch 100
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.56439094 | AUC_ROC: 0.95050466
+Test  loss: 18.28119292 | AUC_ROC: 0.66846517
+
+'roc_best_model.pth' | Epoch: 011 | AUC_ROC: 0.95855978
+
+=======Test=======
+roc_best_model.pth
+Train set:
+AUC_ROC: 0.97549436
+Valid set:
+AUC_ROC: 0.95855978
+Test set:
+AUC_ROC: 0.69833317
+
+=======Finish=======
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/BBBP
+model_name: roc_best_model.pth
+time: 1
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+metric: CosineSimilarity
+margin: 1.0
+pre_lr: 0.001
+batch_size: 32
+lr0: 0.001
+lr1: 0.001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 1631 | valid data num: 204 | test data num: 204
+
+=======Train=======
+Epoch 001
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.06923541 | AUC_ROC: 0.95671584
+Test  loss: 2.83285253 | AUC_ROC: 0.67434242
+Epoch 002
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.23930574 | AUC_ROC: 0.93390916
+Test  loss: 3.62719524 | AUC_ROC: 0.62125446
+Epoch 003
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.69591715 | AUC_ROC: 0.95331910
+Test  loss: 2.59905117 | AUC_ROC: 0.65690336
+Epoch 004
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.70087415 | AUC_ROC: 0.95487189
+Test  loss: 3.13486343 | AUC_ROC: 0.66490028
+Epoch 005
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.66675143 | AUC_ROC: 0.96350932
+Test  loss: 3.69164389 | AUC_ROC: 0.68465170
+Epoch 006
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.04545701 | AUC_ROC: 0.94953416
+Test  loss: 5.43666577 | AUC_ROC: 0.66730899
+Epoch 007
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.77880839 | AUC_ROC: 0.95487189
+Test  loss: 3.17012136 | AUC_ROC: 0.66470758
+Epoch 008
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.97122291 | AUC_ROC: 0.93468556
+Test  loss: 2.93011112 | AUC_ROC: 0.66046825
+Epoch 009
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.88518575 | AUC_ROC: 0.95690994
+Test  loss: 3.60837497 | AUC_ROC: 0.69004721
+Epoch 010
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.06097720 | AUC_ROC: 0.93352096
+Test  loss: 4.06296885 | AUC_ROC: 0.63580306
+Epoch 011
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.04451654 | AUC_ROC: 0.95516304
+Test  loss: 8.90990026 | AUC_ROC: 0.69120339
+Epoch 012
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.94258247 | AUC_ROC: 0.95205745
+Test  loss: 4.70283031 | AUC_ROC: 0.68927642
+Epoch 013
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.97912477 | AUC_ROC: 0.95729814
+Test  loss: 5.69605500 | AUC_ROC: 0.69563542
+Epoch 014
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.31311617 | AUC_ROC: 0.94099379
+Test  loss: 6.22148350 | AUC_ROC: 0.67790731
+Epoch 015
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.75956768 | AUC_ROC: 0.95166925
+Test  loss: 4.37551730 | AUC_ROC: 0.68474805
+Epoch 016
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.88089748 | AUC_ROC: 0.94875776
+Test  loss: 3.97014478 | AUC_ROC: 0.67048849
+Epoch 017
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.05159895 | AUC_ROC: 0.94380823
+Test  loss: 4.03427012 | AUC_ROC: 0.66750169
+Epoch 018
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.07945285 | AUC_ROC: 0.94836957
+Test  loss: 6.63714014 | AUC_ROC: 0.68214664
+Epoch 019
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.40299469 | AUC_ROC: 0.91993401
+Test  loss: 7.78313991 | AUC_ROC: 0.67607669
+Epoch 020
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.68503632 | AUC_ROC: 0.95477484
+Test  loss: 3.34199704 | AUC_ROC: 0.67915984
+Epoch 021
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.97559314 | AUC_ROC: 0.94118789
+Test  loss: 4.03810866 | AUC_ROC: 0.69091435
+Epoch 022
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.75091025 | AUC_ROC: 0.95176630
+Test  loss: 8.13736532 | AUC_ROC: 0.68889103
+Epoch 023
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.80020462 | AUC_ROC: 0.95894798
+Test  loss: 6.53816312 | AUC_ROC: 0.68946912
+Epoch 024
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.82582859 | AUC_ROC: 0.94953416
+Test  loss: 4.38672127 | AUC_ROC: 0.65449465
+Epoch 025
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.83351613 | AUC_ROC: 0.96312112
+Test  loss: 6.26103803 | AUC_ROC: 0.69322671
+Epoch 026
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.25496680 | AUC_ROC: 0.95419255
+Test  loss: 7.63821125 | AUC_ROC: 0.70093458
+Epoch 027
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.05877280 | AUC_ROC: 0.95603649
+Test  loss: 7.57462672 | AUC_ROC: 0.66306966
+Epoch 028
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.07338412 | AUC_ROC: 0.95060171
+Test  loss: 11.93032234 | AUC_ROC: 0.68156855
+Epoch 029
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.95803459 | AUC_ROC: 0.94934006
+Test  loss: 6.09651371 | AUC_ROC: 0.68147220
+Epoch 030
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.88959348 | AUC_ROC: 0.94497283
+Test  loss: 14.54151160 | AUC_ROC: 0.67357164
+Epoch 031
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.48467091 | AUC_ROC: 0.94934006
+Test  loss: 7.32867956 | AUC_ROC: 0.67260815
+Epoch 032
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.94180703 | AUC_ROC: 0.95176630
+Test  loss: 9.91815969 | AUC_ROC: 0.65189325
+Epoch 033
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.42920608 | AUC_ROC: 0.94943711
+Test  loss: 10.64138515 | AUC_ROC: 0.67395703
+Epoch 034
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.99314019 | AUC_ROC: 0.95283385
+Test  loss: 7.89597879 | AUC_ROC: 0.64283650
+Epoch 035
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.89777938 | AUC_ROC: 0.96108307
+Test  loss: 8.66190665 | AUC_ROC: 0.67308989
+Epoch 036
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.55573754 | AUC_ROC: 0.95419255
+Test  loss: 11.65212461 | AUC_ROC: 0.66692360
+Epoch 037
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.89755447 | AUC_ROC: 0.96273292
+Test  loss: 7.81368177 | AUC_ROC: 0.64274015
+Epoch 038
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.85272234 | AUC_ROC: 0.96467391
+Test  loss: 10.26823848 | AUC_ROC: 0.65382021
+Epoch 039
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.77491506 | AUC_ROC: 0.96166537
+Test  loss: 6.12441775 | AUC_ROC: 0.69688795
+Epoch 040
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.16915399 | AUC_ROC: 0.95846273
+Test  loss: 8.24717614 | AUC_ROC: 0.66730899
+Epoch 041
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.82342357 | AUC_ROC: 0.96710016
+Test  loss: 9.16197511 | AUC_ROC: 0.66509298
+Epoch 042
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.53231316 | AUC_ROC: 0.95700699
+Test  loss: 11.36627143 | AUC_ROC: 0.65671067
+Epoch 043
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.40964919 | AUC_ROC: 0.95652174
+Test  loss: 11.62587166 | AUC_ROC: 0.67646209
+Epoch 044
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.56112971 | AUC_ROC: 0.95322205
+Test  loss: 15.66602107 | AUC_ROC: 0.67482416
+Epoch 045
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39967790 | AUC_ROC: 0.95487189
+Test  loss: 10.41987412 | AUC_ROC: 0.67761827
+Epoch 046
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.11351097 | AUC_ROC: 0.96137422
+Test  loss: 8.93101171 | AUC_ROC: 0.64582330
+Epoch 047
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.05013874 | AUC_ROC: 0.95263975
+Test  loss: 8.88118042 | AUC_ROC: 0.68436266
+Epoch 048
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.76195323 | AUC_ROC: 0.95788043
+Test  loss: 10.06714644 | AUC_ROC: 0.70093458
+Epoch 049
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.85648693 | AUC_ROC: 0.96399457
+Test  loss: 10.76451921 | AUC_ROC: 0.67915984
+Epoch 050
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.13226729 | AUC_ROC: 0.96525621
+Test  loss: 8.59667880 | AUC_ROC: 0.67395703
+Epoch 051
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.06535667 | AUC_ROC: 0.95186335
+Test  loss: 5.85013373 | AUC_ROC: 0.67935254
+Epoch 052
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.12204331 | AUC_ROC: 0.95593944
+Test  loss: 9.83418165 | AUC_ROC: 0.68734946
+Epoch 053
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.16131606 | AUC_ROC: 0.94312888
+Test  loss: 9.54286133 | AUC_ROC: 0.68869833
+Epoch 054
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.09971999 | AUC_ROC: 0.95428960
+Test  loss: 9.30575957 | AUC_ROC: 0.68060507
+Epoch 055
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.86952820 | AUC_ROC: 0.95720109
+Test  loss: 15.44347927 | AUC_ROC: 0.68754215
+Epoch 056
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.42039312 | AUC_ROC: 0.97001165
+Test  loss: 16.05803680 | AUC_ROC: 0.69332306
+Epoch 057
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.42240399 | AUC_ROC: 0.95991848
+Test  loss: 14.52146142 | AUC_ROC: 0.69602081
+Epoch 058
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.75759982 | AUC_ROC: 0.96894410
+Test  loss: 16.59835734 | AUC_ROC: 0.67578765
+Epoch 059
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.31604871 | AUC_ROC: 0.94400233
+Test  loss: 14.26008654 | AUC_ROC: 0.67569130
+Epoch 060
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.24959241 | AUC_ROC: 0.95322205
+Test  loss: 12.45065158 | AUC_ROC: 0.67453512
+Epoch 061
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.00652529 | AUC_ROC: 0.95526009
+Test  loss: 6.04987478 | AUC_ROC: 0.66894691
+Epoch 062
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.28243324 | AUC_ROC: 0.95370730
+Test  loss: 8.70965675 | AUC_ROC: 0.66836882
+Epoch 063
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.04067732 | AUC_ROC: 0.94710792
+Test  loss: 8.57080194 | AUC_ROC: 0.64158397
+Epoch 064
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 0.97784144 | AUC_ROC: 0.94371118
+Test  loss: 9.64706285 | AUC_ROC: 0.66576741
+Epoch 065
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.19903289 | AUC_ROC: 0.95147516
+Test  loss: 8.01263467 | AUC_ROC: 0.68041237
+Epoch 066
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.98774508 | AUC_ROC: 0.95496894
+Test  loss: 17.59430218 | AUC_ROC: 0.65430196
+Epoch 067
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.12321530 | AUC_ROC: 0.95545419
+Test  loss: 12.25844952 | AUC_ROC: 0.66798343
+Epoch 068
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.77990033 | AUC_ROC: 0.95322205
+Test  loss: 17.36465590 | AUC_ROC: 0.66528567
+Epoch 069
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.32340763 | AUC_ROC: 0.95273680
+Test  loss: 12.03908273 | AUC_ROC: 0.68378456
+Epoch 070
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.78051607 | AUC_ROC: 0.95632764
+Test  loss: 15.70314571 | AUC_ROC: 0.64669043
+Epoch 071
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.74951590 | AUC_ROC: 0.96118012
+Test  loss: 19.61475427 | AUC_ROC: 0.64023509
+Epoch 072
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.47334042 | AUC_ROC: 0.95157220
+Test  loss: 14.54154151 | AUC_ROC: 0.66904326
+Epoch 073
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.56970878 | AUC_ROC: 0.93439441
+Test  loss: 11.94900669 | AUC_ROC: 0.64881010
+Epoch 074
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.48939690 | AUC_ROC: 0.95089286
+Test  loss: 11.27395688 | AUC_ROC: 0.64669043
+Epoch 075
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.42548605 | AUC_ROC: 0.95642469
+Test  loss: 17.92125893 | AUC_ROC: 0.68725311
+Epoch 076
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.51254637 | AUC_ROC: 0.95681289
+Test  loss: 15.89169652 | AUC_ROC: 0.65131516
+Epoch 077
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.02323808 | AUC_ROC: 0.94943711
+Test  loss: 14.05212532 | AUC_ROC: 0.64476346
+Epoch 078
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.12657968 | AUC_ROC: 0.94574922
+Test  loss: 20.10642774 | AUC_ROC: 0.66538202
+Epoch 079
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.40678000 | AUC_ROC: 0.95011646
+Test  loss: 12.42890303 | AUC_ROC: 0.65757780
+Epoch 080
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.25550770 | AUC_ROC: 0.96030668
+Test  loss: 24.17879990 | AUC_ROC: 0.64254745
+Epoch 081
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.36840764 | AUC_ROC: 0.95312500
+Test  loss: 13.70099912 | AUC_ROC: 0.67896715
+Epoch 082
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.24373449 | AUC_ROC: 0.94642857
+Test  loss: 15.27533340 | AUC_ROC: 0.69043260
+Epoch 083
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.51655623 | AUC_ROC: 0.95205745
+Test  loss: 13.47645221 | AUC_ROC: 0.67318624
+Epoch 084
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.65510185 | AUC_ROC: 0.96273292
+Test  loss: 16.70136302 | AUC_ROC: 0.68099046
+Epoch 085
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.37279944 | AUC_ROC: 0.96341227
+Test  loss: 17.84521151 | AUC_ROC: 0.66480393
+Epoch 086
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.70470101 | AUC_ROC: 0.95302795
+Test  loss: 20.74254431 | AUC_ROC: 0.65526544
+Epoch 087
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.62212780 | AUC_ROC: 0.96059783
+Test  loss: 23.78949124 | AUC_ROC: 0.66008286
+Epoch 088
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.34059974 | AUC_ROC: 0.94681677
+Test  loss: 14.83619540 | AUC_ROC: 0.67231911
+Epoch 089
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.14352555 | AUC_ROC: 0.95147516
+Test  loss: 22.02744293 | AUC_ROC: 0.66017921
+Epoch 090
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.50926573 | AUC_ROC: 0.94584627
+Test  loss: 17.85384015 | AUC_ROC: 0.67646209
+Epoch 091
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.15116446 | AUC_ROC: 0.94992236
+Test  loss: 19.40400941 | AUC_ROC: 0.68311013
+Epoch 092
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.47518280 | AUC_ROC: 0.93963509
+Test  loss: 17.00888634 | AUC_ROC: 0.66297331
+Epoch 093
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.34775350 | AUC_ROC: 0.94118789
+Test  loss: 16.87002441 | AUC_ROC: 0.66162443
+Epoch 094
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.38547070 | AUC_ROC: 0.95564829
+Test  loss: 15.08554874 | AUC_ROC: 0.66769438
+Epoch 095
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.55382366 | AUC_ROC: 0.95341615
+Test  loss: 19.05209919 | AUC_ROC: 0.66316601
+Epoch 096
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 2.13848615 | AUC_ROC: 0.95593944
+Test  loss: 22.57613237 | AUC_ROC: 0.67058483
+Epoch 097
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.93873181 | AUC_ROC: 0.95817158
+Test  loss: 23.39640604 | AUC_ROC: 0.67116293
+Epoch 098
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.31443285 | AUC_ROC: 0.95788043
+Test  loss: 21.16432190 | AUC_ROC: 0.65314578
+Epoch 099
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 3.75157460 | AUC_ROC: 0.94701087
+Test  loss: 30.74755383 | AUC_ROC: 0.66345505
+Epoch 100
+Train loss: 0.00000000 | AUC_ROC: 0.00000000
+Valid loss: 1.39018726 | AUC_ROC: 0.93507376
+Test  loss: 15.78502703 | AUC_ROC: 0.66528567
+
+'roc_best_model.pth' | Epoch: 048 | AUC_ROC: 0.95788043
+
+=======Test=======
+roc_best_model.pth
+Train set:
+AUC_ROC: 0.98994831
+Valid set:
+AUC_ROC: 0.95788043
+Test set:
+AUC_ROC: 0.70093458
+
+=======Finish=======

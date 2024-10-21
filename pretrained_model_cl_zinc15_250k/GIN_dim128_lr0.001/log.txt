@@ -1,0 +1,1229 @@
+
+
+=======2024-05-20 14:39:24=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+
+
+=======2024-05-20 15:51:28=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 13:10:24=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 13:12:23=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 13:14:55=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 14:32:46=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 14:50:01=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 14:57:59=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 14:59:10=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 15:00:26=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 15:02:53=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 15:04:15=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 2396
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 15:05:33=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 2396
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 15:06:48=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 2396
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 15:07:35=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 2396
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 15:08:23=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 2396
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 15:09:19=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 2396
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 15:11:17=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 2396
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 15:14:02=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 15:47:26=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-24 15:48:52=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:19:26=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+
+
+=======2024-05-29 11:21:42=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+
+
+=======2024-05-29 11:22:54=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+
+
+=======2024-05-29 11:23:59=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+
+
+=======2024-05-29 11:24:38=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:26:56=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:27:31=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:29:27=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:31:10=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:32:06=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:32:26=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:34:13=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:37:25=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:39:44=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:40:31=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:46:18=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:47:08=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:47:31=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:53:54=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:56:03=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 11:56:21=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 12:00:42=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 12:03:53=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 12:06:00=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 12:06:59=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 12:07:24=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 12:08:09=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 12:08:49=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 12:10:37=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 10
+train data num: 4911
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 12:12:40=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 50
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-05-29 12:30:51=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+batch_size: 512
+lr: 0.001
+num_epochs: 50
+output_model_file: ./save/pretrain_atom.pth
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0

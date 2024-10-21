@@ -1,0 +1,1776 @@
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/lipophilicity
+model_name: roc_best_model.pth
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 256
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+batch_size: 32
+lr0: 0.0001
+lr1: 0.0001
+lr2: 0.0001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 3360 | valid data num: 420 | test data num: 420
+
+=======Train=======
+Epoch 001
+Train loss: 0.56502049 | RMSE: 0.75167844
+Valid loss: 0.68690517 | RMSE: 0.83369604
+Test  loss: 0.61453870 | RMSE: 0.77691635
+Epoch 002
+Train loss: 0.53537620 | RMSE: 0.73169406
+Valid loss: 0.68134325 | RMSE: 0.83583317
+Test  loss: 0.59160837 | RMSE: 0.77395217
+Epoch 003
+Train loss: 0.62217452 | RMSE: 0.78878040
+Valid loss: 0.81134681 | RMSE: 0.90224091
+Test  loss: 0.65196353 | RMSE: 0.81714171
+Epoch 004
+Train loss: 0.36081384 | RMSE: 0.60067782
+Valid loss: 0.54010154 | RMSE: 0.73217745
+Test  loss: 0.45696511 | RMSE: 0.68140644
+Epoch 005
+Train loss: 0.30393302 | RMSE: 0.55130121
+Valid loss: 0.48089524 | RMSE: 0.69787892
+Test  loss: 0.44629228 | RMSE: 0.65871041
+Epoch 006
+Train loss: 0.30273290 | RMSE: 0.55021169
+Valid loss: 0.49572038 | RMSE: 0.69995601
+Test  loss: 0.46059047 | RMSE: 0.66572219
+Epoch 007
+Train loss: 0.26997181 | RMSE: 0.51958812
+Valid loss: 0.46893384 | RMSE: 0.68838409
+Test  loss: 0.41514552 | RMSE: 0.64656857
+Epoch 008
+Train loss: 0.46337936 | RMSE: 0.68071974
+Valid loss: 0.64105192 | RMSE: 0.80391513
+Test  loss: 0.59747791 | RMSE: 0.77453727
+Epoch 009
+Train loss: 0.35405301 | RMSE: 0.59502354
+Valid loss: 0.54158168 | RMSE: 0.73431303
+Test  loss: 0.47546133 | RMSE: 0.69619763
+Epoch 010
+Train loss: 0.26462339 | RMSE: 0.51441558
+Valid loss: 0.43471876 | RMSE: 0.66916119
+Test  loss: 0.42334656 | RMSE: 0.64121829
+Epoch 011
+Train loss: 0.35103213 | RMSE: 0.59247964
+Valid loss: 0.53353519 | RMSE: 0.73148121
+Test  loss: 0.46963003 | RMSE: 0.69455543
+Epoch 012
+Train loss: 0.39734452 | RMSE: 0.63035270
+Valid loss: 0.60830258 | RMSE: 0.78056423
+Test  loss: 0.55795313 | RMSE: 0.74473783
+Epoch 013
+Train loss: 0.26640646 | RMSE: 0.51614577
+Valid loss: 0.47339205 | RMSE: 0.69255712
+Test  loss: 0.44940596 | RMSE: 0.67046956
+Epoch 014
+Train loss: 0.44215213 | RMSE: 0.66494521
+Valid loss: 0.65384655 | RMSE: 0.80806666
+Test  loss: 0.59370430 | RMSE: 0.77915275
+Epoch 015
+Train loss: 0.42230937 | RMSE: 0.64985335
+Valid loss: 0.63717626 | RMSE: 0.80049474
+Test  loss: 0.56060566 | RMSE: 0.76023169
+Epoch 016
+Train loss: 0.27260774 | RMSE: 0.52211851
+Valid loss: 0.50851839 | RMSE: 0.71814960
+Test  loss: 0.51167683 | RMSE: 0.70612659
+Epoch 017
+Train loss: 0.25911128 | RMSE: 0.50902974
+Valid loss: 0.47960306 | RMSE: 0.70088245
+Test  loss: 0.46226664 | RMSE: 0.67153802
+Epoch 018
+Train loss: 0.22091181 | RMSE: 0.47001256
+Valid loss: 0.45730690 | RMSE: 0.67849858
+Test  loss: 0.44480225 | RMSE: 0.65985422
+Epoch 019
+Train loss: 0.23970741 | RMSE: 0.48959923
+Valid loss: 0.47393524 | RMSE: 0.69341202
+Test  loss: 0.50313477 | RMSE: 0.69450292
+Epoch 020
+Train loss: 0.42022511 | RMSE: 0.64824772
+Valid loss: 0.67269950 | RMSE: 0.82516677
+Test  loss: 0.65567243 | RMSE: 0.79876128
+Epoch 021
+Train loss: 0.43856166 | RMSE: 0.66223988
+Valid loss: 0.62764226 | RMSE: 0.79813134
+Test  loss: 0.54783516 | RMSE: 0.75466636
+Epoch 022
+Train loss: 0.22242704 | RMSE: 0.47162171
+Valid loss: 0.46759429 | RMSE: 0.68718019
+Test  loss: 0.43489782 | RMSE: 0.65664323
+Epoch 023
+Train loss: 0.24090956 | RMSE: 0.49082539
+Valid loss: 0.48041529 | RMSE: 0.70074410
+Test  loss: 0.47810558 | RMSE: 0.68548945
+Epoch 024
+Train loss: 0.25384489 | RMSE: 0.50383021
+Valid loss: 0.46742636 | RMSE: 0.68917660
+Test  loss: 0.42078743 | RMSE: 0.65468386
+Epoch 025
+Train loss: 0.34765387 | RMSE: 0.58962181
+Valid loss: 0.58904770 | RMSE: 0.76743467
+Test  loss: 0.53296399 | RMSE: 0.74884106
+Epoch 026
+Train loss: 0.26399594 | RMSE: 0.51380535
+Valid loss: 0.51709741 | RMSE: 0.72596850
+Test  loss: 0.49785589 | RMSE: 0.70510461
+Epoch 027
+Train loss: 0.32304361 | RMSE: 0.56836925
+Valid loss: 0.57898506 | RMSE: 0.76436303
+Test  loss: 0.51128458 | RMSE: 0.72807436
+Epoch 028
+Train loss: 0.17981689 | RMSE: 0.42404821
+Valid loss: 0.41912915 | RMSE: 0.65343282
+Test  loss: 0.42286645 | RMSE: 0.64522146
+Epoch 029
+Train loss: 0.21359123 | RMSE: 0.46215931
+Valid loss: 0.46241591 | RMSE: 0.68799874
+Test  loss: 0.44097273 | RMSE: 0.65954719
+Epoch 030
+Train loss: 0.16877769 | RMSE: 0.41082562
+Valid loss: 0.42200206 | RMSE: 0.65195468
+Test  loss: 0.39346761 | RMSE: 0.62391668
+Epoch 031
+Train loss: 0.20762497 | RMSE: 0.45565883
+Valid loss: 0.45830256 | RMSE: 0.67924664
+Test  loss: 0.45680739 | RMSE: 0.66328970
+Epoch 032
+Train loss: 0.24548327 | RMSE: 0.49546268
+Valid loss: 0.46621037 | RMSE: 0.69472755
+Test  loss: 0.43949144 | RMSE: 0.67293847
+Epoch 033
+Train loss: 0.15336241 | RMSE: 0.39161513
+Valid loss: 0.40199074 | RMSE: 0.64530309
+Test  loss: 0.41372455 | RMSE: 0.62381512
+Epoch 034
+Train loss: 0.25742174 | RMSE: 0.50736746
+Valid loss: 0.50763872 | RMSE: 0.71772002
+Test  loss: 0.45595808 | RMSE: 0.69351081
+Epoch 035
+Train loss: 0.20644533 | RMSE: 0.45436255
+Valid loss: 0.43962345 | RMSE: 0.66687497
+Test  loss: 0.44168741 | RMSE: 0.66644795
+Epoch 036
+Train loss: 0.27326732 | RMSE: 0.52274976
+Valid loss: 0.53618397 | RMSE: 0.74294126
+Test  loss: 0.49987757 | RMSE: 0.71085513
+Epoch 037
+Train loss: 0.19959234 | RMSE: 0.44675759
+Valid loss: 0.45005251 | RMSE: 0.68522644
+Test  loss: 0.43485015 | RMSE: 0.65176006
+Epoch 038
+Train loss: 0.16492730 | RMSE: 0.40611242
+Valid loss: 0.42063984 | RMSE: 0.66356057
+Test  loss: 0.43200891 | RMSE: 0.63769445
+Epoch 039
+Train loss: 0.25128692 | RMSE: 0.50128527
+Valid loss: 0.49709675 | RMSE: 0.71739463
+Test  loss: 0.46409333 | RMSE: 0.68932290
+Epoch 040
+Train loss: 0.17970262 | RMSE: 0.42391346
+Valid loss: 0.42687602 | RMSE: 0.66902106
+Test  loss: 0.41759910 | RMSE: 0.64303894
+Epoch 041
+Train loss: 0.24019041 | RMSE: 0.49009225
+Valid loss: 0.47936028 | RMSE: 0.70661810
+Test  loss: 0.49318182 | RMSE: 0.70030645
+Epoch 042
+Train loss: 0.24178272 | RMSE: 0.49171406
+Valid loss: 0.49547300 | RMSE: 0.71459688
+Test  loss: 0.48226945 | RMSE: 0.69514390
+Epoch 043
+Train loss: 0.39014905 | RMSE: 0.62461913
+Valid loss: 0.64803797 | RMSE: 0.81313679
+Test  loss: 0.61274136 | RMSE: 0.79485876
+Epoch 044
+Train loss: 0.14787782 | RMSE: 0.38454886
+Valid loss: 0.40224666 | RMSE: 0.64434442
+Test  loss: 0.37794013 | RMSE: 0.61356593
+Epoch 045
+Train loss: 0.16537664 | RMSE: 0.40666527
+Valid loss: 0.42845765 | RMSE: 0.66407502
+Test  loss: 0.38949812 | RMSE: 0.62951003
+Epoch 046
+Train loss: 0.25838713 | RMSE: 0.50831794
+Valid loss: 0.52953025 | RMSE: 0.73783745
+Test  loss: 0.45984190 | RMSE: 0.68851618
+Epoch 047
+Train loss: 0.15133220 | RMSE: 0.38901440
+Valid loss: 0.39899657 | RMSE: 0.64282409
+Test  loss: 0.38018297 | RMSE: 0.62296311
+Epoch 048
+Train loss: 0.19300301 | RMSE: 0.43932107
+Valid loss: 0.47062359 | RMSE: 0.69442417
+Test  loss: 0.43249428 | RMSE: 0.66111268
+Epoch 049
+Train loss: 0.15184411 | RMSE: 0.38967179
+Valid loss: 0.40314240 | RMSE: 0.65117718
+Test  loss: 0.40524173 | RMSE: 0.62547628
+Epoch 050
+Train loss: 0.17628134 | RMSE: 0.41985871
+Valid loss: 0.42487397 | RMSE: 0.65874528
+Test  loss: 0.39332484 | RMSE: 0.64152131
+Epoch 051
+Train loss: 0.28172525 | RMSE: 0.53077797
+Valid loss: 0.51008738 | RMSE: 0.72621475
+Test  loss: 0.49363621 | RMSE: 0.71838738
+Epoch 052
+Train loss: 0.21796381 | RMSE: 0.46686594
+Valid loss: 0.46708000 | RMSE: 0.69353783
+Test  loss: 0.45084800 | RMSE: 0.67525849
+Epoch 053
+Train loss: 0.33373475 | RMSE: 0.57769780
+Valid loss: 0.59958341 | RMSE: 0.78292523
+Test  loss: 0.55110354 | RMSE: 0.75931713
+Epoch 054
+Train loss: 0.24302062 | RMSE: 0.49297122
+Valid loss: 0.51887373 | RMSE: 0.72904433
+Test  loss: 0.50099784 | RMSE: 0.71826206
+Epoch 055
+Train loss: 0.24443731 | RMSE: 0.49440601
+Valid loss: 0.50898965 | RMSE: 0.71954205
+Test  loss: 0.47831647 | RMSE: 0.70518669
+Epoch 056
+Train loss: 0.12676356 | RMSE: 0.35603870
+Valid loss: 0.38572216 | RMSE: 0.63069711
+Test  loss: 0.38860120 | RMSE: 0.61297547
+Epoch 057
+Train loss: 0.19587244 | RMSE: 0.44257478
+Valid loss: 0.44502735 | RMSE: 0.67799115
+Test  loss: 0.41910698 | RMSE: 0.65535280
+Epoch 058
+Train loss: 0.40824345 | RMSE: 0.63893932
+Valid loss: 0.68075818 | RMSE: 0.83080353
+Test  loss: 0.62400890 | RMSE: 0.80840378
+Epoch 059
+Train loss: 0.12130062 | RMSE: 0.34828238
+Valid loss: 0.37835251 | RMSE: 0.63216863
+Test  loss: 0.37032820 | RMSE: 0.60622497
+Epoch 060
+Train loss: 0.12485902 | RMSE: 0.35335395
+Valid loss: 0.37791957 | RMSE: 0.62977251
+Test  loss: 0.38198730 | RMSE: 0.60587724
+Epoch 061
+Train loss: 0.26106185 | RMSE: 0.51094211
+Valid loss: 0.51310324 | RMSE: 0.72577641
+Test  loss: 0.48625046 | RMSE: 0.71026226
+Epoch 062
+Train loss: 0.13521887 | RMSE: 0.36772119
+Valid loss: 0.39097057 | RMSE: 0.63706581
+Test  loss: 0.39664256 | RMSE: 0.62593635
+Epoch 063
+Train loss: 0.13304559 | RMSE: 0.36475415
+Valid loss: 0.39825419 | RMSE: 0.64490832
+Test  loss: 0.39102185 | RMSE: 0.62128557
+Epoch 064
+Train loss: 0.16501690 | RMSE: 0.40622273
+Valid loss: 0.44668267 | RMSE: 0.68537120
+Test  loss: 0.45064309 | RMSE: 0.66650429
+Epoch 065
+Train loss: 0.15489180 | RMSE: 0.39356295
+Valid loss: 0.42937924 | RMSE: 0.66045281
+Test  loss: 0.43298970 | RMSE: 0.64599331
+Epoch 066
+Train loss: 0.12819535 | RMSE: 0.35804379
+Valid loss: 0.40169812 | RMSE: 0.64318246
+Test  loss: 0.36795885 | RMSE: 0.61097501
+Epoch 067
+Train loss: 0.15340987 | RMSE: 0.39167572
+Valid loss: 0.41819915 | RMSE: 0.65963083
+Test  loss: 0.41233055 | RMSE: 0.65094297
+Epoch 068
+Train loss: 0.12219768 | RMSE: 0.34956785
+Valid loss: 0.39435417 | RMSE: 0.63814991
+Test  loss: 0.37098000 | RMSE: 0.61509505
+Epoch 069
+Train loss: 0.24666517 | RMSE: 0.49665397
+Valid loss: 0.54372310 | RMSE: 0.75001740
+Test  loss: 0.51325949 | RMSE: 0.71673805
+Epoch 070
+Train loss: 0.27974327 | RMSE: 0.52890762
+Valid loss: 0.56240099 | RMSE: 0.75274001
+Test  loss: 0.51479086 | RMSE: 0.73104776
+Epoch 071
+Train loss: 0.32578630 | RMSE: 0.57077693
+Valid loss: 0.61941199 | RMSE: 0.79432280
+Test  loss: 0.54138694 | RMSE: 0.75266098
+Epoch 072
+Train loss: 0.16577458 | RMSE: 0.40715425
+Valid loss: 0.43568402 | RMSE: 0.67330547
+Test  loss: 0.42553933 | RMSE: 0.65943997
+Epoch 073
+Train loss: 0.13621919 | RMSE: 0.36907884
+Valid loss: 0.43843518 | RMSE: 0.67457882
+Test  loss: 0.42595485 | RMSE: 0.65694405
+Epoch 074
+Train loss: 0.14411682 | RMSE: 0.37962721
+Valid loss: 0.41933565 | RMSE: 0.65631713
+Test  loss: 0.41651508 | RMSE: 0.63673407
+Epoch 075
+Train loss: 0.15729759 | RMSE: 0.39660760
+Valid loss: 0.44548902 | RMSE: 0.67785515
+Test  loss: 0.45262436 | RMSE: 0.66784964
+Epoch 076
+Train loss: 0.19210247 | RMSE: 0.43829496
+Valid loss: 0.48986836 | RMSE: 0.70421726
+Test  loss: 0.45763966 | RMSE: 0.68727810
+Epoch 077
+Train loss: 0.15074220 | RMSE: 0.38825533
+Valid loss: 0.43931836 | RMSE: 0.67507098
+Test  loss: 0.41325005 | RMSE: 0.65153830
+Epoch 078
+Train loss: 0.11493484 | RMSE: 0.33902041
+Valid loss: 0.38534993 | RMSE: 0.63565184
+Test  loss: 0.37689970 | RMSE: 0.61728303
+Epoch 079
+Train loss: 0.22390900 | RMSE: 0.47319024
+Valid loss: 0.48943865 | RMSE: 0.70873041
+Test  loss: 0.44693148 | RMSE: 0.68406921
+Epoch 080
+Train loss: 0.13537180 | RMSE: 0.36792907
+Valid loss: 0.41947374 | RMSE: 0.65913023
+Test  loss: 0.40111167 | RMSE: 0.63477023
+Epoch 081
+Train loss: 0.10601194 | RMSE: 0.32559475
+Valid loss: 0.39026548 | RMSE: 0.63789791
+Test  loss: 0.38588463 | RMSE: 0.61796824
+Epoch 082
+Train loss: 0.18267699 | RMSE: 0.42740729
+Valid loss: 0.48597923 | RMSE: 0.69872711
+Test  loss: 0.43191045 | RMSE: 0.67218396
+Epoch 083
+Train loss: 0.21494410 | RMSE: 0.46362065
+Valid loss: 0.49542370 | RMSE: 0.71342941
+Test  loss: 0.46757699 | RMSE: 0.69269094
+Epoch 084
+Train loss: 0.09222990 | RMSE: 0.30369376
+Valid loss: 0.37169132 | RMSE: 0.62251626
+Test  loss: 0.37550962 | RMSE: 0.60427604
+Epoch 085
+Train loss: 0.11768075 | RMSE: 0.34304628
+Valid loss: 0.40431021 | RMSE: 0.64711217
+Test  loss: 0.42480133 | RMSE: 0.64517223
+Epoch 086
+Train loss: 0.11420664 | RMSE: 0.33794473
+Valid loss: 0.39586105 | RMSE: 0.64528746
+Test  loss: 0.40069708 | RMSE: 0.62622557
+Epoch 087
+Train loss: 0.11182929 | RMSE: 0.33440886
+Valid loss: 0.38945783 | RMSE: 0.63824914
+Test  loss: 0.40506787 | RMSE: 0.62805987
+Epoch 088
+Train loss: 0.11535675 | RMSE: 0.33964209
+Valid loss: 0.38863352 | RMSE: 0.63925841
+Test  loss: 0.41790369 | RMSE: 0.62644188
+Epoch 089
+Train loss: 0.15226788 | RMSE: 0.39021517
+Valid loss: 0.44270529 | RMSE: 0.67259957
+Test  loss: 0.39777540 | RMSE: 0.64171653
+Epoch 090
+Train loss: 0.15430685 | RMSE: 0.39281911
+Valid loss: 0.42849052 | RMSE: 0.66847250
+Test  loss: 0.42762141 | RMSE: 0.65669132
+Epoch 091
+Train loss: 0.22954171 | RMSE: 0.47910511
+Valid loss: 0.51974085 | RMSE: 0.72692126
+Test  loss: 0.49489421 | RMSE: 0.71331317
+Epoch 092
+Train loss: 0.10828222 | RMSE: 0.32906263
+Valid loss: 0.39693709 | RMSE: 0.64593855
+Test  loss: 0.40452651 | RMSE: 0.63795562
+Epoch 093
+Train loss: 0.11323563 | RMSE: 0.33650502
+Valid loss: 0.39528082 | RMSE: 0.64355952
+Test  loss: 0.40020778 | RMSE: 0.63033552
+Epoch 094
+Train loss: 0.11124077 | RMSE: 0.33352777
+Valid loss: 0.38780911 | RMSE: 0.63610413
+Test  loss: 0.38796662 | RMSE: 0.62209724
+Epoch 095
+Train loss: 0.09163635 | RMSE: 0.30271496
+Valid loss: 0.37360119 | RMSE: 0.62425560
+Test  loss: 0.37610844 | RMSE: 0.60892920
+Epoch 096
+Train loss: 0.14140746 | RMSE: 0.37604183
+Valid loss: 0.42459107 | RMSE: 0.66332627
+Test  loss: 0.41570166 | RMSE: 0.64526650
+Epoch 097
+Train loss: 0.09843398 | RMSE: 0.31374190
+Valid loss: 0.37727479 | RMSE: 0.62589102
+Test  loss: 0.37061709 | RMSE: 0.61205278
+Epoch 098
+Train loss: 0.14831788 | RMSE: 0.38512060
+Valid loss: 0.44385840 | RMSE: 0.67322434
+Test  loss: 0.42017273 | RMSE: 0.64482952
+Epoch 099
+Train loss: 0.16182660 | RMSE: 0.40227677
+Valid loss: 0.47127311 | RMSE: 0.69306220
+Test  loss: 0.42892605 | RMSE: 0.66700188
+Epoch 100
+Train loss: 0.12834988 | RMSE: 0.35825951
+Valid loss: 0.41888460 | RMSE: 0.66388324
+Test  loss: 0.38842133 | RMSE: 0.62789595
+
+'roc_best_model.pth' | Epoch: 084 | RMSE: 0.62251626
+
+=======Test=======
+roc_best_model.pth
+Train set:
+RMSE: 0.30369376
+Valid set:
+RMSE: 0.62251627
+Test set:
+RMSE: 0.60427604
+
+=======Finish=======
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/lipophilicity
+model_name: roc_best_model.pth
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 256
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+batch_size: 32
+lr0: 0.0001
+lr1: 0.0001
+lr2: 0.0001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 3360 | valid data num: 420 | test data num: 420
+
+=======Train=======
+Epoch 001
+Train loss: 0.63760430 | RMSE: 0.79850128
+Valid loss: 0.74504691 | RMSE: 0.86617099
+Test  loss: 0.61749961 | RMSE: 0.80268886
+Epoch 002
+Train loss: 0.48663933 | RMSE: 0.69759539
+Valid loss: 0.60605204 | RMSE: 0.78123450
+Test  loss: 0.49230228 | RMSE: 0.70403983
+Epoch 003
+Train loss: 0.42679094 | RMSE: 0.65329238
+Valid loss: 0.56709403 | RMSE: 0.75640029
+Test  loss: 0.47509287 | RMSE: 0.68560601
+Epoch 004
+Train loss: 0.43273600 | RMSE: 0.65782673
+Valid loss: 0.61959296 | RMSE: 0.79813329
+Test  loss: 0.56820939 | RMSE: 0.74806664
+Epoch 005
+Train loss: 0.47104507 | RMSE: 0.68632723
+Valid loss: 0.64125730 | RMSE: 0.80195587
+Test  loss: 0.55918858 | RMSE: 0.74451002
+Epoch 006
+Train loss: 0.28153622 | RMSE: 0.53059987
+Valid loss: 0.45663047 | RMSE: 0.68357286
+Test  loss: 0.41730496 | RMSE: 0.62981087
+Epoch 007
+Train loss: 0.31055304 | RMSE: 0.55727286
+Valid loss: 0.52200176 | RMSE: 0.73271740
+Test  loss: 0.47220150 | RMSE: 0.66229429
+Epoch 008
+Train loss: 0.30259475 | RMSE: 0.55008613
+Valid loss: 0.49534226 | RMSE: 0.71274744
+Test  loss: 0.41973556 | RMSE: 0.64678332
+Epoch 009
+Train loss: 0.40369054 | RMSE: 0.63536647
+Valid loss: 0.63218433 | RMSE: 0.79657262
+Test  loss: 0.51013613 | RMSE: 0.72044903
+Epoch 010
+Train loss: 0.27133784 | RMSE: 0.52090099
+Valid loss: 0.49689937 | RMSE: 0.71703851
+Test  loss: 0.43734331 | RMSE: 0.65201289
+Epoch 011
+Train loss: 0.27906715 | RMSE: 0.52826807
+Valid loss: 0.48893299 | RMSE: 0.70956799
+Test  loss: 0.46623579 | RMSE: 0.65515883
+Epoch 012
+Train loss: 0.27785736 | RMSE: 0.52712177
+Valid loss: 0.47743323 | RMSE: 0.70073109
+Test  loss: 0.40295309 | RMSE: 0.63498451
+Epoch 013
+Train loss: 0.42609406 | RMSE: 0.65275881
+Valid loss: 0.63210533 | RMSE: 0.80758505
+Test  loss: 0.59553818 | RMSE: 0.77661149
+Epoch 014
+Train loss: 0.35075138 | RMSE: 0.59224267
+Valid loss: 0.54363005 | RMSE: 0.75072330
+Test  loss: 0.48728134 | RMSE: 0.70462371
+Epoch 015
+Train loss: 0.20944542 | RMSE: 0.45765207
+Valid loss: 0.45311084 | RMSE: 0.68744096
+Test  loss: 0.47392069 | RMSE: 0.64963346
+Epoch 016
+Train loss: 0.36484169 | RMSE: 0.60402127
+Valid loss: 0.53688553 | RMSE: 0.74459768
+Test  loss: 0.46871476 | RMSE: 0.69686219
+Epoch 017
+Train loss: 0.27680521 | RMSE: 0.52612281
+Valid loss: 0.49591700 | RMSE: 0.71764454
+Test  loss: 0.46013309 | RMSE: 0.67233957
+Epoch 018
+Train loss: 0.25318989 | RMSE: 0.50317978
+Valid loss: 0.49291001 | RMSE: 0.70919542
+Test  loss: 0.44135892 | RMSE: 0.65623678
+Epoch 019
+Train loss: 0.42728413 | RMSE: 0.65366974
+Valid loss: 0.61531873 | RMSE: 0.79521372
+Test  loss: 0.54065638 | RMSE: 0.75152778
+Epoch 020
+Train loss: 0.31932420 | RMSE: 0.56508778
+Valid loss: 0.54877940 | RMSE: 0.75093540
+Test  loss: 0.49014041 | RMSE: 0.71188732
+Epoch 021
+Train loss: 0.33005370 | RMSE: 0.57450300
+Valid loss: 0.58669594 | RMSE: 0.77281876
+Test  loss: 0.51194615 | RMSE: 0.72356385
+Epoch 022
+Train loss: 0.19394170 | RMSE: 0.44038812
+Valid loss: 0.45822231 | RMSE: 0.68844954
+Test  loss: 0.43376087 | RMSE: 0.63692008
+Epoch 023
+Train loss: 0.18999656 | RMSE: 0.43588595
+Valid loss: 0.42315288 | RMSE: 0.65952387
+Test  loss: 0.36423266 | RMSE: 0.60682310
+Epoch 024
+Train loss: 0.16890923 | RMSE: 0.41098568
+Valid loss: 0.42076214 | RMSE: 0.65616379
+Test  loss: 0.38351109 | RMSE: 0.61277065
+Epoch 025
+Train loss: 0.22106370 | RMSE: 0.47017412
+Valid loss: 0.46379265 | RMSE: 0.69443621
+Test  loss: 0.42934737 | RMSE: 0.65537162
+Epoch 026
+Train loss: 0.23918764 | RMSE: 0.48906813
+Valid loss: 0.48807664 | RMSE: 0.71177582
+Test  loss: 0.42394399 | RMSE: 0.65287669
+Epoch 027
+Train loss: 0.30522153 | RMSE: 0.55246857
+Valid loss: 0.56388433 | RMSE: 0.76149551
+Test  loss: 0.51415151 | RMSE: 0.71455455
+Epoch 028
+Train loss: 0.17288801 | RMSE: 0.41579804
+Valid loss: 0.39423182 | RMSE: 0.64051537
+Test  loss: 0.37804024 | RMSE: 0.61089365
+Epoch 029
+Train loss: 0.36573077 | RMSE: 0.60475679
+Valid loss: 0.60737311 | RMSE: 0.78843497
+Test  loss: 0.53597370 | RMSE: 0.74054904
+Epoch 030
+Train loss: 0.29877185 | RMSE: 0.54660027
+Valid loss: 0.54012340 | RMSE: 0.74504915
+Test  loss: 0.50694580 | RMSE: 0.71613402
+Epoch 031
+Train loss: 0.17298450 | RMSE: 0.41591405
+Valid loss: 0.42882828 | RMSE: 0.65944382
+Test  loss: 0.40088582 | RMSE: 0.62647673
+Epoch 032
+Train loss: 0.23401005 | RMSE: 0.48374585
+Valid loss: 0.46496293 | RMSE: 0.69645001
+Test  loss: 0.45611949 | RMSE: 0.68250153
+Epoch 033
+Train loss: 0.15177172 | RMSE: 0.38957890
+Valid loss: 0.39534947 | RMSE: 0.64200641
+Test  loss: 0.40023105 | RMSE: 0.61958300
+Epoch 034
+Train loss: 0.17575010 | RMSE: 0.41922560
+Valid loss: 0.42927102 | RMSE: 0.66349104
+Test  loss: 0.42861291 | RMSE: 0.63506454
+Epoch 035
+Train loss: 0.16774902 | RMSE: 0.40957176
+Valid loss: 0.43166517 | RMSE: 0.66987126
+Test  loss: 0.42067811 | RMSE: 0.63723517
+Epoch 036
+Train loss: 0.18228992 | RMSE: 0.42695424
+Valid loss: 0.44962437 | RMSE: 0.68326253
+Test  loss: 0.44150769 | RMSE: 0.65362534
+Epoch 037
+Train loss: 0.44922802 | RMSE: 0.67024474
+Valid loss: 0.68435340 | RMSE: 0.83968895
+Test  loss: 0.62678149 | RMSE: 0.80803283
+Epoch 038
+Train loss: 0.28973835 | RMSE: 0.53827349
+Valid loss: 0.51812993 | RMSE: 0.73046108
+Test  loss: 0.46540787 | RMSE: 0.69368950
+Epoch 039
+Train loss: 0.15003910 | RMSE: 0.38734881
+Valid loss: 0.43810060 | RMSE: 0.67686346
+Test  loss: 0.45878075 | RMSE: 0.67103702
+Epoch 040
+Train loss: 0.31461984 | RMSE: 0.56090983
+Valid loss: 0.55950737 | RMSE: 0.75943529
+Test  loss: 0.53722442 | RMSE: 0.73728763
+Epoch 041
+Train loss: 0.21282112 | RMSE: 0.46132540
+Valid loss: 0.47622752 | RMSE: 0.70250479
+Test  loss: 0.45490160 | RMSE: 0.66620086
+Epoch 042
+Train loss: 0.25764979 | RMSE: 0.50759215
+Valid loss: 0.52386571 | RMSE: 0.73488586
+Test  loss: 0.49261806 | RMSE: 0.70260923
+Epoch 043
+Train loss: 0.22687977 | RMSE: 0.47631898
+Valid loss: 0.50796012 | RMSE: 0.72185040
+Test  loss: 0.47069791 | RMSE: 0.67770858
+Epoch 044
+Train loss: 0.42731704 | RMSE: 0.65369491
+Valid loss: 0.72685543 | RMSE: 0.85891508
+Test  loss: 0.64208619 | RMSE: 0.80275057
+Epoch 045
+Train loss: 0.29203723 | RMSE: 0.54040469
+Valid loss: 0.52727169 | RMSE: 0.73342181
+Test  loss: 0.49294286 | RMSE: 0.70827462
+Epoch 046
+Train loss: 0.19077797 | RMSE: 0.43678138
+Valid loss: 0.45214012 | RMSE: 0.68657960
+Test  loss: 0.43299605 | RMSE: 0.64316201
+Epoch 047
+Train loss: 0.14398266 | RMSE: 0.37945048
+Valid loss: 0.40489964 | RMSE: 0.65050530
+Test  loss: 0.42580718 | RMSE: 0.63509140
+Epoch 048
+Train loss: 0.21465166 | RMSE: 0.46330515
+Valid loss: 0.45508628 | RMSE: 0.68407793
+Test  loss: 0.44141136 | RMSE: 0.65961816
+Epoch 049
+Train loss: 0.38766825 | RMSE: 0.62263011
+Valid loss: 0.63772417 | RMSE: 0.81298383
+Test  loss: 0.57987915 | RMSE: 0.77058083
+Epoch 050
+Train loss: 0.20847850 | RMSE: 0.45659446
+Valid loss: 0.47731516 | RMSE: 0.70160121
+Test  loss: 0.44104884 | RMSE: 0.66616391
+Epoch 051
+Train loss: 0.13403362 | RMSE: 0.36610602
+Valid loss: 0.38978329 | RMSE: 0.63747144
+Test  loss: 0.40509274 | RMSE: 0.61577126
+Epoch 052
+Train loss: 0.12663704 | RMSE: 0.35586098
+Valid loss: 0.39419493 | RMSE: 0.64281975
+Test  loss: 0.39825293 | RMSE: 0.61447621
+Epoch 053
+Train loss: 0.16087347 | RMSE: 0.40109035
+Valid loss: 0.41916198 | RMSE: 0.65974784
+Test  loss: 0.41531817 | RMSE: 0.63975675
+Epoch 054
+Train loss: 0.50458834 | RMSE: 0.71034382
+Valid loss: 0.75643456 | RMSE: 0.88324179
+Test  loss: 0.70042485 | RMSE: 0.84941765
+Epoch 055
+Train loss: 0.13363525 | RMSE: 0.36556155
+Valid loss: 0.42787588 | RMSE: 0.66776954
+Test  loss: 0.45549895 | RMSE: 0.65185615
+Epoch 056
+Train loss: 0.13125162 | RMSE: 0.36228666
+Valid loss: 0.37309380 | RMSE: 0.62620675
+Test  loss: 0.41643510 | RMSE: 0.63216081
+Epoch 057
+Train loss: 0.33371570 | RMSE: 0.57768131
+Valid loss: 0.60845061 | RMSE: 0.79063599
+Test  loss: 0.57810809 | RMSE: 0.76199428
+Epoch 058
+Train loss: 0.12869556 | RMSE: 0.35874163
+Valid loss: 0.39014511 | RMSE: 0.64103493
+Test  loss: 0.42574113 | RMSE: 0.63463670
+Epoch 059
+Train loss: 0.20576513 | RMSE: 0.45361342
+Valid loss: 0.47633373 | RMSE: 0.70435039
+Test  loss: 0.47891449 | RMSE: 0.68729358
+Epoch 060
+Train loss: 0.14402616 | RMSE: 0.37950779
+Valid loss: 0.42553897 | RMSE: 0.66573399
+Test  loss: 0.43970281 | RMSE: 0.64321292
+Epoch 061
+Train loss: 0.12873000 | RMSE: 0.35878963
+Valid loss: 0.40569732 | RMSE: 0.64551592
+Test  loss: 0.41060548 | RMSE: 0.62665962
+Epoch 062
+Train loss: 0.12174858 | RMSE: 0.34892489
+Valid loss: 0.41637227 | RMSE: 0.65751559
+Test  loss: 0.43316852 | RMSE: 0.64163791
+Epoch 063
+Train loss: 0.18543523 | RMSE: 0.43062191
+Valid loss: 0.46223936 | RMSE: 0.69618288
+Test  loss: 0.43388372 | RMSE: 0.66046788
+Epoch 064
+Train loss: 0.30999391 | RMSE: 0.55677097
+Valid loss: 0.58467473 | RMSE: 0.77646685
+Test  loss: 0.54788047 | RMSE: 0.73548943
+Epoch 065
+Train loss: 0.24195670 | RMSE: 0.49189094
+Valid loss: 0.50745027 | RMSE: 0.72216378
+Test  loss: 0.46839681 | RMSE: 0.69116400
+Epoch 066
+Train loss: 0.14490031 | RMSE: 0.38065773
+Valid loss: 0.41233645 | RMSE: 0.65309162
+Test  loss: 0.40958025 | RMSE: 0.63750258
+Epoch 067
+Train loss: 0.14075356 | RMSE: 0.37517137
+Valid loss: 0.40695259 | RMSE: 0.65102545
+Test  loss: 0.41157561 | RMSE: 0.63047092
+Epoch 068
+Train loss: 0.41183038 | RMSE: 0.64174012
+Valid loss: 0.69064483 | RMSE: 0.84253407
+Test  loss: 0.64153948 | RMSE: 0.81202028
+Epoch 069
+Train loss: 0.22755478 | RMSE: 0.47702702
+Valid loss: 0.51305022 | RMSE: 0.72720970
+Test  loss: 0.50475011 | RMSE: 0.70699378
+Epoch 070
+Train loss: 0.12011828 | RMSE: 0.34658085
+Valid loss: 0.41440272 | RMSE: 0.65602767
+Test  loss: 0.44236947 | RMSE: 0.64428777
+Epoch 071
+Train loss: 0.34014576 | RMSE: 0.58322016
+Valid loss: 0.61129736 | RMSE: 0.79198394
+Test  loss: 0.58586373 | RMSE: 0.77222434
+Epoch 072
+Train loss: 0.25239134 | RMSE: 0.50238565
+Valid loss: 0.54121476 | RMSE: 0.74698378
+Test  loss: 0.48460626 | RMSE: 0.70346038
+Epoch 073
+Train loss: 0.32758999 | RMSE: 0.57235477
+Valid loss: 0.61594164 | RMSE: 0.79594769
+Test  loss: 0.57891865 | RMSE: 0.76004390
+Epoch 074
+Train loss: 0.19446783 | RMSE: 0.44098507
+Valid loss: 0.48032290 | RMSE: 0.70479954
+Test  loss: 0.46577675 | RMSE: 0.68519380
+Epoch 075
+Train loss: 0.11150537 | RMSE: 0.33392420
+Valid loss: 0.39856820 | RMSE: 0.64526664
+Test  loss: 0.41444242 | RMSE: 0.62711608
+Epoch 076
+Train loss: 0.12056624 | RMSE: 0.34722649
+Valid loss: 0.41464912 | RMSE: 0.65633164
+Test  loss: 0.39609982 | RMSE: 0.61405252
+Epoch 077
+Train loss: 0.26153453 | RMSE: 0.51140447
+Valid loss: 0.55817020 | RMSE: 0.76317071
+Test  loss: 0.50915825 | RMSE: 0.72248701
+Epoch 078
+Train loss: 0.10836333 | RMSE: 0.32918585
+Valid loss: 0.40987659 | RMSE: 0.65258035
+Test  loss: 0.39120459 | RMSE: 0.62758191
+Epoch 079
+Train loss: 0.11467862 | RMSE: 0.33864231
+Valid loss: 0.41405524 | RMSE: 0.65826928
+Test  loss: 0.40759262 | RMSE: 0.62321489
+Epoch 080
+Train loss: 0.20121702 | RMSE: 0.44857220
+Valid loss: 0.49294332 | RMSE: 0.71767262
+Test  loss: 0.47564700 | RMSE: 0.68515264
+Epoch 081
+Train loss: 0.22772032 | RMSE: 0.47720051
+Valid loss: 0.51157389 | RMSE: 0.72348667
+Test  loss: 0.47784872 | RMSE: 0.69616966
+Epoch 082
+Train loss: 0.16652805 | RMSE: 0.40807848
+Valid loss: 0.45773015 | RMSE: 0.68826011
+Test  loss: 0.45183185 | RMSE: 0.66711020
+Epoch 083
+Train loss: 0.14086216 | RMSE: 0.37531608
+Valid loss: 0.42168282 | RMSE: 0.65927920
+Test  loss: 0.40518967 | RMSE: 0.63944262
+Epoch 084
+Train loss: 0.13308350 | RMSE: 0.36480611
+Valid loss: 0.39922982 | RMSE: 0.64582130
+Test  loss: 0.38347695 | RMSE: 0.61457082
+Epoch 085
+Train loss: 0.25983367 | RMSE: 0.50973883
+Valid loss: 0.52575577 | RMSE: 0.73472102
+Test  loss: 0.49925034 | RMSE: 0.71646665
+Epoch 086
+Train loss: 0.24934825 | RMSE: 0.49934783
+Valid loss: 0.52983513 | RMSE: 0.73960216
+Test  loss: 0.51693254 | RMSE: 0.72425940
+Epoch 087
+Train loss: 0.09583404 | RMSE: 0.30957073
+Valid loss: 0.36841081 | RMSE: 0.62042855
+Test  loss: 0.38187562 | RMSE: 0.60340876
+Epoch 088
+Train loss: 0.17760100 | RMSE: 0.42142734
+Valid loss: 0.45928545 | RMSE: 0.68831572
+Test  loss: 0.44808230 | RMSE: 0.67318579
+Epoch 089
+Train loss: 0.24912810 | RMSE: 0.49912734
+Valid loss: 0.50948427 | RMSE: 0.72433652
+Test  loss: 0.47858042 | RMSE: 0.69023347
+Epoch 090
+Train loss: 0.14046290 | RMSE: 0.37478380
+Valid loss: 0.42528208 | RMSE: 0.66934594
+Test  loss: 0.42435135 | RMSE: 0.64500012
+Epoch 091
+Train loss: 0.15983618 | RMSE: 0.39979517
+Valid loss: 0.44813814 | RMSE: 0.68196649
+Test  loss: 0.44176121 | RMSE: 0.66060049
+Epoch 092
+Train loss: 0.26697887 | RMSE: 0.51669998
+Valid loss: 0.55881769 | RMSE: 0.75747194
+Test  loss: 0.52064395 | RMSE: 0.72734816
+Epoch 093
+Train loss: 0.28616325 | RMSE: 0.53494229
+Valid loss: 0.58661712 | RMSE: 0.77647943
+Test  loss: 0.54077166 | RMSE: 0.74372339
+Epoch 094
+Train loss: 0.14802470 | RMSE: 0.38473979
+Valid loss: 0.44066100 | RMSE: 0.67549830
+Test  loss: 0.42641541 | RMSE: 0.65699915
+Epoch 095
+Train loss: 0.10754497 | RMSE: 0.32794049
+Valid loss: 0.39389774 | RMSE: 0.63989198
+Test  loss: 0.40182101 | RMSE: 0.61762587
+Epoch 096
+Train loss: 0.19986960 | RMSE: 0.44706777
+Valid loss: 0.49832811 | RMSE: 0.71970662
+Test  loss: 0.51135483 | RMSE: 0.71329463
+Epoch 097
+Train loss: 0.11762318 | RMSE: 0.34296236
+Valid loss: 0.42349604 | RMSE: 0.66371955
+Test  loss: 0.42945006 | RMSE: 0.64314592
+Epoch 098
+Train loss: 0.14933361 | RMSE: 0.38643707
+Valid loss: 0.43468554 | RMSE: 0.67336061
+Test  loss: 0.44654376 | RMSE: 0.66035731
+Epoch 099
+Train loss: 0.20730088 | RMSE: 0.45530306
+Valid loss: 0.50284939 | RMSE: 0.72616178
+Test  loss: 0.48941694 | RMSE: 0.69635775
+Epoch 100
+Train loss: 0.15820201 | RMSE: 0.39774616
+Valid loss: 0.44878929 | RMSE: 0.68526886
+Test  loss: 0.44164191 | RMSE: 0.65677642
+
+'roc_best_model.pth' | Epoch: 087 | RMSE: 0.62042855
+
+=======Test=======
+roc_best_model.pth
+Train set:
+RMSE: 0.30957073
+Valid set:
+RMSE: 0.62042855
+Test set:
+RMSE: 0.60340876
+
+=======Finish=======
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/lipophilicity
+model_name: roc_best_model.pth
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 256
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+batch_size: 32
+lr0: 0.0001
+lr1: 0.0001
+lr2: 0.0001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 3360 | valid data num: 420 | test data num: 420
+
+=======Train=======
+Epoch 001
+Train loss: 0.69305636 | RMSE: 0.83250007
+Valid loss: 0.75206290 | RMSE: 0.87247410
+Test  loss: 0.62672916 | RMSE: 0.80415916
+Epoch 002
+Train loss: 0.52136576 | RMSE: 0.72205662
+Valid loss: 0.63984583 | RMSE: 0.80452463
+Test  loss: 0.54351928 | RMSE: 0.74836109
+Epoch 003
+Train loss: 0.40897999 | RMSE: 0.63951543
+Valid loss: 0.55045971 | RMSE: 0.74233529
+Test  loss: 0.47531078 | RMSE: 0.70075304
+Epoch 004
+Train loss: 0.50955976 | RMSE: 0.71383454
+Valid loss: 0.68251878 | RMSE: 0.83160371
+Test  loss: 0.58639024 | RMSE: 0.77305563
+Epoch 005
+Train loss: 0.57373997 | RMSE: 0.75745625
+Valid loss: 0.73925823 | RMSE: 0.86766862
+Test  loss: 0.64118927 | RMSE: 0.81547671
+Epoch 006
+Train loss: 0.59003193 | RMSE: 0.76813536
+Valid loss: 0.74937375 | RMSE: 0.86922797
+Test  loss: 0.67066939 | RMSE: 0.82898099
+Epoch 007
+Train loss: 0.28731157 | RMSE: 0.53601453
+Valid loss: 0.46293752 | RMSE: 0.69264695
+Test  loss: 0.46023289 | RMSE: 0.66024143
+Epoch 008
+Train loss: 0.41847982 | RMSE: 0.64690016
+Valid loss: 0.59379066 | RMSE: 0.78401415
+Test  loss: 0.55065533 | RMSE: 0.73725508
+Epoch 009
+Train loss: 0.42820215 | RMSE: 0.65437157
+Valid loss: 0.58139051 | RMSE: 0.77340026
+Test  loss: 0.52761547 | RMSE: 0.73599719
+Epoch 010
+Train loss: 0.25349030 | RMSE: 0.50347821
+Valid loss: 0.46020401 | RMSE: 0.68839506
+Test  loss: 0.48369893 | RMSE: 0.67232475
+Epoch 011
+Train loss: 0.33327759 | RMSE: 0.57730200
+Valid loss: 0.55398911 | RMSE: 0.75209348
+Test  loss: 0.51891666 | RMSE: 0.72641588
+Epoch 012
+Train loss: 0.45214390 | RMSE: 0.67241646
+Valid loss: 0.61021306 | RMSE: 0.78436031
+Test  loss: 0.54104433 | RMSE: 0.74698407
+Epoch 013
+Train loss: 0.31949128 | RMSE: 0.56523560
+Valid loss: 0.53540494 | RMSE: 0.73764809
+Test  loss: 0.49339154 | RMSE: 0.70473179
+Epoch 014
+Train loss: 0.27750924 | RMSE: 0.52679145
+Valid loss: 0.49078088 | RMSE: 0.70355283
+Test  loss: 0.42329708 | RMSE: 0.65117346
+Epoch 015
+Train loss: 0.55983289 | RMSE: 0.74821981
+Valid loss: 0.76916189 | RMSE: 0.87869639
+Test  loss: 0.66609088 | RMSE: 0.83689768
+Epoch 016
+Train loss: 0.20882446 | RMSE: 0.45697315
+Valid loss: 0.43921024 | RMSE: 0.67228931
+Test  loss: 0.44743414 | RMSE: 0.64432680
+Epoch 017
+Train loss: 0.20877373 | RMSE: 0.45691764
+Valid loss: 0.42885624 | RMSE: 0.66376448
+Test  loss: 0.41298112 | RMSE: 0.63388961
+Epoch 018
+Train loss: 0.22532493 | RMSE: 0.47468403
+Valid loss: 0.45997454 | RMSE: 0.68778230
+Test  loss: 0.46297739 | RMSE: 0.66681558
+Epoch 019
+Train loss: 0.24625169 | RMSE: 0.49623753
+Valid loss: 0.50644109 | RMSE: 0.71771549
+Test  loss: 0.44985331 | RMSE: 0.67212084
+Epoch 020
+Train loss: 0.30486901 | RMSE: 0.55214944
+Valid loss: 0.53567385 | RMSE: 0.73811751
+Test  loss: 0.50252103 | RMSE: 0.71322401
+Epoch 021
+Train loss: 0.22179913 | RMSE: 0.47095555
+Valid loss: 0.47034621 | RMSE: 0.69443432
+Test  loss: 0.42208848 | RMSE: 0.65449486
+Epoch 022
+Train loss: 0.27035740 | RMSE: 0.51995904
+Valid loss: 0.50648520 | RMSE: 0.71809295
+Test  loss: 0.46857262 | RMSE: 0.69165412
+Epoch 023
+Train loss: 0.20927554 | RMSE: 0.45746643
+Valid loss: 0.46468498 | RMSE: 0.69240685
+Test  loss: 0.45747668 | RMSE: 0.66237044
+Epoch 024
+Train loss: 0.18630619 | RMSE: 0.43163201
+Valid loss: 0.44204345 | RMSE: 0.68008192
+Test  loss: 0.43040775 | RMSE: 0.64843534
+Epoch 025
+Train loss: 0.17411909 | RMSE: 0.41727580
+Valid loss: 0.45404448 | RMSE: 0.68387193
+Test  loss: 0.42668650 | RMSE: 0.63712719
+Epoch 026
+Train loss: 0.17807830 | RMSE: 0.42199324
+Valid loss: 0.44412549 | RMSE: 0.67707699
+Test  loss: 0.44295326 | RMSE: 0.65026801
+Epoch 027
+Train loss: 0.17519751 | RMSE: 0.41856602
+Valid loss: 0.41816330 | RMSE: 0.65659515
+Test  loss: 0.41632793 | RMSE: 0.63496416
+Epoch 028
+Train loss: 0.18970313 | RMSE: 0.43554922
+Valid loss: 0.49291181 | RMSE: 0.71610413
+Test  loss: 0.46937190 | RMSE: 0.66393673
+Epoch 029
+Train loss: 0.29462311 | RMSE: 0.54279195
+Valid loss: 0.56655001 | RMSE: 0.75379599
+Test  loss: 0.51212345 | RMSE: 0.71820353
+Epoch 030
+Train loss: 0.28532113 | RMSE: 0.53415459
+Valid loss: 0.56361697 | RMSE: 0.76010957
+Test  loss: 0.48019580 | RMSE: 0.70861175
+Epoch 031
+Train loss: 0.16366198 | RMSE: 0.40455158
+Valid loss: 0.45446018 | RMSE: 0.68556430
+Test  loss: 0.43149397 | RMSE: 0.64479049
+Epoch 032
+Train loss: 0.18710248 | RMSE: 0.43255344
+Valid loss: 0.46813275 | RMSE: 0.69462278
+Test  loss: 0.43850370 | RMSE: 0.65841258
+Epoch 033
+Train loss: 0.22453810 | RMSE: 0.47385451
+Valid loss: 0.53812168 | RMSE: 0.74749874
+Test  loss: 0.47858416 | RMSE: 0.68195210
+Epoch 034
+Train loss: 0.16406118 | RMSE: 0.40504466
+Valid loss: 0.43246020 | RMSE: 0.66402764
+Test  loss: 0.39362955 | RMSE: 0.62809829
+Epoch 035
+Train loss: 0.15148929 | RMSE: 0.38921626
+Valid loss: 0.45401122 | RMSE: 0.68698949
+Test  loss: 0.44114424 | RMSE: 0.64286892
+Epoch 036
+Train loss: 0.23380698 | RMSE: 0.48353592
+Valid loss: 0.49819919 | RMSE: 0.71432705
+Test  loss: 0.44302893 | RMSE: 0.67019844
+Epoch 037
+Train loss: 0.27727025 | RMSE: 0.52656457
+Valid loss: 0.55347150 | RMSE: 0.75130197
+Test  loss: 0.52021480 | RMSE: 0.73108736
+Epoch 038
+Train loss: 0.32626289 | RMSE: 0.57119426
+Valid loss: 0.60234837 | RMSE: 0.78294267
+Test  loss: 0.55969530 | RMSE: 0.75435611
+Epoch 039
+Train loss: 0.20086411 | RMSE: 0.44817865
+Valid loss: 0.50893565 | RMSE: 0.72009489
+Test  loss: 0.45266878 | RMSE: 0.67404054
+Epoch 040
+Train loss: 0.34002987 | RMSE: 0.58312080
+Valid loss: 0.57821492 | RMSE: 0.76886244
+Test  loss: 0.54111002 | RMSE: 0.74958484
+Epoch 041
+Train loss: 0.15921698 | RMSE: 0.39902002
+Valid loss: 0.43723318 | RMSE: 0.67533070
+Test  loss: 0.41985407 | RMSE: 0.63588401
+Epoch 042
+Train loss: 0.13658837 | RMSE: 0.36957864
+Valid loss: 0.45819950 | RMSE: 0.68408596
+Test  loss: 0.42018648 | RMSE: 0.64112298
+Epoch 043
+Train loss: 0.19831275 | RMSE: 0.44532320
+Valid loss: 0.47313912 | RMSE: 0.69772164
+Test  loss: 0.47200424 | RMSE: 0.67205066
+Epoch 044
+Train loss: 0.38252161 | RMSE: 0.61848331
+Valid loss: 0.69585916 | RMSE: 0.84701886
+Test  loss: 0.61760937 | RMSE: 0.80127426
+Epoch 045
+Train loss: 0.24672077 | RMSE: 0.49670994
+Valid loss: 0.55284467 | RMSE: 0.74916584
+Test  loss: 0.49419930 | RMSE: 0.70860509
+Epoch 046
+Train loss: 0.31174036 | RMSE: 0.55833714
+Valid loss: 0.56568825 | RMSE: 0.76000174
+Test  loss: 0.55014558 | RMSE: 0.74705830
+Epoch 047
+Train loss: 0.19688195 | RMSE: 0.44371382
+Valid loss: 0.46839572 | RMSE: 0.69371933
+Test  loss: 0.43344971 | RMSE: 0.66345570
+Epoch 048
+Train loss: 0.22300027 | RMSE: 0.47222905
+Valid loss: 0.48367012 | RMSE: 0.70675656
+Test  loss: 0.47153508 | RMSE: 0.69509122
+Epoch 049
+Train loss: 0.13179125 | RMSE: 0.36303064
+Valid loss: 0.43586932 | RMSE: 0.67071207
+Test  loss: 0.43255604 | RMSE: 0.64605561
+Epoch 050
+Train loss: 0.13566809 | RMSE: 0.36833150
+Valid loss: 0.42472315 | RMSE: 0.66297528
+Test  loss: 0.43337429 | RMSE: 0.65582302
+Epoch 051
+Train loss: 0.16929645 | RMSE: 0.41145650
+Valid loss: 0.45404335 | RMSE: 0.68853499
+Test  loss: 0.41234735 | RMSE: 0.64638844
+Epoch 052
+Train loss: 0.15877757 | RMSE: 0.39846904
+Valid loss: 0.42602385 | RMSE: 0.66462595
+Test  loss: 0.42626601 | RMSE: 0.64344181
+Epoch 053
+Train loss: 0.15999605 | RMSE: 0.39999506
+Valid loss: 0.44324650 | RMSE: 0.67849505
+Test  loss: 0.43874670 | RMSE: 0.65879686
+Epoch 054
+Train loss: 0.23985520 | RMSE: 0.48975014
+Valid loss: 0.54099388 | RMSE: 0.74593996
+Test  loss: 0.49099196 | RMSE: 0.70582795
+Epoch 055
+Train loss: 0.13708170 | RMSE: 0.37024546
+Valid loss: 0.45191890 | RMSE: 0.67926419
+Test  loss: 0.45197428 | RMSE: 0.65328093
+Epoch 056
+Train loss: 0.18495097 | RMSE: 0.43005927
+Valid loss: 0.46770528 | RMSE: 0.69325972
+Test  loss: 0.46681535 | RMSE: 0.68594500
+Epoch 057
+Train loss: 0.43967344 | RMSE: 0.66307876
+Valid loss: 0.71246708 | RMSE: 0.84915901
+Test  loss: 0.65717257 | RMSE: 0.82787881
+Epoch 058
+Train loss: 0.25250004 | RMSE: 0.50249382
+Valid loss: 0.56659246 | RMSE: 0.76579629
+Test  loss: 0.50304006 | RMSE: 0.72111889
+Epoch 059
+Train loss: 0.17212430 | RMSE: 0.41487866
+Valid loss: 0.49249720 | RMSE: 0.71893374
+Test  loss: 0.43945710 | RMSE: 0.66910817
+Epoch 060
+Train loss: 0.14076361 | RMSE: 0.37518477
+Valid loss: 0.44732123 | RMSE: 0.67754392
+Test  loss: 0.44299798 | RMSE: 0.64705348
+Epoch 061
+Train loss: 0.14732820 | RMSE: 0.38383356
+Valid loss: 0.43323292 | RMSE: 0.67007595
+Test  loss: 0.43306392 | RMSE: 0.65846305
+Epoch 062
+Train loss: 0.40543485 | RMSE: 0.63673766
+Valid loss: 0.66780481 | RMSE: 0.82531816
+Test  loss: 0.61830841 | RMSE: 0.80426991
+Epoch 063
+Train loss: 0.12310620 | RMSE: 0.35086493
+Valid loss: 0.44703875 | RMSE: 0.68326720
+Test  loss: 0.46901107 | RMSE: 0.66522646
+Epoch 064
+Train loss: 0.19788944 | RMSE: 0.44484766
+Valid loss: 0.52967137 | RMSE: 0.73562806
+Test  loss: 0.46240092 | RMSE: 0.68543038
+Epoch 065
+Train loss: 0.20097791 | RMSE: 0.44830560
+Valid loss: 0.48958354 | RMSE: 0.71437626
+Test  loss: 0.47985381 | RMSE: 0.69618725
+Epoch 066
+Train loss: 0.16078215 | RMSE: 0.40097649
+Valid loss: 0.43534134 | RMSE: 0.67362609
+Test  loss: 0.48319112 | RMSE: 0.67236015
+Epoch 067
+Train loss: 0.19874570 | RMSE: 0.44580904
+Valid loss: 0.49966658 | RMSE: 0.71802277
+Test  loss: 0.48133111 | RMSE: 0.70363171
+Epoch 068
+Train loss: 0.15166756 | RMSE: 0.38944520
+Valid loss: 0.44960640 | RMSE: 0.68549321
+Test  loss: 0.42978641 | RMSE: 0.65933953
+Epoch 069
+Train loss: 0.20942756 | RMSE: 0.45763257
+Valid loss: 0.49819776 | RMSE: 0.71724201
+Test  loss: 0.48638474 | RMSE: 0.70311504
+Epoch 070
+Train loss: 0.15188364 | RMSE: 0.38972252
+Valid loss: 0.44020654 | RMSE: 0.67002628
+Test  loss: 0.41844449 | RMSE: 0.64521461
+Epoch 071
+Train loss: 0.27111933 | RMSE: 0.52069120
+Valid loss: 0.55938683 | RMSE: 0.75987463
+Test  loss: 0.51174407 | RMSE: 0.72708139
+Epoch 072
+Train loss: 0.11574784 | RMSE: 0.34021734
+Valid loss: 0.41726002 | RMSE: 0.65747659
+Test  loss: 0.41316688 | RMSE: 0.63921125
+Epoch 073
+Train loss: 0.12324219 | RMSE: 0.35105867
+Valid loss: 0.42728308 | RMSE: 0.66819494
+Test  loss: 0.48496360 | RMSE: 0.67860187
+Epoch 074
+Train loss: 0.11691269 | RMSE: 0.34192498
+Valid loss: 0.40742738 | RMSE: 0.65352088
+Test  loss: 0.39688855 | RMSE: 0.62941113
+Epoch 075
+Train loss: 0.14132532 | RMSE: 0.37593260
+Valid loss: 0.42096396 | RMSE: 0.66377336
+Test  loss: 0.42403265 | RMSE: 0.64263717
+Epoch 076
+Train loss: 0.15065623 | RMSE: 0.38814460
+Valid loss: 0.44633108 | RMSE: 0.68252866
+Test  loss: 0.44801225 | RMSE: 0.66686773
+Epoch 077
+Train loss: 0.19129508 | RMSE: 0.43737293
+Valid loss: 0.48406453 | RMSE: 0.70670392
+Test  loss: 0.45507725 | RMSE: 0.68065282
+Epoch 078
+Train loss: 0.22867065 | RMSE: 0.47819520
+Valid loss: 0.51382262 | RMSE: 0.72907498
+Test  loss: 0.50185286 | RMSE: 0.71578990
+Epoch 079
+Train loss: 0.14277975 | RMSE: 0.37786208
+Valid loss: 0.44327197 | RMSE: 0.67101042
+Test  loss: 0.43757131 | RMSE: 0.66389896
+Epoch 080
+Train loss: 0.12547747 | RMSE: 0.35422799
+Valid loss: 0.41693186 | RMSE: 0.66115785
+Test  loss: 0.47216562 | RMSE: 0.66034233
+Epoch 081
+Train loss: 0.19180068 | RMSE: 0.43795055
+Valid loss: 0.48085119 | RMSE: 0.70204808
+Test  loss: 0.44309891 | RMSE: 0.67415926
+Epoch 082
+Train loss: 0.28074668 | RMSE: 0.52985534
+Valid loss: 0.55342911 | RMSE: 0.74913956
+Test  loss: 0.50552339 | RMSE: 0.72750087
+Epoch 083
+Train loss: 0.15217344 | RMSE: 0.39009414
+Valid loss: 0.44846032 | RMSE: 0.68129636
+Test  loss: 0.45175334 | RMSE: 0.66883945
+Epoch 084
+Train loss: 0.16747728 | RMSE: 0.40923989
+Valid loss: 0.44670138 | RMSE: 0.67949848
+Test  loss: 0.45713525 | RMSE: 0.67317297
+Epoch 085
+Train loss: 0.11089515 | RMSE: 0.33300923
+Valid loss: 0.40472221 | RMSE: 0.64533017
+Test  loss: 0.40879284 | RMSE: 0.64467098
+Epoch 086
+Train loss: 0.15055105 | RMSE: 0.38800909
+Valid loss: 0.46834851 | RMSE: 0.69159809
+Test  loss: 0.47366320 | RMSE: 0.68444364
+Epoch 087
+Train loss: 0.19307752 | RMSE: 0.43940588
+Valid loss: 0.49297612 | RMSE: 0.70888368
+Test  loss: 0.45049768 | RMSE: 0.67671071
+Epoch 088
+Train loss: 0.09973605 | RMSE: 0.31581016
+Valid loss: 0.39397911 | RMSE: 0.64182766
+Test  loss: 0.41106717 | RMSE: 0.63246129
+Epoch 089
+Train loss: 0.13033545 | RMSE: 0.36102002
+Valid loss: 0.40798730 | RMSE: 0.64645001
+Test  loss: 0.43240514 | RMSE: 0.65788469
+Epoch 090
+Train loss: 0.18733321 | RMSE: 0.43282006
+Valid loss: 0.49342564 | RMSE: 0.70889018
+Test  loss: 0.45563273 | RMSE: 0.68158825
+Epoch 091
+Train loss: 0.10568966 | RMSE: 0.32509945
+Valid loss: 0.38690946 | RMSE: 0.63682671
+Test  loss: 0.44675379 | RMSE: 0.65707902
+Epoch 092
+Train loss: 0.10541892 | RMSE: 0.32468280
+Valid loss: 0.41301230 | RMSE: 0.65443732
+Test  loss: 0.40494544 | RMSE: 0.63459032
+Epoch 093
+Train loss: 0.11704184 | RMSE: 0.34211378
+Valid loss: 0.42019321 | RMSE: 0.66054623
+Test  loss: 0.44391268 | RMSE: 0.65591228
+Epoch 094
+Train loss: 0.12450494 | RMSE: 0.35285257
+Valid loss: 0.41839490 | RMSE: 0.66000598
+Test  loss: 0.42470524 | RMSE: 0.64460996
+Epoch 095
+Train loss: 0.12508066 | RMSE: 0.35366744
+Valid loss: 0.42049152 | RMSE: 0.65759021
+Test  loss: 0.44606080 | RMSE: 0.66270756
+Epoch 096
+Train loss: 0.16812665 | RMSE: 0.41003250
+Valid loss: 0.45403992 | RMSE: 0.68258829
+Test  loss: 0.43255300 | RMSE: 0.66675689
+Epoch 097
+Train loss: 0.13707066 | RMSE: 0.37023054
+Valid loss: 0.43626105 | RMSE: 0.67053423
+Test  loss: 0.42767393 | RMSE: 0.66018139
+Epoch 098
+Train loss: 0.10407338 | RMSE: 0.32260406
+Valid loss: 0.40814633 | RMSE: 0.64786434
+Test  loss: 0.40669068 | RMSE: 0.63762736
+Epoch 099
+Train loss: 0.09862343 | RMSE: 0.31404367
+Valid loss: 0.38940742 | RMSE: 0.63974769
+Test  loss: 0.41670277 | RMSE: 0.64328438
+Epoch 100
+Train loss: 0.09930119 | RMSE: 0.31512091
+Valid loss: 0.41798972 | RMSE: 0.66191930
+Test  loss: 0.42353135 | RMSE: 0.64656251
+
+'roc_best_model.pth' | Epoch: 034 | RMSE: 0.66402764
+
+=======Test=======
+roc_best_model.pth
+Train set:
+RMSE: 0.40504466
+Valid set:
+RMSE: 0.66402765
+Test set:
+RMSE: 0.62809829
+
+=======Finish=======
+=======Setting=======
+cpu: False
+gpu: 0
+output_dir: result/lipophilicity
+model_name: roc_best_model.pth
+gnn: GIN
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 256
+num_tasks: 1
+dropout: 0.5
+from_scratch: False
+pretrain_dir: ../pretrained_model_cl_zinc15_250k
+pretrain_model_name: model.pth
+batch_size: 32
+lr0: 0.0001
+lr1: 0.0001
+lr2: 0.0001
+num_epochs: 100
+log_interval: 20
+early_stop: False
+patience: 20
+weight_decay: 0
+splitter: scaffold
+
+Utilized device as cuda:0
+
+=======Process Data=======
+train data num: 3360 | valid data num: 420 | test data num: 420
+
+=======Train=======
+Epoch 001
+Train loss: 0.57730557 | RMSE: 0.75980627
+Valid loss: 0.72623527 | RMSE: 0.85095013
+Test  loss: 0.60923326 | RMSE: 0.77520729
+Epoch 002
+Train loss: 0.64779565 | RMSE: 0.80485754
+Valid loss: 0.78765345 | RMSE: 0.88296658
+Test  loss: 0.65962302 | RMSE: 0.82044372
+Epoch 003
+Train loss: 0.43732888 | RMSE: 0.66130846
+Valid loss: 0.60152165 | RMSE: 0.77456806
+Test  loss: 0.52937800 | RMSE: 0.72581653
+Epoch 004
+Train loss: 0.45679290 | RMSE: 0.67586455
+Valid loss: 0.60744626 | RMSE: 0.77697881
+Test  loss: 0.52496247 | RMSE: 0.73196765
+Epoch 005
+Train loss: 0.37690125 | RMSE: 0.61392284
+Valid loss: 0.56632889 | RMSE: 0.75201557
+Test  loss: 0.48148670 | RMSE: 0.70046020
+Epoch 006
+Train loss: 0.45070217 | RMSE: 0.67134356
+Valid loss: 0.62915986 | RMSE: 0.79334451
+Test  loss: 0.56449886 | RMSE: 0.75516219
+Epoch 007
+Train loss: 0.28621778 | RMSE: 0.53499325
+Valid loss: 0.50259745 | RMSE: 0.70202664
+Test  loss: 0.46037094 | RMSE: 0.65762776
+Epoch 008
+Train loss: 0.33014942 | RMSE: 0.57458630
+Valid loss: 0.52761297 | RMSE: 0.73196127
+Test  loss: 0.48008111 | RMSE: 0.69998689
+Epoch 009
+Train loss: 0.44299096 | RMSE: 0.66557566
+Valid loss: 0.66545449 | RMSE: 0.81196380
+Test  loss: 0.59828288 | RMSE: 0.76364366
+Epoch 010
+Train loss: 0.30888388 | RMSE: 0.55577323
+Valid loss: 0.50606720 | RMSE: 0.71207957
+Test  loss: 0.45454586 | RMSE: 0.68054176
+Epoch 011
+Train loss: 0.28251672 | RMSE: 0.53152302
+Valid loss: 0.52504989 | RMSE: 0.72476396
+Test  loss: 0.45731566 | RMSE: 0.66664200
+Epoch 012
+Train loss: 0.27364583 | RMSE: 0.52311168
+Valid loss: 0.52874641 | RMSE: 0.72657292
+Test  loss: 0.50203048 | RMSE: 0.68631488
+Epoch 013
+Train loss: 0.39991311 | RMSE: 0.63238683
+Valid loss: 0.62739609 | RMSE: 0.79076117
+Test  loss: 0.56885751 | RMSE: 0.75590040
+Epoch 014
+Train loss: 0.20792734 | RMSE: 0.45599051
+Valid loss: 0.46317052 | RMSE: 0.68171274
+Test  loss: 0.44611500 | RMSE: 0.65013087
+Epoch 015
+Train loss: 0.54924686 | RMSE: 0.74111190
+Valid loss: 0.84054766 | RMSE: 0.91509612
+Test  loss: 0.76850407 | RMSE: 0.88594504
+Epoch 016
+Train loss: 0.30948753 | RMSE: 0.55631603
+Valid loss: 0.57861182 | RMSE: 0.76065390
+Test  loss: 0.55138914 | RMSE: 0.73553905
+Epoch 017
+Train loss: 0.53492686 | RMSE: 0.73138694
+Valid loss: 0.82054251 | RMSE: 0.90219449
+Test  loss: 0.72593415 | RMSE: 0.86738560
+Epoch 018
+Train loss: 0.39437182 | RMSE: 0.62799030
+Valid loss: 0.63217426 | RMSE: 0.78696958
+Test  loss: 0.57864697 | RMSE: 0.75782885
+Epoch 019
+Train loss: 0.33069624 | RMSE: 0.57506194
+Valid loss: 0.56987732 | RMSE: 0.75145446
+Test  loss: 0.52713893 | RMSE: 0.72966683
+Epoch 020
+Train loss: 0.21243008 | RMSE: 0.46090137
+Valid loss: 0.48894811 | RMSE: 0.70219635
+Test  loss: 0.45889069 | RMSE: 0.66129874
+Epoch 021
+Train loss: 0.39323249 | RMSE: 0.62708252
+Valid loss: 0.62805751 | RMSE: 0.79247319
+Test  loss: 0.57565050 | RMSE: 0.76764939
+Epoch 022
+Train loss: 0.23867700 | RMSE: 0.48854580
+Valid loss: 0.49351398 | RMSE: 0.70222316
+Test  loss: 0.47621396 | RMSE: 0.67226172
+Epoch 023
+Train loss: 0.22884532 | RMSE: 0.47837780
+Valid loss: 0.48281367 | RMSE: 0.69160122
+Test  loss: 0.45334529 | RMSE: 0.67039465
+Epoch 024
+Train loss: 0.46830893 | RMSE: 0.68433101
+Valid loss: 0.73625720 | RMSE: 0.85581039
+Test  loss: 0.68596587 | RMSE: 0.84113923
+Epoch 025
+Train loss: 0.31814975 | RMSE: 0.56404765
+Valid loss: 0.56022487 | RMSE: 0.75149442
+Test  loss: 0.53721294 | RMSE: 0.72771860
+Epoch 026
+Train loss: 0.51355208 | RMSE: 0.71662548
+Valid loss: 0.77704734 | RMSE: 0.88418015
+Test  loss: 0.70083182 | RMSE: 0.85227479
+Epoch 027
+Train loss: 0.19370348 | RMSE: 0.44011757
+Valid loss: 0.44786598 | RMSE: 0.66423969
+Test  loss: 0.43148101 | RMSE: 0.65242405
+Epoch 028
+Train loss: 0.24175127 | RMSE: 0.49168209
+Valid loss: 0.50388060 | RMSE: 0.70733229
+Test  loss: 0.43822200 | RMSE: 0.67680663
+Epoch 029
+Train loss: 0.18801388 | RMSE: 0.43360567
+Valid loss: 0.43965558 | RMSE: 0.67258686
+Test  loss: 0.42874945 | RMSE: 0.65393469
+Epoch 030
+Train loss: 0.19636769 | RMSE: 0.44313394
+Valid loss: 0.45725007 | RMSE: 0.68088105
+Test  loss: 0.41416138 | RMSE: 0.63782881
+Epoch 031
+Train loss: 0.22976010 | RMSE: 0.47933297
+Valid loss: 0.51657563 | RMSE: 0.70340787
+Test  loss: 0.45130883 | RMSE: 0.67375886
+Epoch 032
+Train loss: 0.30005038 | RMSE: 0.54776855
+Valid loss: 0.54836629 | RMSE: 0.74188306
+Test  loss: 0.51857393 | RMSE: 0.73012437
+Epoch 033
+Train loss: 0.25728495 | RMSE: 0.50723264
+Valid loss: 0.51605516 | RMSE: 0.71960301
+Test  loss: 0.46674394 | RMSE: 0.68354619
+Epoch 034
+Train loss: 0.46114393 | RMSE: 0.67907579
+Valid loss: 0.67157792 | RMSE: 0.82444148
+Test  loss: 0.63636974 | RMSE: 0.81632473
+Epoch 035
+Train loss: 0.19769326 | RMSE: 0.44462710
+Valid loss: 0.44380112 | RMSE: 0.67067911
+Test  loss: 0.42769134 | RMSE: 0.65642661
+Epoch 036
+Train loss: 0.41179016 | RMSE: 0.64170878
+Valid loss: 0.66487458 | RMSE: 0.81573759
+Test  loss: 0.59644748 | RMSE: 0.79154548
+Epoch 037
+Train loss: 0.20062714 | RMSE: 0.44791421
+Valid loss: 0.45307571 | RMSE: 0.67180930
+Test  loss: 0.42535931 | RMSE: 0.65164405
+Epoch 038
+Train loss: 0.25006856 | RMSE: 0.50006855
+Valid loss: 0.53901424 | RMSE: 0.73321911
+Test  loss: 0.48904288 | RMSE: 0.70562610
+Epoch 039
+Train loss: 0.47971034 | RMSE: 0.69261125
+Valid loss: 0.73011105 | RMSE: 0.85232936
+Test  loss: 0.66483605 | RMSE: 0.83385175
+Epoch 040
+Train loss: 0.36289944 | RMSE: 0.60241135
+Valid loss: 0.67799801 | RMSE: 0.82271913
+Test  loss: 0.61070340 | RMSE: 0.78306561
+Epoch 041
+Train loss: 0.42297561 | RMSE: 0.65036575
+Valid loss: 0.66112647 | RMSE: 0.81692302
+Test  loss: 0.62074154 | RMSE: 0.80032677
+Epoch 042
+Train loss: 0.19809905 | RMSE: 0.44508319
+Valid loss: 0.46711206 | RMSE: 0.67757798
+Test  loss: 0.44556821 | RMSE: 0.66329233
+Epoch 043
+Train loss: 0.31728736 | RMSE: 0.56328267
+Valid loss: 0.61778205 | RMSE: 0.78661348
+Test  loss: 0.53173116 | RMSE: 0.74252519
+Epoch 044
+Train loss: 0.18284101 | RMSE: 0.42759912
+Valid loss: 0.47532041 | RMSE: 0.68625928
+Test  loss: 0.45536003 | RMSE: 0.67352078
+Epoch 045
+Train loss: 0.17779306 | RMSE: 0.42165514
+Valid loss: 0.47910407 | RMSE: 0.69074538
+Test  loss: 0.44058489 | RMSE: 0.66490351
+Epoch 046
+Train loss: 0.16537584 | RMSE: 0.40666428
+Valid loss: 0.45229773 | RMSE: 0.67163126
+Test  loss: 0.43061736 | RMSE: 0.65110100
+Epoch 047
+Train loss: 0.16686478 | RMSE: 0.40849086
+Valid loss: 0.46056178 | RMSE: 0.67756622
+Test  loss: 0.42856149 | RMSE: 0.65572968
+Epoch 048
+Train loss: 0.18479670 | RMSE: 0.42987987
+Valid loss: 0.47782240 | RMSE: 0.69121564
+Test  loss: 0.45466837 | RMSE: 0.67766000
+Epoch 049
+Train loss: 0.16920880 | RMSE: 0.41134997
+Valid loss: 0.47161292 | RMSE: 0.68527370
+Test  loss: 0.45397362 | RMSE: 0.66667820
+Epoch 050
+Train loss: 0.28820555 | RMSE: 0.53684779
+Valid loss: 0.56532018 | RMSE: 0.75279237
+Test  loss: 0.51853840 | RMSE: 0.72630717
+Epoch 051
+Train loss: 0.39883562 | RMSE: 0.63153434
+Valid loss: 0.69698830 | RMSE: 0.83208942
+Test  loss: 0.58969668 | RMSE: 0.78029687
+Epoch 052
+Train loss: 0.24821771 | RMSE: 0.49821452
+Valid loss: 0.53883573 | RMSE: 0.73204183
+Test  loss: 0.50162172 | RMSE: 0.71772459
+Epoch 053
+Train loss: 0.18181919 | RMSE: 0.42640261
+Valid loss: 0.45296913 | RMSE: 0.67779644
+Test  loss: 0.43230987 | RMSE: 0.66074790
+Epoch 054
+Train loss: 0.14189551 | RMSE: 0.37669021
+Valid loss: 0.43675094 | RMSE: 0.66058341
+Test  loss: 0.44433294 | RMSE: 0.64831183
+Epoch 055
+Train loss: 0.14616661 | RMSE: 0.38231742
+Valid loss: 0.43356044 | RMSE: 0.65796376
+Test  loss: 0.42081177 | RMSE: 0.63970981
+Epoch 056
+Train loss: 0.13516687 | RMSE: 0.36765047
+Valid loss: 0.44163446 | RMSE: 0.67051186
+Test  loss: 0.42366104 | RMSE: 0.64653021
+Epoch 057
+Train loss: 0.13744010 | RMSE: 0.37072914
+Valid loss: 0.44637989 | RMSE: 0.66903000
+Test  loss: 0.42891430 | RMSE: 0.63856062
+Epoch 058
+Train loss: 0.49446199 | RMSE: 0.70317991
+Valid loss: 0.80307284 | RMSE: 0.89420119
+Test  loss: 0.71087970 | RMSE: 0.86635130
+Epoch 059
+Train loss: 0.25424535 | RMSE: 0.50422748
+Valid loss: 0.55192941 | RMSE: 0.74484308
+Test  loss: 0.51390098 | RMSE: 0.72437280
+Epoch 060
+Train loss: 0.16011967 | RMSE: 0.40014956
+Valid loss: 0.44772898 | RMSE: 0.67477973
+Test  loss: 0.42851500 | RMSE: 0.65215986
+Epoch 061
+Train loss: 0.23332874 | RMSE: 0.48304114
+Valid loss: 0.54397610 | RMSE: 0.73681687
+Test  loss: 0.48287486 | RMSE: 0.70855614
+Epoch 062
+Train loss: 0.12555961 | RMSE: 0.35434392
+Valid loss: 0.40844572 | RMSE: 0.64797839
+Test  loss: 0.38212524 | RMSE: 0.61498173
+Epoch 063
+Train loss: 0.15994828 | RMSE: 0.39993534
+Valid loss: 0.47558616 | RMSE: 0.68823390
+Test  loss: 0.45185086 | RMSE: 0.65965786
+Epoch 064
+Train loss: 0.29606752 | RMSE: 0.54412087
+Valid loss: 0.59273163 | RMSE: 0.77562271
+Test  loss: 0.53728522 | RMSE: 0.74792550
+Epoch 065
+Train loss: 0.16249784 | RMSE: 0.40311020
+Valid loss: 0.44270808 | RMSE: 0.66882022
+Test  loss: 0.44957401 | RMSE: 0.66609666
+Epoch 066
+Train loss: 0.17053950 | RMSE: 0.41296428
+Valid loss: 0.44607548 | RMSE: 0.67888684
+Test  loss: 0.43411894 | RMSE: 0.65589045
+Epoch 067
+Train loss: 0.12922304 | RMSE: 0.35947606
+Valid loss: 0.42362987 | RMSE: 0.65582513
+Test  loss: 0.45797655 | RMSE: 0.65416132
+Epoch 068
+Train loss: 0.19625768 | RMSE: 0.44300979
+Valid loss: 0.49800623 | RMSE: 0.70878200
+Test  loss: 0.45377887 | RMSE: 0.68108460
+Epoch 069
+Train loss: 0.13546251 | RMSE: 0.36805232
+Valid loss: 0.42382370 | RMSE: 0.65896110
+Test  loss: 0.41885427 | RMSE: 0.64952039
+Epoch 070
+Train loss: 0.11667846 | RMSE: 0.34158228
+Valid loss: 0.41692225 | RMSE: 0.64373269
+Test  loss: 0.43064442 | RMSE: 0.65103304
+Epoch 071
+Train loss: 0.15145743 | RMSE: 0.38917532
+Valid loss: 0.44833758 | RMSE: 0.67739877
+Test  loss: 0.45403544 | RMSE: 0.67724912
+Epoch 072
+Train loss: 0.11776385 | RMSE: 0.34316738
+Valid loss: 0.41154550 | RMSE: 0.64652123
+Test  loss: 0.42016195 | RMSE: 0.64309380
+Epoch 073
+Train loss: 0.22005005 | RMSE: 0.46909492
+Valid loss: 0.51063612 | RMSE: 0.72130313
+Test  loss: 0.46390667 | RMSE: 0.69449528
+Epoch 074
+Train loss: 0.14117865 | RMSE: 0.37573747
+Valid loss: 0.45032164 | RMSE: 0.67351420
+Test  loss: 0.40195702 | RMSE: 0.63639814
+Epoch 075
+Train loss: 0.27335024 | RMSE: 0.52282907
+Valid loss: 0.58996888 | RMSE: 0.76375835
+Test  loss: 0.53989369 | RMSE: 0.74941781
+Epoch 076
+Train loss: 0.18852296 | RMSE: 0.43419231
+Valid loss: 0.50581536 | RMSE: 0.70813869
+Test  loss: 0.47584377 | RMSE: 0.68562577
+Epoch 077
+Train loss: 0.18733367 | RMSE: 0.43282060
+Valid loss: 0.49169675 | RMSE: 0.69997764
+Test  loss: 0.46434252 | RMSE: 0.68336747
+Epoch 078
+Train loss: 0.11012504 | RMSE: 0.33185093
+Valid loss: 0.39864040 | RMSE: 0.63902746
+Test  loss: 0.43000563 | RMSE: 0.64296982
+Epoch 079
+Train loss: 0.12415215 | RMSE: 0.35235230
+Valid loss: 0.42431467 | RMSE: 0.65885902
+Test  loss: 0.41364991 | RMSE: 0.63641776
+Epoch 080
+Train loss: 0.22843450 | RMSE: 0.47794822
+Valid loss: 0.55392995 | RMSE: 0.74376049
+Test  loss: 0.48934984 | RMSE: 0.71594317
+Epoch 081
+Train loss: 0.13710718 | RMSE: 0.37027987
+Valid loss: 0.43570584 | RMSE: 0.66152091
+Test  loss: 0.42083388 | RMSE: 0.64626698
+Epoch 082
+Train loss: 0.12485024 | RMSE: 0.35334153
+Valid loss: 0.44949795 | RMSE: 0.66693602
+Test  loss: 0.43759098 | RMSE: 0.65424434
+Epoch 083
+Train loss: 0.15780655 | RMSE: 0.39724872
+Valid loss: 0.47019573 | RMSE: 0.68354521
+Test  loss: 0.44975901 | RMSE: 0.67205764
+Epoch 084
+Train loss: 0.26868727 | RMSE: 0.51835053
+Valid loss: 0.58489206 | RMSE: 0.76533578
+Test  loss: 0.55204488 | RMSE: 0.74457861
+Epoch 085
+Train loss: 0.12109657 | RMSE: 0.34798932
+Valid loss: 0.41159546 | RMSE: 0.65337012
+Test  loss: 0.44840183 | RMSE: 0.65414847
+Epoch 086
+Train loss: 0.19117830 | RMSE: 0.43723940
+Valid loss: 0.49905500 | RMSE: 0.70931229
+Test  loss: 0.45582095 | RMSE: 0.68551914
+Epoch 087
+Train loss: 0.14135068 | RMSE: 0.37596633
+Valid loss: 0.44490380 | RMSE: 0.66482848
+Test  loss: 0.43728855 | RMSE: 0.65232134
+Epoch 088
+Train loss: 0.18116788 | RMSE: 0.42563820
+Valid loss: 0.47572124 | RMSE: 0.69991908
+Test  loss: 0.45648682 | RMSE: 0.67746589
+Epoch 089
+Train loss: 0.10308353 | RMSE: 0.32106623
+Valid loss: 0.39651925 | RMSE: 0.63494727
+Test  loss: 0.41401074 | RMSE: 0.63010765
+Epoch 090
+Train loss: 0.15807688 | RMSE: 0.39758883
+Valid loss: 0.46650359 | RMSE: 0.68222560
+Test  loss: 0.45041831 | RMSE: 0.66692399
+Epoch 091
+Train loss: 0.13154505 | RMSE: 0.36269140
+Valid loss: 0.45082195 | RMSE: 0.67162251
+Test  loss: 0.45661123 | RMSE: 0.66366196
+Epoch 092
+Train loss: 0.09991168 | RMSE: 0.31608808
+Valid loss: 0.41901646 | RMSE: 0.64858860
+Test  loss: 0.43166291 | RMSE: 0.64154937
+Epoch 093
+Train loss: 0.26259057 | RMSE: 0.51243592
+Valid loss: 0.56446969 | RMSE: 0.75714846
+Test  loss: 0.52685182 | RMSE: 0.74205968
+Epoch 094
+Train loss: 0.13790374 | RMSE: 0.37135393
+Valid loss: 0.46138593 | RMSE: 0.68535342
+Test  loss: 0.43729162 | RMSE: 0.66424526
+Epoch 095
+Train loss: 0.19641137 | RMSE: 0.44318323
+Valid loss: 0.50641470 | RMSE: 0.71184891
+Test  loss: 0.45407060 | RMSE: 0.68460314
+Epoch 096
+Train loss: 0.20741683 | RMSE: 0.45543038
+Valid loss: 0.54040731 | RMSE: 0.73380772
+Test  loss: 0.49988569 | RMSE: 0.70821111
+Epoch 097
+Train loss: 0.12509146 | RMSE: 0.35368272
+Valid loss: 0.43338418 | RMSE: 0.65747330
+Test  loss: 0.43127672 | RMSE: 0.65557593
+Epoch 098
+Train loss: 0.15799204 | RMSE: 0.39748213
+Valid loss: 0.45284179 | RMSE: 0.67365081
+Test  loss: 0.42837973 | RMSE: 0.64761113
+Epoch 099
+Train loss: 0.16998336 | RMSE: 0.41229038
+Valid loss: 0.47379264 | RMSE: 0.68444655
+Test  loss: 0.46170518 | RMSE: 0.67962957
+Epoch 100
+Train loss: 0.24033474 | RMSE: 0.49023947
+Valid loss: 0.56526670 | RMSE: 0.75380327
+Test  loss: 0.52795759 | RMSE: 0.73908911
+
+'roc_best_model.pth' | Epoch: 062 | RMSE: 0.64797839
+
+=======Test=======
+roc_best_model.pth
+Train set:
+RMSE: 0.35434392
+Valid set:
+RMSE: 0.64797839
+Test set:
+RMSE: 0.61498173
+
+=======Finish=======
